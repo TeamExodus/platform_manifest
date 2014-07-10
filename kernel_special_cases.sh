@@ -27,8 +27,8 @@ case $1 in
     ;;
     d710)
         export remote="github"
-        export remoterevision="kk44"
-        export kernelsource="mtb3000gt/android_kernel_samsung_d710"
+        export remoterevision="cm-11.0"
+        export kernelsource="CentauriROM/CM_android_kernel_samsung_smdk4412"
     ;;
     d80*|ls980|vs980)
         export remote="vanir"
