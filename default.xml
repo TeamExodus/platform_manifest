@@ -263,6 +263,7 @@
   <project path="external/iptables" name="android_external_iptables" />
   <project path="external/iputils" name="external_iputils" remote="vanir" revision="kk44" groups="aosp44" />
   <project path="external/jack" name="android_external_jack" />
+  <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" />
   <project path="external/javasqlite" name="android_external_javasqlite" />
   <project path="external/javassist" name="android_external_javassist" />
   <project path="external/jdiff" name="android_external_jdiff" />
@@ -272,6 +273,8 @@
   <project path="external/jpeg" name="external_jpeg" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/jsilver" name="android_external_jsilver" />
   <project path="external/jsr305" name="android_external_jsr305" />
+  <project path="external/jsr308" name="android_external_jsr308" />
+  <project path="external/jsr330" name="android_external_jsr330" />
   <project path="external/junit" name="android_external_junit" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" />
   <project path="external/kissfft" name="android_external_kissfft" />
@@ -369,6 +372,8 @@
   <project path="external/speex" name="external_speex" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/sqlite" name="external_sqlite" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/spongycastle" name="android_external_spongycastle" />
+  <project path="external/square/dagger" name="android_external_square_dagger" />
+  <project path="external/square/javawriter" name="android_external_square_javawriter" />
   <project path="external/srec" name="android_external_srec" />
   <project path="external/srtp" name="android_external_srtp" />
   <project path="external/stlport" name="external_stlport" remote="vanir" revision="kk44" />
