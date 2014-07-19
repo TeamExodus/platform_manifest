@@ -99,9 +99,9 @@ case $1 in
         export kernelsource="xboxfanj/android_kernel_htc_msm8974"
     ;;
     nicki)
-         export kernelsource="nolinuxnoparty/android_kernel_sony_msm8x27"
-         export remote="github"
-         export remoterevision="cm-11.0" # thanks for both superficially renaming your repo, and getting the revision wrong. win.
+         export kernelsource="kernel_sony_msm8x27"
+         export remote="vanir"
+         export remoterevision="cm-11.0"
      ;;
     p880)
         export remote="cm"
