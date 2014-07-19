@@ -101,7 +101,7 @@ case $1 in
     nicki)
          export kernelsource="kernel_sony_msm8x27"
          export remote="vanir"
-         export remoterevision="cm-11.0"
+         export remoterevision="kk44"
      ;;
     p880)
         export remote="cm"
