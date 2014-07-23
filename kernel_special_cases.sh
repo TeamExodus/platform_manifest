@@ -128,4 +128,7 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="EthanJ99/kernel_htc_msm8960"
     ;;
+    m4)
+        export kernelsource="android_kernel_htc_msm8960"
+    ;;
 esac
