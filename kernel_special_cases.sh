@@ -5,7 +5,7 @@
 export remote="cm"
 export remoterevision="cm-11.0"
 
-case $1 in 
+case $1 in
     anzu|coconut|haida|hallon|iyokan|mango|satsuma|smultron|urushi)
         export kernelsource="LegacyXperia/android_kernel_semc_msm7x30"
         export remote="lx"
@@ -109,9 +109,7 @@ case $1 in
         export kernelsource="Team-Exhibit/android_kernel_samsung_skomer"
     ;;
     taoshan)
-        export remote="github"
-        export remoterevision="cm-11.0"
-        export kernelsource="freexperia/android_kernel_sony_msm8930"
+        export kernelsource="android_kernel_sony_msm8930"
     ;;
     tf700t)
         export remote="vanir"
