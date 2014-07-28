@@ -110,8 +110,8 @@ case $1 in
     ;;
     taoshan)
         export remote="github"
-        export remoterevision="cm-11.0"
-        export kernelsource="freexperia/android_kernel_sony_msm8930"
+        export remoterevision="android-4.4"
+        export kernelsource="omnirom/android_kernel_sony_msm8930"
     ;;
     tf700t)
         export remote="vanir"
