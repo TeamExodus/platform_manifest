@@ -1,7 +1,7 @@
 Team Vanir's repo
 ===========
 
-This branch is for Vanir's android-4.4.2_r1 based ROM
+This branch is for Vanir's android-4.4.4_r1 based ROM
 
 
 Getting Started
@@ -24,6 +24,11 @@ Then to sync up:
 Our gerrit:
 
 	http://vaniraosp.goo.im/#/q/status:open,n,z
+	(Backup/Temp gerrit)  http://gerrit.vanir.co:8080/#/q/status:open
+
+Our Community:
+
+	https://plus.google.com/communities/111378032131473754160
 
 Translations:
 
