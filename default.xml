@@ -150,7 +150,7 @@
   <project path="device/semc/satsuma" name="LegacyXperia/android_device_semc_satsuma" remote="lx" revision="cm-11.0" />
   <project path="device/semc/smultron" name="LegacyXperia/android_device_semc_smultron" remote="lx" revision="cm-11.0" />
   <project path="device/semc/urushi" name="LegacyXperia/android_device_semc_urushi" remote="lx" revision="cm-11.0" />
-  <project path="device/sony/blue-common" name="android_device_sony_blue-common" remote="tsubasa" />
+  <project path="device/sony/blue-common" name="android_device_sony_blue-common" device="tsubasa" />
   <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/sony/honami" name="android_device_sony_honami" />
@@ -163,7 +163,7 @@
   <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" />
   <project path="device/sony/sirius" name="android_device_sony_sirius" device="shinano" />
   <project path="device/sony/taoshan" name="olivieer/device_sony_taoshan" remote="github" revision="cm-11.0" />
-  <project path="device/sony/tsubasa" name="android_device_sony_tsubasa" remote="tsubasa" />
+  <project path="device/sony/tsubasa" name="android_device_sony_tsubasa" device="tsubasa" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" revision="kk44" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
