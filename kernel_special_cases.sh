@@ -7,9 +7,8 @@ export remoterevision="cm-11.0"
 
 case $1 in 
     anzu|coconut|haida|hallon|iyokan|mango|satsuma|smultron|urushi)
-        export kernelsource="Vynikal/android_kernel_semc_msm7x30"
         export remote="github"
-        export remoterevision="OptKernel-rebase"
+        export kernelsource="LegacyXperia/android_kernel_semc_msm7x30"
     ;;
     apache)
         export remote="github"
