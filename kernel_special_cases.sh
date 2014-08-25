@@ -127,6 +127,11 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="cannondalev2000/kernel_htc_msm8960"
     ;;
+    wx_na_wf)
+        export remote="vanir"
+        export remoterevision="kk44"
+        export kernelsource="kernel_nvidia_tn8"
+    ;;
     m4)
         export kernelsource="android_kernel_htc_msm8960"
     ;;
