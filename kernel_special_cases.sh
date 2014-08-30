@@ -122,7 +122,7 @@ case $1 in
         export remoterevision="jim_mr2"
         export kernelsource="jimsth/vanir_tuna"
     ;;
-    ville|evita|jewel)
+    jewel)
         export remote="github"
         export remoterevision="kk44"
         export kernelsource="cannondalev2000/kernel_htc_msm8960"
