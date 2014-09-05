@@ -179,6 +179,9 @@
   <project path="external/android-mock" name="android_external_android-mock" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" />
   <project path="external/ant-glob" name="android_external_ant-glob" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/andradio-library" name="android_external_ant-wireless_antradio-library" />
   <project path="external/antlr" name="android_external_antlr" />
   <project path="external/apache-harmony" name="android_external_apache-harmony" />
   <project path="external/apache-http" name="android_external_apache-http" />
@@ -397,7 +400,7 @@
   <project path="external/tcpdump" name="external_tcpdump" remote="vanir" revision="kk44" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="aosp44 pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" />
