@@ -134,9 +134,11 @@
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" revision="kk44" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" revision="kk44" groups="device" />
   <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/n5100" name="android_device_samsung_n5100" remote="cm" revision="cm-11.0" />
-  <project path="device/samsung/n5110" name="android_device_samsung_n5110" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/n5100" name="android_device_samsung_n5100" />
+  <project path="device/samsung/n5110" name="android_device_samsung_n5110" />
   <project path="device/samsung/n5120" name="ryukiri/android_device_samsung_n5120" remote="github" revision="kk44" />
+  <project path="device/samsung/n7000" name="android_device_samsung_n7000" />
+  <project path="device/samsung/n710" name="android_device_samsung_n7100" />
   <project path="device/samsung/p3100" name="device_samsung_p3100" remote="vanir" revision="kk44" groups="p3110" />
   <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="p3110" />
   <project path="device/samsung/skomer" name="Team-Exhibit/android_device_samsung_skomer" remote="github" revision="kk44" groups="ste" />
