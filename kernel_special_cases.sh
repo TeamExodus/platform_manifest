@@ -127,9 +127,6 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_nvidia_tn8"
     ;;
-    m4)
-        export kernelsource="android_kernel_htc_msm8960"
-    ;;
     falcon)
         export remote="github"
         export remoterevision="kk44"
