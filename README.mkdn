@@ -60,5 +60,5 @@ Vanir developer Resources:
 	
 [TUT] submitting to gerrit for review
 
-	http://pastebin.com/UFVH0M63
+	http://pastebin.com/7jPnM4mv
 
