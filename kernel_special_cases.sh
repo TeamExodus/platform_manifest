@@ -58,9 +58,7 @@ case $1 in
         export kernelsource="xboxfanj/kernel_msm"
     ;;
     mako)
-        export remote="github"
-        export remoterevision="kitkat-cm"
-        export kernelsource="mathkid95/linux_lg_kitkat"
+        export kernelsource="android_kernel_google_msm"
     ;;
     hammerhead)
         export remote="github"
