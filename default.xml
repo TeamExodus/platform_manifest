@@ -122,7 +122,7 @@
   <project path="device/samsung/i9500" name="android_device_samsung_i9500" />
   <project path="device/samsung/janice" name="device_samsung_janice" remote="vanir" revision="kk44" groups="ste" />
   <project path="device/samsung/jflte" name="device_samsung_jflte" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/klimtwifi" name="android_device_samsung_klimtwifi" />
+  <project path="device/samsung/klimtwifi" name="eousphoros/android_device_samsung_klimtwifi" remote="github" />
   <project path="device/samsung/klte" name="device_samsung_klte" remote="vanir" revision="kk44" />
   <project path="device/samsung/klte-common" name="device_samsung_klte-common" remote="vanir" revision="kk44" />
   <project path="device/samsung/kltespr" name="device_samsung_kltespr" remote="vanir" revision="kk44" />
