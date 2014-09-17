@@ -57,9 +57,6 @@ case $1 in
         export remoterevision="vanir"
         export kernelsource="xboxfanj/kernel_msm"
     ;;
-    mako)
-        export kernelsource="android_kernel_google_msm"
-    ;;
     hammerhead)
         export remote="github"
         export remoterevision="jim_kk_mr2"
