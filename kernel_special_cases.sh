@@ -127,9 +127,4 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_nvidia_tn8"
     ;;
-    falcon)
-        export remote="github"
-        export remoterevision="kk44"
-        export kernelsource="cannondalev2000/kernel_motorola_msm8226"
-    ;;
 esac
