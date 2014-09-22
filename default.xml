@@ -412,7 +412,7 @@
   <project path="external/v8" name="external_v8" remote="vanir" revision="kk44" />
   <project path="external/valgrind" name="android_external_valgrind" groups="pdk"/>
   <project path="external/vim" name="android_external_vim" />
-  <project path="external/webp" name="android_external_webp" />
+  <project path="external/webp" name="external_webp" remote="vanir" revision="kk44" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="vanir" revision="kk44" groups="pdk" />
   <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="vanir" revision="kk44" groups="pdk" />
