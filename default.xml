@@ -482,7 +482,7 @@
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" revision="kk44" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" revision="kk44" />
   <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" />
-  <project path="hardware/samsung_slsi/exynos5420" name="hardware_samsung_slsi_exynos5420" remote="vanir" revision="kk44" />
+  <project path="hardware/samsung_slsi/exynos5420" name="hardware_samsung_slsi_exynos5420" />
   <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />

@@ -72,11 +72,6 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_samsung_jf"
     ;;
-    klimtwifi)
-        export remote="github"
-        export remoterevision="cm-11.0"
-        export kernelsource="eousphoros/android_kernel_samsung_exynos5420"
-    ;;
     klte*)
         export remote="vanir"
         export remoterevision="kk44"
