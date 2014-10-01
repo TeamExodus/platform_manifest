@@ -371,7 +371,7 @@
   <project path="external/pixman" name="platform/external/pixman" groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/powertop" name="android_external_powertop" />
   <project path="external/ppp" name="android_external_ppp" />
-  <project path="external/proguard" name="platform/external/proguard" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk" />
+  <project path="external/proguard" name="android_external_proguard" groups="pdk" />
   <project path="external/protobuf" name="android_external_protobuf" groups="pdk" />
   <project path="external/protobuf-c" name="android_external_protobuf-c" />
   <project path="external/qemu" name="android_external_qemu" />
