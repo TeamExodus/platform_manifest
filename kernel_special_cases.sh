@@ -49,8 +49,8 @@ case $1 in
     ;;
     golden)
         export remote="github"
-        export remoterevision="kk4.4"
-        export kernelsource="andi34/android_kernel_samsung_golden"
+        export remoterevision="kk44"
+        export kernelsource="Team-Exhibit/android_kernel_samsung_golden"
     ;;
     gee*)
         export remote="github"
