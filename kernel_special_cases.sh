@@ -82,10 +82,15 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_samsung_klte"
     ;;
-    m7*|dlx)
+    dlx)
         export remote="vanir"
         export remoterevision="kk44"
-        export kernelsource="kernel_htc_m7"
+        export kernelsource="kernel_htc_dlx"
+    ;;
+    m7)
+        export remote="github"
+        export remoterevision="InSaNiTy"
+        export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_m7"
     ;;
     m8)
         export remote="github"

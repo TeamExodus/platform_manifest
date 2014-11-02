@@ -59,10 +59,8 @@
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
   <project path="device/htc/m4" name="device_htc_m4" remote="vanir" revision="kk44" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" revision="kk44" />
-  <project path="device/htc/m7att" name="android_device_htc_m7att" />
-  <project path="device/htc/m7spr" name="android_device_htc_m7spr" />
-  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" />
-  <project path="device/htc/m7ul" name="device_htc_m7ul" remote="vanir" revision="kk44" />
+  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="vanir" revision="kk44" />
+  <project path="device/htc/m7" name="device_htc_m7" remote="vanir" revision="kk44" />
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" revision="kk44" />
   <project path="device/htc/m8" name="device_htc_m8" remote="vanir" revision="kk44" />
   <project path="device/htc/ville" name="cannondalev2000/device_htc_ville" remote="github" revision="kk44" />
