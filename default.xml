@@ -69,6 +69,7 @@
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="kk44" />
   <project path="device/lge/e980" name="device_lge_e980" remote="vanir" revision="kk44" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="kk44" />
+  <project path="device/lge/g3-common" name="android_device_lge_g3-common" />
   <project path="device/lge/gee-common" name="xboxfanj/android_device_lge_gee-common" remote="github" revision="vanir" />
   <project path="device/lge/geeb" name="xboxfanj/android_device_lge_geeb" remote="github" revision="android-4.4" />
   <project path="device/lge/gee" name="xboxfanj/android_device_lge_gee" remote="github" revision="android-4.4" />
@@ -76,6 +77,7 @@
   <project path="device/lge/d801" name="device_lge_d801" remote="vanir" revision="kk44" />
   <project path="device/lge/d802" name="device_lge_d802" remote="vanir" revision="kk44" />
   <project path="device/lge/d803" name="device_lge_d803" remote="vanir" revision="kk44" />
+  <project path="device/lge/d851" name="android_device_lge_d851" />
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" revision="kk44" />
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" revision="kk44" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="kk44" />
@@ -83,6 +85,7 @@
   <project path="device/lge/p880" name="device_lge_p880" remote="vanir" revision="kk44" />
   <project path="device/lge/v500" name="android_device_lge_v500" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="kk44" />
+  <project path="device/lge/vs985" name="android_device_lge_vs985" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" revision="kk44" />
   <project path="device/motorola/msm8226-common" name="motorola_msm8226-common" remote="vanir" revision="kk44" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
