@@ -87,7 +87,7 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_htc_dlx"
     ;;
-    m7)
+    m7*)
         export remote="github"
         export remoterevision="InSaNiTy"
         export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_m7"
