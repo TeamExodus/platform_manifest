@@ -305,17 +305,19 @@
   <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" />
   <project path="external/javasqlite" name="android_external_javasqlite" />
   <project path="external/javassist" name="android_external_javassist" />
-  <project path="external/jdiff" name="android_external_jdiff" />
+  <project path="external/jdiff" name="android_external_jdiff" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
   <project path="external/jhead" name="android_external_jhead" groups="pdk" />
+  <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/jmdns" name="android_external_jmdns" />
-  <project path="external/jmonkeyengine" name="android_external_jmonkeyengine" />
   <project path="external/jpeg" name="external_jpeg" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/jsilver" name="android_external_jsilver" />
+  <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/jsr305" name="android_external_jsr305" />
-  <project path="external/jsr308" name="android_external_jsr308" />
-  <project path="external/jsr330" name="android_external_jsr330" />
   <project path="external/junit" name="android_external_junit" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" />
+  <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/kissfft" name="android_external_kissfft" />
   <project path="external/klogripper" name="external_klogripper" remote="vanir" revision="L5" />
   <project path="external/koush/ion" name="ion" />
@@ -323,8 +325,11 @@
   <project path="external/koush/Superuser" name="Superuser" remote="vanir" revision="L5" />
   <project path="external/koush/Widgets" name="Widgets" />
   <project path="external/libcap-ng" name="android_external_libcap-ng" />
+  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libedit" name="platform/external/libedit" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/libffi" name="android_external_libffi" />
+  <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/libgsm" name="android_external_libgsm" groups="pdk" />
   <project path="external/liblzf" name="android_external_liblzf" groups="pdk" />
   <project path="external/libminiz" name="codefireXperiment/external_libminiz" remote="github" revision="jb-devel-mr2-release" />
@@ -333,32 +338,34 @@
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="vanir" revision="L5" />
-  <project path="external/libnl-headers" name="android_external_libnl-headers" groups="pdk" />
   <project path="external/libogg" name="android_external_libogg" />
   <project path="external/libpcap" name="android_external_libpcap" />
+  <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/libphonenumber" name="android_external_libphonenumber" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="external_libpng" remote="vanir" revision="L5" groups="pdk" />
-  <project path="external/libppp" name="android_external_libppp" />
+  <<project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/libtar" name="android_external_libtar" />
   <project path="external/libusb" name="android_external_libusb" />
   <project path="external/libusbx" name="android_external_libusbx" />
   <project path="external/libusb-compat" name="android_external_libusb-compat" />
+  <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/libvorbis" name="android_external_libvorbis" />
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" />
-  <project path="external/libxslt" name="android_external_libxslt" />
   <project path="external/libyuv" name="android_external_libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="vanir" revision="L5" />
   <project path="external/littlemock" name="android_external_littlemock" />
+  <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/llvm" name="external_llvm" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/lzma" name="platform/external/lzma"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/lrzsz" name="external_lrzsz" remote="vanir" revision="L5" />
+  <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/lsof" name="external_lsof" remote="vanir" revision="L5" />
-  <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/markdown" name="android_external_markdown" />
   <project path="external/mdnsresponder" name="android_external_mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
