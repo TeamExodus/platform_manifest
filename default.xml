@@ -413,7 +413,6 @@
   <project path="external/scrypt" name="platform/external/scrypt" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" revision="L5" />
   <project path="external/sfntly" name="platform/external/sfntly"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/sil-fonts" name="platform/external/sil-fonts"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/skia" name="external_skia" remote="vanir" revision="L5" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/smali" name="android_external_smali" />
@@ -438,9 +437,9 @@
   <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" />
-  <project path="external/v8" name="external_v8" remote="vanir" revision="L5" />
   <project path="external/valgrind" name="android_external_valgrind" groups="pdk"/>
   <project path="external/vim" name="android_external_vim" />
+  <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/webp" name="external_webp" remote="vanir" revision="L5" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="vanir" revision="L5" groups="pdk" />
@@ -449,6 +448,7 @@
   <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" />
+  <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/zxing" name="android_external_zxing" />
   <project path="frameworks/av" name="frameworks_av" remote="vanir" revision="L5" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="vanir" revision="L5" />
@@ -457,23 +457,31 @@
   <project path="frameworks/compile/slang" name="frameworks_compile_slang" remote="vanir" revision="L5" groups="pdk" />
   <project path="frameworks/ex" name="frameworks_ex" remote="vanir" revision="L5" />
   <project path="frameworks/mff" name="android_frameworks_mff" />
+  <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/ml" name="android_frameworks_ml" />
+  <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/native" name="frameworks_native" remote="vanir" revision="L5" groups="pdk" />
+  <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="vanir" revision="L5" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" />
+  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" />
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" />
   <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" />
-  <project path="frameworks/opt/mailcommon" name="android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" />
+  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="L5" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
+  <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vanir" revision="L5" groups="pdk" />
   <project path="frameworks/opt/telephony-msim" name="android_frameworks_opt_telephony-msim" />
-  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" />
+  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/rs" name="frameworks_rs" remote="vanir" revision="L5" />
@@ -485,10 +493,26 @@
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
+  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/cm" name="hardware_cm" remote="vanir" revision="L5" />
   <project path="hardware/invensense" name="hardware_invensense" remote="vanir" revision="L5" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="L5" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="L5" groups="pdk" />
+  <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="vanir" revision="L5" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="vanir" revision="L5" groups="caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
@@ -503,7 +527,10 @@
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="vanir" revision="L5" groups="caf" />
   <project path="hardware/qcom/media-caf-new" name="hardware_qcom_media-caf-new" remote="vanir" revision="L5" groups="caf" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="qcom/msm8960" />
+  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
+  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="vanir" revision="L5" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
@@ -517,9 +544,8 @@
   <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
+  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="L5" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" />
   <project path="libcore" name="libcore" remote="vanir" revision="L5" />
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
