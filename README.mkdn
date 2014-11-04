@@ -1,7 +1,7 @@
 Team Vanir's repo
 ===========
 
-This branch is for Vanir's android-4.4.4_r1 based ROM
+This branch is for Vanir's android-5.0.0_r2 based ROM
 
 
 Getting Started
@@ -11,11 +11,11 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize your local repository using my trees, use the following command:
 
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b kk44
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b L5
 
 Mac Users: initialize your local repository using:
 
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b kk44 -g darwin
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b L5 -g darwin
 
 Then to sync up:
 
