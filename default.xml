@@ -228,7 +228,7 @@
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp"  groups="aosp44" remote="aosp" revision="refs/tags/4.4.4_r2.0.1" />
   <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
