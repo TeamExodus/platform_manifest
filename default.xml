@@ -50,11 +50,13 @@
   <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" revision="L5" />
   <project path="device/asus/tf701t" name="android_device_asus_tf701t" />
   <project path="device/common" name="android_device_common" groups="pdk" />
+  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="L5" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
+  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" revision="L5" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
   <project path="device/htc/m4" name="device_htc_m4" remote="vanir" revision="L5" />
@@ -185,7 +187,6 @@
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
-  <project path="external/android-mock" name="android_external_android-mock" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" />
   <project path="external/ant-glob" name="android_external_ant-glob" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" />
@@ -216,21 +217,26 @@
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libaddressinput/src" name="platform/external/chromium_org/third_party/libaddressinput/src" groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libjpeg_turbo" name="platform/external/chromium_org/third_party/libjpeg_turbo" groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libsrtp" name="platform/external/chromium_org/third_party/libsrtp" groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libvpx" name="platform/external/chromium_org/third_party/libvpx" groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/openssl" name="external_chromium_org_third_party_openssl" remote="vanir" revision="L5" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp"  groups="aosp44" remote="aosp" revision="refs/tags/4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
