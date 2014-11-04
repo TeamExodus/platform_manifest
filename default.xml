@@ -29,131 +29,131 @@
           remote="cm" />
 
 
-  <project path="manifest" name="platform_manifest" remote="vanir" revision="kk44" /> <!-- DO NOT MOVE - whine to Nuclearmistake -->
-  <project path="build" name="build" remote="vanir" revision="kk44" groups="pdk">
+  <project path="manifest" name="platform_manifest" remote="vanir" revision="L5" /> <!-- DO NOT MOVE - whine to Nuclearmistake -->
+  <project path="build" name="build" remote="vanir" revision="L5" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="art" name="art"  groups="aosp44" remote="vanir" revision="kk44" />
-  <project path="bionic" name="bionic" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="art" name="art"  groups="aosp44" remote="vanir" revision="L5" />
+  <project path="bionic" name="bionic" remote="vanir" revision="L5" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="bootable/recovery-philz" name="PhilZ-cwm6/philz_touch_cwm6" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" revision="kk44" />
+  <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" revision="L5" />
   <project path="cts" name="platform/cts"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="dalvik" name="dalvik" remote="vanir" revision="kk44" />
+  <project path="dalvik" name="dalvik" remote="vanir" revision="L5" />
   <project path="development" name="android_development" />
-  <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="kk44" />
-  <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="kk44" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" revision="kk44" />
-  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" revision="kk44" />
+  <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="L5" />
+  <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="L5" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" revision="L5" />
+  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" revision="L5" groups="device" />
+  <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" revision="L5" />
   <project path="device/asus/tf701t" name="android_device_asus_tf701t" />
   <project path="device/common" name="android_device_common" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="L5" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
-  <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" revision="kk44" />
+  <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" revision="L5" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
-  <project path="device/htc/m4" name="device_htc_m4" remote="vanir" revision="kk44" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" revision="kk44" />
-  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="vanir" revision="kk44" />
-  <project path="device/htc/m7" name="device_htc_m7" remote="vanir" revision="kk44" />
-  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" revision="kk44" />
-  <project path="device/htc/m8" name="device_htc_m8" remote="vanir" revision="kk44" />
+  <project path="device/htc/m4" name="device_htc_m4" remote="vanir" revision="L5" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" revision="L5" />
+  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="vanir" revision="L5" />
+  <project path="device/htc/m7" name="device_htc_m7" remote="vanir" revision="L5" />
+  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" revision="L5" />
+  <project path="device/htc/m8" name="device_htc_m8" remote="vanir" revision="L5" />
   <project path="device/htc/ville" name="cannondalev2000/device_htc_ville" remote="github" revision="kk44" />
   <project path="device/htc/evita" name="cannondalev2000/device_htc_evita" remote="github" revision="kk44" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="kk44" />
-  <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="kk44" />
-  <project path="device/lge/e980" name="device_lge_e980" remote="vanir" revision="kk44" />
-  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="kk44" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="L5" />
+  <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="L5" />
+  <project path="device/lge/e980" name="device_lge_e980" remote="vanir" revision="L5" />
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="L5" />
   <project path="device/lge/g3-common" name="android_device_lge_g3-common" />
   <project path="device/lge/gee-common" name="xboxfanj/android_device_lge_gee-common" remote="github" revision="vanir" />
   <project path="device/lge/geeb" name="xboxfanj/android_device_lge_geeb" remote="github" revision="android-4.4" />
   <project path="device/lge/gee" name="xboxfanj/android_device_lge_gee" remote="github" revision="android-4.4" />
-  <project path="device/lge/d800" name="device_lge_d800" remote="vanir" revision="kk44" />
-  <project path="device/lge/d801" name="device_lge_d801" remote="vanir" revision="kk44" />
-  <project path="device/lge/d802" name="device_lge_d802" remote="vanir" revision="kk44" />
-  <project path="device/lge/d803" name="device_lge_d803" remote="vanir" revision="kk44" />
+  <project path="device/lge/d800" name="device_lge_d800" remote="vanir" revision="L5" />
+  <project path="device/lge/d801" name="device_lge_d801" remote="vanir" revision="L5" />
+  <project path="device/lge/d802" name="device_lge_d802" remote="vanir" revision="L5" />
+  <project path="device/lge/d803" name="device_lge_d803" remote="vanir" revision="L5" />
   <project path="device/lge/d851" name="android_device_lge_d851" />
-  <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" revision="kk44" />
-  <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" revision="kk44" />
+  <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" revision="L5" />
+  <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" revision="L5" />
   <project path="device/lge/ls990" name="android_device_lge_ls990" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="kk44" />
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" revision="kk44" />
-  <project path="device/lge/p880" name="device_lge_p880" remote="vanir" revision="kk44" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="L5" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" revision="L5" />
+  <project path="device/lge/p880" name="device_lge_p880" remote="vanir" revision="L5" />
   <project path="device/lge/v500" name="android_device_lge_v500" />
-  <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="kk44" />
+  <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="L5" />
   <project path="device/lge/vs985" name="android_device_lge_vs985" />
-  <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" revision="kk44" />
-  <project path="device/motorola/msm8226-common" name="motorola_msm8226-common" remote="vanir" revision="kk44" />
+  <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" revision="L5" />
+  <project path="device/motorola/msm8226-common" name="motorola_msm8226-common" remote="vanir" revision="L5" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
-  <project path="device/motorola/moto_msm8960" name="device_motorola_moto_msm8960" remote="vanir" revision="kk44" />
-  <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" revision="kk44" device="msm8960_jbbl" />
+  <project path="device/motorola/moto_msm8960" name="device_motorola_moto_msm8960" remote="vanir" revision="L5" />
+  <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" revision="L5" device="msm8960_jbbl" />
   <project path="device/motorola/moto_msm8960dt" name="android_device_motorola_moto_msm8960dt" />
-  <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="kk44" />
-  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" revision="kk44" />
-  <project path="device/nvidia/shieldtablet" name="device_nvidia_shieldtablet" remote="vanir" revision="kk44" />
-  <project path="device/nvidia/wx_na_wf" name="device_nvidia_wx_na_wf" remote="vanir" revision="kk44" />
-  <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" revision="kk44" />
+  <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="L5" />
+  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" revision="L5" />
+  <project path="device/nvidia/shieldtablet" name="device_nvidia_shieldtablet" remote="vanir" revision="L5" />
+  <project path="device/nvidia/wx_na_wf" name="device_nvidia_wx_na_wf" remote="vanir" revision="L5" />
+  <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" revision="L5" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
-  <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" revision="kk44" />
+  <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" revision="L5" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" device="find5" />
   <project path="device/oppo/find7" name="android_device_oppo_find7" device="find7" />
   <project path="device/oppo/n1" name="android_device_oppo_n1" device="oppo_n1" />
   <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" device="BACON" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="vanir" revision="kk44" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="vanir" revision="L5" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" />
   <project path="device/samsung/codinalte" name="Team-Exhibit/android_device_samsung_codinalte" remote="github" revision="kk44" groups="ste" />
   <project path="device/samsung/d2lte" name="android_device_samsung_d2lte" groups="GS3_device"  />
-  <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="kk44" groups="d710" />
+  <project path="device/samsung/d710" name="device_samsung_d710" remote="vanir" revision="L5" groups="d710" />
   <project path="device/samsung/d710-common" name="MoKee/android_device_samsung_d710-common" remote="github" revision="kk_mkt" groups="d710" />
   <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" />
   <project path="device/samsung/golden" name="Team-Exhibit/android_device_samsung_golden" remote="github" revision="kk44" />
-  <project path="device/samsung/hlte" name="device_samsung_hlte" groups="hlte_device" remote="vanir" revision="kk44" />
+  <project path="device/samsung/hlte" name="device_samsung_hlte" groups="hlte_device" remote="vanir" revision="L5" />
   <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
   <project path="device/samsung/hlteusc" name="android_device_samsung_hlteusc" groups="hlte_device" />
   <project path="device/samsung/hltevzw" name="android_device_samsung_hltevzw" groups="hlte_device" />
   <project path="device/samsung/hlte-common" name="android_device_samsung_hlte-common" groups="hlte_device" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" groups="device" />
-  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="vanir" revision="kk44" groups="i9100g_device" />
-  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="kk44" groups="GS3_device" />
-  <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="kk44" groups="GS3_device" />
+  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="vanir" revision="L5" groups="i9100g_device" />
+  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="L5" groups="GS3_device" />
+  <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="L5" groups="GS3_device" />
   <project path="device/samsung/i9500" name="android_device_samsung_i9500" />
-  <project path="device/samsung/janice" name="device_samsung_janice" remote="vanir" revision="kk44" groups="ste" />
-  <project path="device/samsung/jflte" name="device_samsung_jflte" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/klimtwifi" name="device_samsung_klimtwifi" remote="vanir" revision="kk44" />
+  <project path="device/samsung/janice" name="device_samsung_janice" remote="vanir" revision="L5" groups="ste" />
+  <project path="device/samsung/jflte" name="device_samsung_jflte" remote="vanir" revision="L5" groups="device" />
+  <project path="device/samsung/klimtwifi" name="device_samsung_klimtwifi" remote="vanir" revision="L5" />
   <project path="device/samsung/klte" name="android_device_samsung_klte" />
-  <project path="device/samsung/klte-common" name="device_samsung_klte-common" remote="vanir" revision="kk44" />
+  <project path="device/samsung/klte-common" name="device_samsung_klte-common" remote="vanir" revision="L5" />
   <project path="device/samsung/kltedv" name="android_device_samsung_kltedv" />
   <project path="device/samsung/kltespr" name="android_device_samsung_kltespr" />
   <project path="device/samsung/klteusc" name="android_device_samsung_klteusc" />
   <project path="device/samsung/kltevzw" name="android_device_samsung_kltevzw" />
-  <project path="device/samsung/kona-common" name="device_samsung_kona-common" remote="vanir" revision="kk44" />
+  <project path="device/samsung/kona-common" name="device_samsung_kona-common" remote="vanir" revision="L5" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="i9100g, p3110" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/mondrianwifi" name="device_samsung_mondrianwifi" remote="vanir" revision="kk44" groups="mondrianwifi" />
-  <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" revision="kk44" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="vanir" revision="kk44" groups="device" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" revision="L5" groups="device" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="vanir" revision="L5" groups="device" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" revision="L5" groups="device" />
+  <project path="device/samsung/mondrianwifi" name="device_samsung_mondrianwifi" remote="vanir" revision="L5" groups="mondrianwifi" />
+  <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" revision="L5" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" revision="L5" groups="device" />
+  <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="vanir" revision="L5" groups="device" />
   <project path="device/samsung/n5100" name="android_device_samsung_n5100" />
   <project path="device/samsung/n5110" name="android_device_samsung_n5110" />
   <project path="device/samsung/n5120" name="ryukiri/android_device_samsung_n5120" remote="github" revision="kk44" />
-  <project path="device/samsung/n7100" name="device_samsung_n7100" remote="vanir" revision="kk44" />
-  <project path="device/samsung/p3100" name="device_samsung_p3100" remote="vanir" revision="kk44" groups="p3110" />
+  <project path="device/samsung/n7100" name="device_samsung_n7100" remote="vanir" revision="L5" />
+  <project path="device/samsung/p3100" name="device_samsung_p3100" remote="vanir" revision="L5" groups="p3110" />
   <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="p3110" />
   <project path="device/samsung/skomer" name="Team-Exhibit/android_device_samsung_skomer" remote="github" revision="kk44" groups="ste" />
-  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" revision="kk44" />
-  <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" revision="kk44" groups="device" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="vanir" revision="kk44" groups="device" />
+  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" revision="L5" />
+  <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="L5" groups="device" />
+  <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="L5" groups="device" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="vanir" revision="L5" groups="device" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" revision="L5" groups="device" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="vanir" revision="L5" groups="device" />
   <project path="device/samsung/u8500-common" name="Team-Exhibit/android_device_samsung_u8500-common" remote="github" revision="kk44" groups="ste" />
   <project path="device/semc/msm7x30-common" name="LegacyXperia/android_device_semc_msm7x30-common" remote="github" revision="cm-11.0"  />
   <project path="device/semc/mogami-common" name="LegacyXperia/android_device_semc_mogami-common" remote="github" revision="cm-11.0" />
@@ -168,20 +168,20 @@
   <project path="device/semc/urushi" name="LegacyXperia/android_device_semc_urushi" remote="github" revision="cm-11.0" />
   <project path="device/sony/blue-common" name="android_device_sony_blue-common" device="tsubasa" />
   <project path="device/sony/common" name="android_device_sony_common" />
-  <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="kk44" groups="device" />
+  <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="L5" groups="device" />
   <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/huashan" name="android_device_sony_huashan" />
-  <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" revision="kk44" />
-  <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="kk44" />
+  <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" revision="L5" />
+  <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="L5" />
   <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
-  <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="vanir" revision="kk44" />
+  <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="vanir" revision="L5" />
   <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
   <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" />
   <project path="device/sony/sirius" name="android_device_sony_sirius" device="shinano" />
   <project path="device/sony/taoshan" name="olivieer/device_sony_taoshan" remote="github" revision="cm-11.0" />
-  <project path="device/sony/tsubasa" name="device_sony_tsubasa" device="tsubasa" remote="vanir" revision="kk44" />
-  <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" revision="kk44" />
+  <project path="device/sony/tsubasa" name="device_sony_tsubasa" device="tsubasa" remote="vanir" revision="L5" />
+  <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" revision="L5" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
@@ -197,21 +197,21 @@
   <project path="external/apache-qp" name="android_external_apache-qp" />
   <project path="external/apache-xml" name="android_external_apache-xml" />
   <project path="external/arduino" name="android_external_arduino" />
-  <project path="external/bash" name="external_bash" remote="vanir" revision="kk44" />
+  <project path="external/bash" name="external_bash" remote="vanir" revision="L5" />
   <project path="external/bison" name="android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="vanir" revision="kk44" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="vanir" revision="L5" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" />
   <project path="external/bsdiff" name="android_external_bsdiff" groups="pdk" />
   <project path="external/bson" name="android_external_bson" />
-  <project path="external/busybox" name="external_busybox" remote="vanir" revision="kk44" />
+  <project path="external/busybox" name="external_busybox" remote="vanir" revision="L5" />
   <project path="external/bzip2" name="android_external_bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/checkpolicy" name="android_external_checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="external_chromium" remote="vanir" revision="kk44" />
+  <project path="external/chromium" name="external_chromium" remote="vanir" revision="L5" />
   <project path="external/chromium-trace" name="android_external_chromium-trace" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org" name="external_chromium_org" remote="vanir" revision="kk44" />
+  <project path="external/chromium_org" name="external_chromium_org" remote="vanir" revision="L5" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -224,7 +224,7 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/openssl" name="external_chromium_org_third_party_openssl" remote="vanir" revision="kk44" />
+  <project path="external/chromium_org/third_party/openssl" name="external_chromium_org_third_party_openssl" remote="vanir" revision="L5" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -236,35 +236,35 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/clang" name="external_clang" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/clang" name="external_clang" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" />
-  <project path="external/curl" name="external_curl" remote="vanir" revision="kk44" />
+  <project path="external/curl" name="external_curl" remote="vanir" revision="L5" />
   <project path="external/dexmaker" name="android_external_dexmaker" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" />
-  <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/doclava" name="android_external_doclava" />
   <project path="external/dropbear" name="android_external_dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/easymock" name="android_external_easymock" />
   <project path="external/ebtables" name="android_external_ebtables" />
   <project path="external/eclipse-basebuilder" name="android_external_eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="android_external_eclipse-windowbuilder" />
-  <project path="external/elfutils" name="external_elfutils" remote="vanir" revision="kk44" />
-  <project path="external/embunit" name="external_embunit" remote="vanir" revision="kk44" />
+  <project path="external/elfutils" name="external_elfutils" remote="vanir" revision="L5" />
+  <project path="external/embunit" name="external_embunit" remote="vanir" revision="L5" />
   <project path="external/emma" name="android_external_emma" />
   <project path="external/esd" name="android_external_esd" />
   <project path="external/expat" name="android_external_expat" groups="pdk" />
-  <project path="external/exfat" name="external_exfat" remote="vanir" revision="kk44" />
+  <project path="external/exfat" name="external_exfat" remote="vanir" revision="L5" />
   <project path="external/eyes-free" name="android_external_eyes-free" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/fdlibm" name="android_external_fdlibm" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" />
   <project path="external/flac" name="android_external_flac" groups="pdk" />
-  <project path="external/freetype" name="external_freetype" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/freetype" name="external_freetype" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/fsck/msdos" name="android_external_fsck_msdos" />
-  <project path="external/fuse" name="external_fuse" remote="vanir" revision="kk44" />
+  <project path="external/fuse" name="external_fuse" remote="vanir" revision="L5" />
   <project path="external/ganymed-ssh2" name="android_external_ganymed-ssh2" />
   <project path="external/gcc-demangle" name="android_external_gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="android_external_genext2fs" />
@@ -274,18 +274,18 @@
   <project path="external/grub" name="android_external_grub" />
   <project path="external/gson" name="android_external_gson" />
   <project path="external/gtest" name="android_external_gtest" groups="pdk" />
-  <project path="external/guava" name="external_guava" remote="vanir" revision="kk44" />
+  <project path="external/guava" name="external_guava" remote="vanir" revision="L5" />
   <project path="external/hamcrest" name="android_external_hamcrest" />
   <project path="external/harfbuzz" name="android_external_harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/heimdall" name="android_external_heimdall" />
   <project path="external/htop" name="android_external_htop" />
   <project path="external/hyphenation" name="android_external_hyphenation" />
-  <project path="external/icu4c" name="external_icu4c" groups="pdk" remote="vanir" revision="kk44" />
+  <project path="external/icu4c" name="external_icu4c" groups="pdk" remote="vanir" revision="L5" />
   <project path="external/iproute2" name="android_external_iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="android_external_ipsec-tools" />
   <project path="external/iptables" name="android_external_iptables" />
-  <project path="external/iputils" name="external_iputils" remote="vanir" revision="kk44" groups="aosp44" />
+  <project path="external/iputils" name="external_iputils" remote="vanir" revision="L5" groups="aosp44" />
   <project path="external/jack" name="android_external_jack" />
   <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" />
   <project path="external/javasqlite" name="android_external_javasqlite" />
@@ -294,7 +294,7 @@
   <project path="external/jhead" name="android_external_jhead" groups="pdk" />
   <project path="external/jmdns" name="android_external_jmdns" />
   <project path="external/jmonkeyengine" name="android_external_jmonkeyengine" />
-  <project path="external/jpeg" name="external_jpeg" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/jpeg" name="external_jpeg" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/jsilver" name="android_external_jsilver" />
   <project path="external/jsr305" name="android_external_jsr305" />
   <project path="external/jsr308" name="android_external_jsr308" />
@@ -302,10 +302,10 @@
   <project path="external/junit" name="android_external_junit" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" />
   <project path="external/kissfft" name="android_external_kissfft" />
-  <project path="external/klogripper" name="external_klogripper" remote="vanir" revision="kk44" />
+  <project path="external/klogripper" name="external_klogripper" remote="vanir" revision="L5" />
   <project path="external/koush/ion" name="ion" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" />
-  <project path="external/koush/Superuser" name="Superuser" remote="vanir" revision="kk44" />
+  <project path="external/koush/Superuser" name="Superuser" remote="vanir" revision="L5" />
   <project path="external/koush/Widgets" name="Widgets" />
   <project path="external/libcap-ng" name="android_external_libcap-ng" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -314,16 +314,16 @@
   <project path="external/liblzf" name="android_external_liblzf" groups="pdk" />
   <project path="external/libminiz" name="codefireXperiment/external_libminiz" remote="github" revision="jb-devel-mr2-release" />
   <project path="external/libmtp" name="android_external_libmtp" />
-  <project path="external/libncurses" name="external_libncurses" remote="vanir" revision="kk44" />
+  <project path="external/libncurses" name="external_libncurses" remote="vanir" revision="L5" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" />
-  <project path="external/libnl" name="external_libnl" remote="vanir" revision="kk44" />
+  <project path="external/libnl" name="external_libnl" remote="vanir" revision="L5" />
   <project path="external/libnl-headers" name="android_external_libnl-headers" groups="pdk" />
   <project path="external/libogg" name="android_external_libogg" />
   <project path="external/libpcap" name="android_external_libpcap" />
   <project path="external/libphonenumber" name="android_external_libphonenumber" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" />
-  <project path="external/libpng" name="external_libpng" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/libpng" name="external_libpng" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/libppp" name="android_external_libppp" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
@@ -337,12 +337,12 @@
   <project path="external/libxml2" name="android_external_libxml2" />
   <project path="external/libxslt" name="android_external_libxslt" />
   <project path="external/libyuv" name="android_external_libyuv" groups="libyuv" />
-  <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="vanir" revision="kk44" />
+  <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="vanir" revision="L5" />
   <project path="external/littlemock" name="android_external_littlemock" />
-  <project path="external/llvm" name="external_llvm" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/llvm" name="external_llvm" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/lzma" name="platform/external/lzma"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/lrzsz" name="external_lrzsz" remote="vanir" revision="kk44" />
-  <project path="external/lsof" name="external_lsof" remote="vanir" revision="kk44" />
+  <project path="external/lrzsz" name="external_lrzsz" remote="vanir" revision="L5" />
+  <project path="external/lsof" name="external_lsof" remote="vanir" revision="L5" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/markdown" name="android_external_markdown" />
   <project path="external/mdnsresponder" name="android_external_mdnsresponder" groups="pdk" />
@@ -366,9 +366,9 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/opencv" name="android_external_opencv" />
   <project path="external/openfst" name="android_external_openfst" />
-  <project path="external/openssh" name="external_openssh" remote="vanir" revision="kk44" />
-  <project path="external/openssl" name="external_openssl" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="external/oprofile" name="external_oprofile" remote="vanir" revision="kk44" />
+  <project path="external/openssh" name="external_openssh" remote="vanir" revision="L5" />
+  <project path="external/openssl" name="external_openssl" remote="vanir" revision="L5" groups="pdk" />
+  <project path="external/oprofile" name="external_oprofile" remote="vanir" revision="L5" />
   <project path="external/pciutils" name="android_external_pciutils" />
   <project path="external/pigz" name="android_external_pigz" />
   <project path="external/pixman" name="platform/external/pixman" groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -386,56 +386,56 @@
   <project path="external/rsync" name="android_external_rsync" />
   <project path="external/safe-iop" name="android_external_safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" revision="kk44" />
+  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" revision="L5" />
   <project path="external/sfntly" name="platform/external/sfntly"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts"  groups="aosp44" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/skia" name="external_skia" remote="vanir" revision="kk44" />
+  <project path="external/skia" name="external_skia" remote="vanir" revision="L5" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/smali" name="android_external_smali" />
-  <project path="external/sonivox" name="external_sonivox" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="external/speex" name="external_speex" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="external/sqlite" name="external_sqlite" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/sonivox" name="external_sonivox" remote="vanir" revision="L5" groups="pdk" />
+  <project path="external/speex" name="external_speex" remote="vanir" revision="L5" groups="pdk" />
+  <project path="external/sqlite" name="external_sqlite" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/spongycastle" name="android_external_spongycastle" />
   <project path="external/square/dagger" name="android_external_square_dagger" />
   <project path="external/square/javawriter" name="android_external_square_javawriter" />
   <project path="external/srec" name="android_external_srec" />
   <project path="external/srtp" name="android_external_srtp" />
-  <project path="external/stlport" name="external_stlport" remote="vanir" revision="kk44" />
+  <project path="external/stlport" name="external_stlport" remote="vanir" revision="L5" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
   <project path="external/strace" name="android_external_strace" />
   <project path="external/stressapptest" name="android_external_stressapptest" />
   <project path="external/svox" name="android_external_svox" />
   <project path="external/tagsoup" name="android_external_tagsoup" />
-  <project path="external/tcpdump" name="external_tcpdump" remote="vanir" revision="kk44" />
+  <project path="external/tcpdump" name="external_tcpdump" remote="vanir" revision="L5" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" />
-  <project path="external/v8" name="external_v8" remote="vanir" revision="kk44" />
+  <project path="external/v8" name="external_v8" remote="vanir" revision="L5" />
   <project path="external/valgrind" name="android_external_valgrind" groups="pdk"/>
   <project path="external/vim" name="android_external_vim" />
-  <project path="external/webp" name="external_webp" remote="vanir" revision="kk44" />
+  <project path="external/webp" name="external_webp" remote="vanir" revision="L5" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="external_wpa-supplicant-8" remote="vanir" revision="L5" groups="pdk" />
+  <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/xmlwriter" name="android_external_xmlwriter" />
   <project path="external/xmp/toolkit" name="android_external_xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="android_external_zxing" />
-  <project path="frameworks/av" name="frameworks_av" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="vanir" revision="kk44" />
-  <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="vanir" revision="kk44" />
-  <project path="frameworks/compile/slang" name="frameworks_compile_slang" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="frameworks/ex" name="frameworks_ex" remote="vanir" revision="kk44" />
+  <project path="frameworks/av" name="frameworks_av" remote="vanir" revision="L5" groups="pdk" />
+  <project path="frameworks/base" name="frameworks_base" remote="vanir" revision="L5" />
+  <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="vanir" revision="L5" groups="pdk" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="vanir" revision="L5" />
+  <project path="frameworks/compile/slang" name="frameworks_compile_slang" remote="vanir" revision="L5" groups="pdk" />
+  <project path="frameworks/ex" name="frameworks_ex" remote="vanir" revision="L5" />
   <project path="frameworks/mff" name="android_frameworks_mff" />
   <project path="frameworks/ml" name="android_frameworks_ml" />
-  <project path="frameworks/native" name="frameworks_native" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="frameworks/native" name="frameworks_native" remote="vanir" revision="L5" groups="pdk" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
-  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="vanir" revision="kk44" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="vanir" revision="L5" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" />
@@ -444,47 +444,47 @@
   <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" />
-  <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="kk44" />
+  <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="L5" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vanir" revision="L5" groups="pdk" />
   <project path="frameworks/opt/telephony-msim" name="android_frameworks_opt_telephony-msim" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="frameworks/rs" name="frameworks_rs" remote="vanir" revision="kk44" />
-  <project path="frameworks/support" name="frameworks_support" remote="vanir" revision="kk44" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="vanir" revision="L5" />
+  <project path="frameworks/support" name="frameworks_support" remote="vanir" revision="L5" />
   <project path="frameworks/testing" name="android_frameworks_testing" />
   <project path="frameworks/volley" name="android_frameworks_volley" />
-  <project path="frameworks/webview" name="frameworks_webview" remote="vanir" revision="kk44" />
-  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="kk44" />
+  <project path="frameworks/webview" name="frameworks_webview" remote="vanir" revision="L5" />
+  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" revision="L5" />
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
-  <project path="hardware/cm" name="hardware_cm" remote="vanir" revision="kk44" />
-  <project path="hardware/invensense" name="hardware_invensense" remote="vanir" revision="kk44" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="vanir" revision="kk44" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="vanir" revision="kk44" groups="caf" />
+  <project path="hardware/cm" name="hardware_cm" remote="vanir" revision="L5" />
+  <project path="hardware/invensense" name="hardware_invensense" remote="vanir" revision="L5" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" revision="L5" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="L5" groups="pdk" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="vanir" revision="L5" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="vanir" revision="L5" groups="caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="aosp44 qcom" remote="vanir" revision="kk44"/>
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="kk44" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="kk44" groups="caf" />
-  <project path="hardware/qcom/display-caf-new" name="hardware_qcom_display-caf-new" remote="vanir" revision="kk44" groups="caf" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="aosp44 qcom" remote="vanir" revision="L5"/>
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="L5" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="vanir" revision="L5" groups="caf" />
+  <project path="hardware/qcom/display-caf-new" name="hardware_qcom_display-caf-new" remote="vanir" revision="L5" groups="caf" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" revision="kk44" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" revision="L5" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="kk44" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="vanir" revision="kk44" groups="caf" />
-  <project path="hardware/qcom/media-caf-new" name="hardware_qcom_media-caf-new" remote="vanir" revision="kk44" groups="caf" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="L5" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="vanir" revision="L5" groups="caf" />
+  <project path="hardware/qcom/media-caf-new" name="hardware_qcom_media-caf-new" remote="vanir" revision="L5" groups="caf" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" groups="qcom/msm8960" />
   <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="vanir" revision="kk44" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="vanir" revision="L5" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
-  <project path="hardware/ril" name="hardware_ril" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="hardware/samsung" name="hardware_samsung" remote="vanir" revision="kk44" />
-  <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" revision="kk44" />
+  <project path="hardware/ril" name="hardware_ril" remote="vanir" revision="L5" groups="pdk" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="vanir" revision="L5" />
+  <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" revision="L5" />
   <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" />
   <project path="hardware/samsung_slsi/exynos5420" name="android_hardware_samsung_slsi_exynos5420" />
   <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-11.0" />
@@ -492,69 +492,69 @@
   <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="kk44" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="L5" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" />
-  <project path="libcore" name="libcore" remote="vanir" revision="kk44" />
+  <project path="libcore" name="libcore" remote="vanir" revision="L5" />
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="vanir" revision="kk44" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="vanir" revision="L5" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="kk44" />
-  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="vanir" revision="kk44" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="L5" />
+  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="vanir" revision="L5" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="vanir" revision="kk44" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="vanir" revision="L5" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="kk44" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vanir" revision="kk44" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vanir" revision="kk44" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" revision="kk44" />
-  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="vanir" revision="kk44" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="L5" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vanir" revision="L5" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vanir" revision="L5" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" revision="L5" />
+  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="vanir" revision="L5" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="kk44" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="L5" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aosp44" remote="vanir" revision="kk44" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aosp44" remote="vanir" revision="L5" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="kk44"/>
-  <project path="packages/apps/Mira4U" name="packages_apps_Mira4U" remote="vanir" revision="kk44" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="kk44" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="kk44" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5"/>
+  <project path="packages/apps/Mira4U" name="packages_apps_Mira4U" remote="vanir" revision="L5" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="L5" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="L5" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omni" revision="09cd5c220461b47743d47c47eac381efb9e60006" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="vanir" revision="kk44" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="vanir" revision="L5" />
   <project path="packages/apps/PerformanceControl" name="PerformanceControl" remote="horn3t" revision="jb2" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
-  <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="kk44" />
+  <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="L5" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="kk44" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="L5" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="kk44" />
-  <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" revision="kk44" />
+  <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="L5" />
+  <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" revision="L5" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" />
-  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" revision="kk44" />
-  <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" revision="kk44" />
+  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" revision="L5" />
+  <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" revision="L5" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" />
   <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" />
-  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="kk44" />
+  <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="L5" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vanir" revision="kk44" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vanir" revision="kk44" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vanir" revision="L5" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vanir" revision="L5" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="aosp44" remote="vanir" revision="kk44" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="aosp44" remote="vanir" revision="L5" />
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="android_packages_wallpapers_HoloSpiral" />
@@ -604,14 +604,14 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="vanir" revision="kk44" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2014" remote="vanir" revision="kk44" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="vanir" revision="kk44" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="vanir" revision="L5" />
+  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2014" remote="vanir" revision="L5" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="vanir" revision="L5" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" remote="linaro" revision="master" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="vanir" revision="kk44" />
+  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="vanir" revision="L5" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk"  groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -620,30 +620,30 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk"  groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools"  groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="sdk" name="android_sdk" />
-  <project path="system/core" name="system_core" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="system/extras" name="system_extras" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="system/media" name="system_media" groups="pdk" remote="vanir" revision="kk44" />
+  <project path="system/core" name="system_core" remote="vanir" revision="L5" groups="pdk" />
+  <project path="system/extras" name="system_extras" remote="vanir" revision="L5" groups="pdk" />
+  <project path="system/media" name="system_media" groups="pdk" remote="vanir" revision="L5" />
   <project path="system/netd" name="android_system_netd" groups="pdk" />
-  <project path="system/qcom" name="system_qcom" groups="qcom" remote="vanir" revision="kk44" />
-  <project path="system/security" name="system_security" remote="vanir" revision="kk44" groups="pdk" />
-  <project path="system/vold" name="system_vold" remote="vanir" revision="kk44" groups="pdk" />
+  <project path="system/qcom" name="system_qcom" groups="qcom" remote="vanir" revision="L5" />
+  <project path="system/security" name="system_security" remote="vanir" revision="L5" groups="pdk" />
+  <project path="system/vold" name="system_vold" remote="vanir" revision="L5" groups="pdk" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools"  remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="kk44" groups="vendor" />
+  <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="L5" groups="vendor" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" />
-  <project path="vendor/htc" name="vendor_htc" remote="vanir" revision="kk44" />
-  <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="kk44" />
-  <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="kk44" groups="vendor" />
+  <project path="vendor/htc" name="vendor_htc" remote="vanir" revision="L5" />
+  <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="L5" />
+  <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="L5" groups="vendor" />
   <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-11.0" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-11.0" />
-  <project path="vendor/extra" name="vendor_qcom_opt" remote="vanir" revision="kk44" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="vanir" revision="kk44" groups="vendor" />
+  <project path="vendor/extra" name="vendor_qcom_opt" remote="vanir" revision="L5" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="vanir" revision="L5" groups="vendor" />
   <project path="vendor/semc" name="LegacyXperia/proprietary_vendor_semc" remote="github" revision="cm-11.0" />
-  <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="kk44" groups="vendor" />
-  <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="kk44" groups="vendor" />
-  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="kk44" />
+  <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="L5" groups="vendor" />
+  <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="L5" groups="vendor" />
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="L5" />
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
 
 <!-- Additional vendors -->
