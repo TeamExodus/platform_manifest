@@ -232,7 +232,7 @@
   <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" groups="aosp44" remote="aosp" revision="lollipop-release" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src"  groups="aosp44" remote="aosp" revision="lollipop-release" />
   <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" groups="aosp44" remote="aosp" revision="lollipop-release" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party_openssl" remote="vanir" revision="L5" remote="aosp" revision="lollipop-release" />
+  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party_openssl" remote="aosp" revision="lollipop-release" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src"  groups="aosp44" remote="aosp" revision="lollipop-release" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots"  groups="aosp44" remote="aosp" revision="lollipop-release" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" revision="lollipop-release" />
