@@ -254,8 +254,7 @@
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/elfutils" name="external_elfutils" remote="vanir" revision="L5" />  <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
@@ -277,8 +276,7 @@
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/guava" name="external_guava" remote="vanir" revision="L5" />  <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/heimdall" name="android_external_heimdall" />
   <project path="external/htop" name="android_external_htop" />
