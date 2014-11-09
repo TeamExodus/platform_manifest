@@ -244,7 +244,7 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/curl" name="external_curl" remote="vanir" revision="L5" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" revision="refs/tags/android-5.0.0_r2" /> 
-  <project path="external/dexmaker" name="android_external_dexmaker" />
+  <project path="external/dexmaker" name="android_external_dexmaker" revision="cm-11.0" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/doclava" name="android_external_doclava" />
