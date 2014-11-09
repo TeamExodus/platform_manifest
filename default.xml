@@ -48,7 +48,7 @@
   <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" revision="L5" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" revision="L5" groups="device" />
   <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" revision="L5" />
-  <project path="device/asus/tf701t" name="android_device_asus_tf701t" />
+  <!--<project path="device/asus/tf701t" name="android_device_asus_tf701t" />-->
   <project path="device/common" name="android_device_common" groups="pdk" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" revision="lollipop-release" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
