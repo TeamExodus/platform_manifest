@@ -514,31 +514,31 @@
   <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" revision="cm-11.0" />
- <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" revision="refs/tags/android-5.0.0_r2" />  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="L5" />
   <project path="libcore" name="libcore" remote="vanir" revision="L5" />
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="vanir" revision="L5" />
-  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" revision="L5" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="vanir" revision="L5" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="vanir" revision="L5" />
-  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" revision="L5" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vanir" revision="L5" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vanir" revision="L5" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" revision="L5" />
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="vanir" revision="L5" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" />
-  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="L5" />
-  <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aospL5" remote="vanir" revision="L5" />
-  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5"/>
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/apps/Mira4U" name="packages_apps_Mira4U" remote="vanir" revision="L5" />
@@ -548,48 +548,47 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omni" revision="09cd5c220461b47743d47c47eac381efb9e60006" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="vanir" revision="L5" />
-  <project path="packages/apps/PerformanceControl" name="PerformanceControl" remote="horn3t" revision="jb2" />
-  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" />
-  <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" revision="L5" />
-  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" />
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="L5" />
-  <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="L5" />
   <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" revision="L5" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
-  <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+<!-- <project path="packages/apps/Torch" name="android_packages_apps_Torch" />  -->
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" revision="L5" />
   <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" revision="L5" />
-  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" />
-  <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="L5" />
-  <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vanir" revision="L5" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vanir" revision="L5" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" />
-  <project path="packages/screensavers/Basic" name="android_packages_screensavers_Basic" />
-  <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" />
-  <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="aospL5" remote="vanir" revision="L5" />
-  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" />
-  <project path="packages/wallpapers/Galaxy4" name="android_packages_wallpapers_Galaxy4" />
-  <project path="packages/wallpapers/HoloSpiral" name="android_packages_wallpapers_HoloSpiral" />
-  <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="android_packages_wallpapers_MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" name="android_packages_wallpapers_MusicVisualization" />
-  <project path="packages/wallpapers/NoiseField" name="android_packages_wallpapers_NoiseField" />
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="pdk" name="platform/pdk"  remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
