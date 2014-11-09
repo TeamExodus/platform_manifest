@@ -243,26 +243,26 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/curl" name="external_curl" remote="vanir" revision="L5" />
-  <project path="external/deqp" name="platform/external/deqp" remote="aosp" revision="refs/tags/android-5.0.0_r2" /> 
-  <project path="external/dexmaker" name="android_external_dexmaker" />
-  <project path="external/dhcpcd" name="android_external_dhcpcd" />
+  <project path="external/deqp" name="platform/external/deqp" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/dexmaker" name="android_external_dexmaker" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="L5" groups="pdk" />
-  <project path="external/doclava" name="android_external_doclava" />
+  <project path="external/doclava" name="android_external_doclava" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vanir" revision="L5" groups="pdk" />
-  <project path="external/easymock" name="android_external_easymock" />
-  <project path="external/ebtables" name="android_external_ebtables" />
-  <project path="external/eclipse-basebuilder" name="android_external_eclipse-basebuilder" />
-  <project path="external/eclipse-windowbuilder" name="android_external_eclipse-windowbuilder" />
+  <project path="external/easymock" name="android_external_easymock" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/ebtables" name="android_external_ebtables" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/eclipse-basebuilder" name="android_external_eclipse-basebuilder" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/eclipse-windowbuilder" name="android_external_eclipse-windowbuilder" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/elfutils" name="external_elfutils" remote="vanir" revision="L5" />
-  <project path="external/emma" name="android_external_emma" />
-  <project path="external/esd" name="android_external_esd" />
-  <project path="external/expat" name="android_external_expat" groups="pdk" />
+  <project path="external/emma" name="android_external_emma" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/esd" name="android_external_esd" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/expat" name="android_external_expat" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/exfat" name="external_exfat" remote="vanir" revision="L5" />
-  <project path="external/eyes-free" name="android_external_eyes-free" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" />
+  <project path="external/eyes-free" name="android_external_eyes-free" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/fdlibm" name="android_external_fdlibm" />
+  <project path="external/fdlibm" name="android_external_fdlibm" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/fio" name="platform/external/fio" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" />
   <project path="external/flac" name="android_external_flac" groups="pdk" />
