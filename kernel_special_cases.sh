@@ -57,9 +57,9 @@ case $1 in
         export remoterevision="vanir"
         export kernelsource="xboxfanj/kernel_msm"
     ;;
-#    hammerhead)
+    hammerhead)
 #        export remote="github"
-#        export remoterevision="jim_kk_mr2"
+        export remoterevision="staging/cm-12.0" #"jim_kk_mr2"
 #        export kernelsource="jimsth/vanir_hammerhead"
 #    ;;
     jactivelte*)
