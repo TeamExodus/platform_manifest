@@ -247,7 +247,7 @@
   <project path="external/dexmaker" name="android_external_dexmaker" revision="cm-11.0" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="L5" groups="pdk" />
-  <project path="external/doclava" name="android_external_doclava" />
+  <project path="external/doclava" name="android_external_doclava" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/easymock" name="android_external_easymock" />
