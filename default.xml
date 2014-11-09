@@ -55,7 +55,7 @@
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="L5" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
-  <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
 <!--  <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" revision="L5" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
