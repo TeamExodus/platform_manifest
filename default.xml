@@ -508,12 +508,12 @@
   <project path="hardware/ril" name="hardware_ril" remote="vanir" revision="L5" groups="pdk" />
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" revision="L5" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" revision="L5" />
-  <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" />
-  <project path="hardware/samsung_slsi/exynos5420" name="android_hardware_samsung_slsi_exynos5420" />
+  <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos5420" name="android_hardware_samsung_slsi_exynos5420" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
-  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
+  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="L5" />
