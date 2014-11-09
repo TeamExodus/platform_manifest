@@ -672,8 +672,8 @@
   <project path="vendor/semc" name="LegacyXperia/proprietary_vendor_semc" remote="github" revision="cm-11.0" />
   <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="L5" groups="vendor" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="L5" groups="vendor" />
-  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="L5" />
-  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
+<!--     <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="L5" /> -->
+<!--   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" /> -->
 
 <!-- Additional vendors -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-11.0" />
