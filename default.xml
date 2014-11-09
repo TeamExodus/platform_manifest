@@ -250,42 +250,36 @@
   <project path="external/doclava" name="android_external_doclava" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aosp44" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vanir" revision="L5" groups="pdk" />
-  <project path="external/easymock" name="android_external_easymock" />
-  <project path="external/ebtables" name="android_external_ebtables" />
-  <project path="external/eclipse-basebuilder" name="android_external_eclipse-basebuilder" />
-  <project path="external/eclipse-windowbuilder" name="android_external_eclipse-windowbuilder" />
-  <project path="external/elfutils" name="external_elfutils" remote="vanir" revision="L5" />
-  <project path="external/emma" name="android_external_emma" />
-  <project path="external/esd" name="android_external_esd" />
-  <project path="external/expat" name="android_external_expat" groups="pdk" />
-  <project path="external/exfat" name="external_exfat" remote="vanir" revision="L5" />
-  <project path="external/eyes-free" name="android_external_eyes-free" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" />
-  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/fdlibm" name="android_external_fdlibm" />
+  <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/eigen" name="platform/external/eigen" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/fio" name="platform/external/fio" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/ffmpeg" name="android_external_ffmpeg" />
-  <project path="external/flac" name="android_external_flac" groups="pdk" />
+  <project path="external/flac" name="platform/external/flac" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/fonttools" name="platform/external/fonttools" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/freetype" name="external_freetype" remote="vanir" revision="L5" groups="pdk" />
-  <project path="external/fsck/msdos" name="android_external_fsck_msdos" />
-  <project path="external/fuse" name="external_fuse" remote="vanir" revision="L5" />
-  <project path="external/gcc-demangle" name="android_external_gcc-demangle" groups="pdk" />
-  <project path="external/genext2fs" name="android_external_genext2fs" />
-  <project path="external/giflib" name="android_external_giflib" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/glide" name="platform/external/glide" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/google" name="android_external_google" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/gson" name="android_external_gson" />
-  <project path="external/gtest" name="android_external_gtest" groups="pdk" />
-  <project path="external/guava" name="external_guava" remote="vanir" revision="L5" />
-  <project path="external/hamcrest" name="android_external_hamcrest" />
-  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/heimdall" name="android_external_heimdall" />
   <project path="external/htop" name="android_external_htop" />
   <project path="external/hyphenation" name="android_external_hyphenation" />
