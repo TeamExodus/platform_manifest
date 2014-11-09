@@ -61,7 +61,7 @@ case $1 in
 #        export remote="github"
         export remoterevision="staging/cm-12.0" #"jim_kk_mr2"
 #        export kernelsource="jimsth/vanir_hammerhead"
-#    ;;
+    ;;
     jactivelte*)
         export remote="github"
         export remoteversion="cm-11.0"
