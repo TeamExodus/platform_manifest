@@ -385,7 +385,7 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
+  <project path="external/rsync" name="android_external_rsync" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" revision="L5" />
