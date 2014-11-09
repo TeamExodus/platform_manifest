@@ -82,7 +82,7 @@
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="L5" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" revision="L5" />
 <!--  <project path="device/lge/p880" name="device_lge_p880" remote="vanir" revision="L5" />
-  <project path="device/lge/v500" name="android_device_lge_v500" revision="cm-11.0" />
+  <project path="device/lge/v500" name="android_device_lge_v500" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="L5" />
   <project path="device/lge/vs985" name="android_device_lge_vs985" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" revision="L5" />
@@ -153,8 +153,8 @@
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" revision="L5" groups="device" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="vanir" revision="L5" groups="device" />
   <project path="device/samsung/u8500-common" name="Team-Exhibit/android_device_samsung_u8500-common" remote="github" revision="kk44" groups="ste" />
-  <project path="device/semc/msm7x30-common" name="LegacyXperia/android_device_semc_msm7x30-common" remote="github" revision="cm-11.0"  />
-  <project path="device/semc/mogami-common" name="LegacyXperia/android_device_semc_mogami-common" remote="github" revision="cm-11.0" />
+  <project path="device/semc/msm7x30-common" name="LegacyXperia/android_device_semc_msm7x30-common" remote="github" />
+  <project path="device/semc/mogami-common" name="LegacyXperia/android_device_semc_mogami-common" remote="github" />
   <project path="device/semc/anzu" name="LegacyXperia/android_device_semc_anzu" remote="github" revision="cm-11.0" />
   <project path="device/semc/coconut" name="LegacyXperia/android_device_semc_coconut" remote="github" revision="cm-11.0" />
   <project path="device/semc/haida" name="LegacyXperia/android_device_semc_haida" remote="github" revision="cm-11.0" />
@@ -240,7 +240,7 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/curl" name="external_curl" remote="vanir" revision="L5" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" revision="refs/tags/android-5.0.0_r2" /> 
-  <project path="external/dexmaker" name="android_external_dexmaker" revision="cm-11.0" />
+  <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
@@ -453,7 +453,6 @@
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vanir" revision="L5" groups="pdk" />
-  <project path="frameworks/opt/telephony-msim" name="android_frameworks_opt_telephony-msim" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
