@@ -3,7 +3,7 @@
 
 ## all non-specified kernels are assumed to be from CyanogenMod
 export remote="cm"
-export remoterevision="cm-11.0"
+export remoterevision="cm-12.0"
 
 case $1 in 
     anzu|coconut|haida|hallon|iyokan|mango|satsuma|smultron|urushi)

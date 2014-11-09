@@ -24,7 +24,7 @@
           fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="horn3t"
           fetch="https://github.com/horn3t/" />
-  <default revision="cm-11.0"
+  <default revision="cm-12.0"
           sync-j="12"
           remote="cm" />
 
