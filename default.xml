@@ -514,8 +514,7 @@
   <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" revision="cm-11.0" />
-  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
-  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+ <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" revision="refs/tags/android-5.0.0_r2" />  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="L5" />
   <project path="libcore" name="libcore" remote="vanir" revision="L5" />
   <project path="libnativehelper" name="android_libnativehelper" />
