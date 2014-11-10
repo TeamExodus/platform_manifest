@@ -485,7 +485,7 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" revision="L5" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="aospL5 qcom" remote="vanir" revision="L5"/>
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="L5" groups="qcom" />
