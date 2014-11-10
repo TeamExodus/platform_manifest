@@ -641,7 +641,8 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel"  groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk"  groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools"  groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />  <project path="system/core" name="system_core" remote="vanir" revision="L5" groups="pdk" />
+  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="system/core" name="system_core" remote="vanir" revision="L5" groups="pdk" />
   <project path="system/extras" name="system_extras" remote="vanir" revision="L5" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="system/media" name="system_media" groups="pdk" remote="vanir" revision="L5" />
