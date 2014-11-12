@@ -486,15 +486,12 @@
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/audio-caf/legacy" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8974" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="aospL5 qcom" remote="vanir" revision="L5"/>
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="vanir" revision="L5" groups="qcom" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8974" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" />
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" revision="L5" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="L5" groups="qcom" />
@@ -502,6 +499,8 @@
   <project path="hardware/qcom/media/msm8960" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-aosp" />
   <project path="hardware/qcom/media/msm8974" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-aosp" />
   <project path="hardware/qcom/media/msm8084" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-aosp" />
+  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
