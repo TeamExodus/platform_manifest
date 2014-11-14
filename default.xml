@@ -208,7 +208,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/chromium_org" name="android_external_chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
@@ -422,7 +422,7 @@
   <project path="external/spongycastle" name="android_external_spongycastle" groups="pdk" />
   <project path="external/sqlite" name="external_sqlite" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/square/dagger" name="android_external_square_dagger" />
- <project path="external/square/javawriter" name="android_external_square_javawriter" />
+  <project path="external/square/javawriter" name="android_external_square_javawriter" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/stlport" name="external_stlport" remote="vanir" revision="L5" />
