@@ -563,7 +563,7 @@
 <!-- <project path="packages/apps/Torch" name="android_packages_apps_Torch" />  -->
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" revision="L5" />
-  <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" revision="L5" />
+<!-- <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" revision="L5" />   -->
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="L5" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
