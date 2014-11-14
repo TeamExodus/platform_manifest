@@ -556,7 +556,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="L5" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" revision="L5" />
-  <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" revision="L5" />
+<!--    <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" revision="L5" /> -->
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
