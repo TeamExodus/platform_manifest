@@ -193,7 +193,7 @@
   <project path="external/bash" name="external_bash" remote="vanir" revision="L5" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="vanir" revision="L5" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="external/busybox" name="external_busybox" remote="vanir" revision="L5" />
