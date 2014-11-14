@@ -543,7 +543,6 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5"/>
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
-  <project path="packages/apps/Mira4U" name="packages_apps_Mira4U" remote="vanir" revision="L5" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="L5" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="L5" />
   <project path="packages/apps/OMA-DM" name="platform/packages/apps/OMA-DM" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
