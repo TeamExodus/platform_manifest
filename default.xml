@@ -579,7 +579,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="aosp" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="aospL5" remote="vanir" revision="L5" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
