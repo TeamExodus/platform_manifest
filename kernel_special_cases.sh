@@ -5,7 +5,7 @@
 export remote="cm"
 export remoterevision="cm-12.0"
 
-case $1 in 
+case $1 in
     anzu|coconut|haida|hallon|iyokan|mango|satsuma|smultron|urushi)
         export remote="github"
         export kernelsource="LegacyXperia/android_kernel_semc_msm7x30"
@@ -58,9 +58,9 @@ case $1 in
         export kernelsource="xboxfanj/kernel_msm"
     ;;
     hammerhead)
-#        export remote="github"
-        export remoterevision="staging/cm-12.0" #"jim_kk_mr2"
-#        export kernelsource="jimsth/vanir_hammerhead"
+        export remote="github"
+        export remoterevision="jim_l5"
+        export kernelsource="jimsth/vanir_hammerhead"
     ;;
     jactivelte*)
         export remote="github"
