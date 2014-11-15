@@ -77,11 +77,11 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_samsung_exynos5420"
     ;;
-    klte*)
-        export remote="vanir"
-        export remoterevision="kk44"
-        export kernelsource="kernel_samsung_klte"
-    ;;
+#    klte*)
+#        export remote="vanir"
+#        export remoterevision="kk44"
+#        export kernelsource="kernel_samsung_klte"
+#    ;;
     dlx)
         export remote="vanir"
         export remoterevision="kk44"
