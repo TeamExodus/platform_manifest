@@ -67,11 +67,6 @@ case $1 in
         export remoteversion="cm-11.0"
         export kernelsource="spegelius/android_kernel_samsung_jactivelte"
     ;;
-    jflte*)
-        export remote="vanir"
-        export remoterevision="kk44"
-        export kernelsource="kernel_samsung_jf"
-    ;;
     klimtwifi)
         export remote="vanir"
         export remoterevision="kk44"
