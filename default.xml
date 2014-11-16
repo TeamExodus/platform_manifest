@@ -199,7 +199,7 @@
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="vanir" revision="L5" />
-  <project path="external/bouncycastle" name="android_external_bouncycastle" groups="pdk" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/busybox" name="external_busybox" remote="vanir" revision="L5" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
@@ -248,9 +248,9 @@
   <project path="external/curl" name="external_curl" remote="vanir" revision="L5" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" revision="refs/tags/android-5.0.0_r6" /> 
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="external/dhcpcd" name="android_external_dhcpcd" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" revision="L5" groups="pdk" />
-  <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/dropbear" name="android_external_dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aospL5" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="vanir" revision="L5" groups="pdk" />
@@ -261,17 +261,17 @@
   <project path="external/eigen" name="platform/external/eigen" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/elfutils" name="external_elfutils" remote="vanir" revision="L5" />  
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fw" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/exfat" name="android_external_exfat" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fw" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/fio" name="platform/external/fio" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk-cw-fs" />
   <project path="external/fuse" name="android_external_fuse" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
@@ -288,17 +288,17 @@
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/guava" name="external_guava" remote="vanir" revision="L5" />  
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/heimdall" name="android_external_heimdall" />
   <project path="external/htop" name="android_external_htop" />
   <project path="external/icu" name="android_external_icu" groups="pdk" />
   <project path="external/iproute2" name="android_external_iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/iptables" name="android_external_iptables" groups="pdk-cw-fs" />
   <project path="external/iputils" name="external_iputils" remote="vanir" revision="L5" groups="aospL5" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" />
-  <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/jarjar" name="android_external_jarjar" groups="pdk" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
@@ -326,7 +326,7 @@
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/libedit" name="platform/external/libedit" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" /> 
@@ -345,10 +345,10 @@
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
-  <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/libtar" name="android_external_libtar" />
-  <project path="external/libusb" name="android_external_libusb" />
+  <project path="external/libusb" name="android_external_libusb" groups="pdk-cw-fs" />
   <project path="external/libusbx" name="android_external_libusbx" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
@@ -367,7 +367,7 @@
   <project path="external/lzo" name="android_external_lzo" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
@@ -384,11 +384,11 @@
   <project path="external/nfacct" name="platform/external/nfacct" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/nist-sip" name="android_external_nist-sip" groups="pdk-cw-fs" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/okhttp" name="android_external_okhttp" groups="pdk-cw-fw" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/openssl" name="external_openssl" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" revision="L5" />
@@ -396,7 +396,7 @@
   <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/pigz" name="android_external_pigz" />
-  <project path="external/pixman" name="platform/external/pixman" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/pciutils" name="android_external_pciutils" />
   <!-- <project path="external/powertop" name="android_external_powertop" />  -->
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
@@ -415,7 +415,7 @@
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" revision="L5" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/skia" name="external_skia" remote="vanir" revision="L5" />
-  <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/sonivox" name="external_sonivox" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/speex" name="external_speex" remote="vanir" revision="L5" groups="pdk" />
@@ -431,7 +431,7 @@
   <project path="external/svox" name="android_external_svox" groups="pdk-cw-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/tcpdump" name="external_tcpdump" remote="vanir" revision="L5" />
-  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
+  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
