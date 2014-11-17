@@ -112,7 +112,7 @@
 <!--  <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" /> -->
   <project path="device/samsung/golden" name="Team-Exhibit/android_device_samsung_golden" remote="github" revision="kk44" />
   <project path="device/samsung/hlte" name="device_samsung_hlte" groups="hlte_device" remote="vanir" revision="L5" />
-  <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
+<!--  <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" /> -->
   <project path="device/samsung/hlteusc" name="android_device_samsung_hlteusc" groups="hlte_device" />
   <project path="device/samsung/hltevzw" name="android_device_samsung_hltevzw" groups="hlte_device" />
   <project path="device/samsung/hlte-common" name="android_device_samsung_hlte-common" groups="hlte_device" />
