@@ -82,7 +82,7 @@
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="L5" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" revision="L5" />
   <project path="device/lge/p880" name="device_lge_p880" remote="vanir" revision="L5" />
-  <project path="device/lge/v500" name="android_device_lge_v500" />
+<!--  <project path="device/lge/v500" name="android_device_lge_v500" /> -->
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" revision="L5" />
   <project path="device/lge/vs985" name="android_device_lge_vs985" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" revision="L5" />
