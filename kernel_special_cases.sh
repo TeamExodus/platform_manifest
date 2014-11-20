@@ -117,11 +117,6 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_asus_tf700t"
     ;;
-    toro|toroplus|maguro)
-        export remote="github"
-        export remoterevision="jim_mr2"
-        export kernelsource="jimsth/vanir_tuna"
-    ;;
     wx_na_wf)
         export remote="vanir"
         export remoterevision="kk44"
