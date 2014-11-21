@@ -108,7 +108,7 @@
   <project path="device/samsung/codinalte" name="Team-Exhibit/android_device_samsung_codinalte" remote="github" revision="kk44" groups="ste" />
   <project path="device/samsung/d2lte" name="android_device_samsung_d2lte" groups="GS3_device"  />
   <project path="device/samsung/d710" name="android_device_samsung_d710" groups="d710_device" />
-  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" groups="d710_device" />
+  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" revision="cm-11.0" groups="d710_device" />
 <!--  <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" /> -->
   <project path="device/samsung/golden" name="Team-Exhibit/android_device_samsung_golden" remote="github" revision="kk44" />
   <project path="device/samsung/hlte" name="device_samsung_hlte" groups="hlte_device" remote="vanir" revision="L5" />
