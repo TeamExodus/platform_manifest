@@ -78,7 +78,7 @@
   <project path="device/lge/d851" name="android_device_lge_d851" />
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" revision="L5" />
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" revision="L5" />
-<!--  <project path="device/lge/ls990" name="android_device_lge_ls990" /> -->
+  <project path="device/lge/ls990" name="android_device_lge_ls990" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="L5" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" revision="L5" />
   <project path="device/lge/p880" name="device_lge_p880" remote="vanir" revision="L5" />
@@ -90,7 +90,6 @@
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/moto_msm8960" name="device_motorola_moto_msm8960" remote="vanir" revision="L5" />
   <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" revision="L5" device="msm8960_jbbl" />
-<!--  <project path="device/motorola/moto_msm8960dt" name="android_device_motorola_moto_msm8960dt" /> -->
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="L5" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" revision="L5" />
   <project path="device/nvidia/shieldtablet" name="device_nvidia_shieldtablet" remote="vanir" revision="L5" />
@@ -135,7 +134,7 @@
   <project path="device/samsung/klteusc" name="android_device_samsung_klteusc" />
   <project path="device/samsung/kltevzw" name="android_device_samsung_kltevzw" />
   <project path="device/samsung/kona-common" name="device_samsung_kona-common" remote="vanir" revision="L5" />
-<!--  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="i9100g, p3110" /> -->
+  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="i9100g, p3110" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" revision="L5" groups="device" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="vanir" revision="L5" groups="device" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" revision="L5" groups="device" />
