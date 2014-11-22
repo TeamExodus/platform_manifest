@@ -6,10 +6,6 @@ export remote="cm"
 export remoterevision="cm-12.0"
 
 case $1 in
-    anzu|coconut|haida|hallon|iyokan|mango|satsuma|smultron|urushi)
-        export remote="github"
-        export kernelsource="LegacyXperia/android_kernel_semc_msm7x30"
-    ;;
     apache)
         export remote="github"
         export kernelsource="Motorhead1991/samsung-kernel-msm7x30"
