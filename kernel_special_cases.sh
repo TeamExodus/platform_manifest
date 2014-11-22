@@ -79,7 +79,7 @@ case $1 in
     ;;
     dlx)
         export remote="vanir"
-        export remoterevision="kk44"
+        export remoterevision="L5"
         export kernelsource="kernel_htc_dlx"
     ;;
     m7*)
