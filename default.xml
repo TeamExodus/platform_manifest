@@ -20,6 +20,8 @@
           fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="horn3t"
           fetch="https://github.com/horn3t/" />
+  <remote name="samba"
+          fetch="git://git.samba.org/" />
   <default revision="cm-12.0"
           sync-j="12"
           remote="cm" />
@@ -36,6 +38,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="bootable/recovery-philz" name="PhilZ-cwm6/philz_touch_cwm6" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" revision="L5" />
+  <project path="ccache" name="ccache.git" remote="samba" revision="master" />
   <project path="cts" name="platform/cts"  remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="dalvik" name="dalvik" remote="vanir" revision="L5" />
   <project path="development" name="android_development" />
