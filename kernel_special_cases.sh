@@ -34,7 +34,7 @@ case $1 in
     ;;
     find5|n1)
         export remote="vanir"
-        export remoterevision="kk44"
+        export remoterevision="L5"
         export kernelsource="kernel_oppo_n1"
     ;;
     galaxysmtd)
