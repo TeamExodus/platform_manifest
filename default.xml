@@ -176,7 +176,7 @@
   <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/huashan" name="android_device_sony_huashan" />
   <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" />
-<!--  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" /> -->
+  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" />
   <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" revision="L5" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="L5" />
   <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" />
@@ -406,7 +406,7 @@
   <project path="external/pigz" name="android_external_pigz" />
   <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/pciutils" name="android_external_pciutils" />
-  <!-- <project path="external/powertop" name="android_external_powertop" />  -->
+  <project path="external/powertop" name="android_external_powertop" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
