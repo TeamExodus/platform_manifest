@@ -62,6 +62,11 @@ case $1 in
         export remoterevision="jim_l5"
         export kernelsource="jimsth/vanir_hammerhead"
     ;;
+    flo)
+        export remote="github"
+        export remoterevision="L5"
+        export kernelsource="AlmightyMegadeth00/kernel_google_msm"
+    ;;
     jactivelte*)
         export remote="github"
         export remoteversion="cm-11.0"
