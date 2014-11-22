@@ -32,15 +32,20 @@ case $1 in
     e980)
         export kernelsource="lge-kernel-gproj"
     ;;
+    dlx)
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_htc_dlx"
+    ;;
+    falcon)
+        export remote="github"
+        export remoterevision="InSaNiTy"
+        export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_msm8226"
+    ;;
     find5|n1)
         export remote="vanir"
         export remoterevision="L5"
         export kernelsource="kernel_oppo_n1"
-    ;;
-    galaxysmtd)
-        export kernelsource="kernel_samsung_aries"
-        export remote="vanir"
-        export remoterevision="kk44"
     ;;
     golden)
         export remote="github"
@@ -77,11 +82,6 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="kernel_samsung_klte"
     ;;
-    dlx)
-        export remote="vanir"
-        export remoterevision="L5"
-        export kernelsource="kernel_htc_dlx"
-    ;;
     m7*)
         export remote="github"
         export remoterevision="InSaNiTy"
@@ -116,11 +116,6 @@ case $1 in
         export remote="vanir"
         export remoterevision="kk44"
         export kernelsource="kernel_nvidia_tn8"
-    ;;
-    falcon)
-        export remote="github"
-        export remoterevision="InSaNiTy"
-        export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_msm8226"
     ;;
 
 esac

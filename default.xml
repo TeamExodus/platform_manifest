@@ -64,8 +64,8 @@
   <project path="device/htc/m7" name="device_htc_m7" remote="vanir" revision="L5" />
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" revision="L5" />
   <project path="device/htc/m8" name="device_htc_m8" remote="vanir" revision="L5" />
-  <project path="device/htc/ville" name="cannondalev2000/device_htc_ville" remote="github" revision="kk44" />
-  <project path="device/htc/evita" name="cannondalev2000/device_htc_evita" remote="github" revision="kk44" />
+  <project path="device/htc/ville" name="android_device_htc_ville" />
+  <project path="device/htc/evita" name="android_device_htc_evita" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="L5" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="L5" />
   <project path="device/lge/e980" name="device_lge_e980" remote="vanir" revision="L5" />
@@ -107,12 +107,8 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" revision="L5" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
-<!--  <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" /> -->
   <project path="device/samsung/codinalte" name="Team-Exhibit/android_device_samsung_codinalte" remote="github" revision="kk44" groups="ste" />
   <project path="device/samsung/d2lte" name="android_device_samsung_d2lte" groups="GS3_device"  />
-  <project path="device/samsung/d710" name="android_device_samsung_d710" groups="d710_device" />
-  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" revision="cm-11.0" groups="d710_device" />
-<!--  <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" /> -->
   <project path="device/samsung/golden" name="Team-Exhibit/android_device_samsung_golden" remote="github" revision="kk44" />
   <project path="device/samsung/hlte" name="device_samsung_hlte" groups="hlte_device" remote="vanir" revision="L5" />
 <!--  <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
