@@ -89,17 +89,12 @@ case $1 in
     ;;
     m8)
         export remote="github"
-        export remoterevision="kk44"
+        export remoterevision="lp5.0"
         export kernelsource="xboxfanj/android_kernel_htc_msm8974"
     ;;
-    nicki)
-         export kernelsource="kernel_sony_msm8x27"
-         export remote="vanir"
-         export remoterevision="kk44"
-     ;;
     p880)
         export remote="cm"
-        export remoterevision="cm-11.0"
+        export remoterevision="cm-12.0"
         export kernelsource="lge-kernel-p880"
     ;;
     skomer)
@@ -109,7 +104,7 @@ case $1 in
     ;;
     taoshan)
         export remote="github"
-        export remoterevision="android-4.4"
+        export remoterevision="android-5.0"
         export kernelsource="omnirom/android_kernel_sony_msm8930"
     ;;
     tf700t)
