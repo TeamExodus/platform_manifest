@@ -99,6 +99,11 @@ case $1 in
         export remoterevision="android-5.0"
         export kernelsource="omnirom/android_kernel_sony_msm8930"
     ;;
+    toro|toroplus|mahurp)
+        export remote="github"
+        export remoterevision="aosp-5.0"
+        export kernelsource="MWisBest/android_kernel_samsung_tuna"
+    ;;
     tf700t)
         export remote="vanir"
         export remoterevision="kk44"
