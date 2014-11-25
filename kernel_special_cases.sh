@@ -101,8 +101,8 @@ case $1 in
     ;;
     toro|toroplus|mahurp)
         export remote="github"
-        export remoterevision="aosp-5.0"
-        export kernelsource="MWisBest/android_kernel_samsung_tuna"
+        export remoterevision="stable-newpvr"
+        export kernelsource="Ziyann/omap"
     ;;
     tf700t)
         export remote="vanir"
