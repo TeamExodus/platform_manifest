@@ -260,7 +260,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fw" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" />
   <project path="external/fio" name="platform/external/fio" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/flac" name="android_external_flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
