@@ -551,7 +551,7 @@
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5"/>
   
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="L5" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="L5" />
   <project path="packages/apps/OMA-DM" name="android_packages_apps_OMA-DM" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
@@ -571,7 +571,7 @@
 <!-- <project path="packages/apps/Torch" name="android_packages_apps_Torch" />  -->
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" revision="L5" />
-<!-- <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" revision="L5" />   -->
+ <project path="packages/apps/VanirUpdater" name="packages_apps_VanirUpdater" remote="vanir" revision="L5" /> 
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="vanir" revision="L5" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
