@@ -310,10 +310,10 @@
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/klogripper" name="external_klogripper" remote="vanir" revision="L5" />
   <project path="external/kissfft" name="android_external_kissfft" />
-  <project path="external/koush/ion" name="koush/ion" remote="github" revision="master" />
-  <project path="external/koush/AndroidAsync" name="koush/AndroidAsync" remote="github" revision="master" />
+  <project path="external/koush/ion" name="ion" />
+  <project path="external/koush/AndroidAsync" name="AndroidAsync" />
   <project path="external/koush/Superuser" name="Superuser" remote="vanir" revision="L5" />
-  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="support" />
+  <project path="external/koush/Widgets" name="Widgets" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
