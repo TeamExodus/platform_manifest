@@ -119,7 +119,6 @@
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="vanir" revision="L5" groups="i9100g_device" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="L5" groups="GS3_device" />
   <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="L5" groups="GS3_device" />
-<!--  <project path="device/samsung/i9500" name="android_device_samsung_i9500" /> -->
   <project path="device/samsung/janice" name="device_samsung_janice" remote="vanir" revision="L5" groups="ste" />
   <project path="device/samsung/jflte" name="android_device_samsung_jflte" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" />
@@ -133,7 +132,6 @@
   <project path="device/samsung/klteusc" name="android_device_samsung_klteusc" />
   <project path="device/samsung/kltevzw" name="device_samsung_kltevzw" remote="vanir" revision="L5" />
   <project path="device/samsung/kona-common" name="device_samsung_kona-common" remote="vanir" revision="L5" />
-<!--  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="i9100g, p3110" /> -->
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" revision="L5" groups="device" />
   <project path="device/samsung/maguro" name="Ziyann/android_device_samsung_maguro" remote="github" groups="tuna" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" revision="L5" groups="device" />
@@ -145,8 +143,6 @@
   <project path="device/samsung/n5110" name="android_device_samsung_n5110" />
   <project path="device/samsung/n5120" name="ryukiri/android_device_samsung_n5120" remote="github" revision="kk44" />
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="vanir" revision="L5" />
-<!--  <project path="device/samsung/p3100" name="device_samsung_p3100" remote="vanir" revision="L5" groups="p3110" />
-  <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="p3110" /> -->
   <project path="device/samsung/skomer" name="Team-Exhibit/android_device_samsung_skomer" remote="github" revision="kk44" groups="ste" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" revision="L5" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="L5" groups="device" />
