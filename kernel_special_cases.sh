@@ -99,11 +99,6 @@ case $1 in
         export remoterevision="android-5.0"
         export kernelsource="omnirom/android_kernel_sony_msm8930"
     ;;
-    tf700t)
-        export remote="vanir"
-        export remoterevision="kk44"
-        export kernelsource="kernel_asus_tf700t"
-    ;;
     wx_na_wf)
         export remote="vanir"
         export remoterevision="kk44"
