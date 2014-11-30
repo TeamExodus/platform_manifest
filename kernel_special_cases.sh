@@ -13,7 +13,7 @@ case $1 in
     ;;
     d80*|ls980|vs980)
         export remote="vanir"
-        export remoterevision="kk44"
+        export remoterevision="L5"
         export kernelsource="kernel_lge_msm8974"
     ;;
     e980)
