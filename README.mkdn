@@ -1,7 +1,7 @@
 Team Vanir's repo
 ===========
 
-This branch is for Vanir's android-5.0.0_r6 based ROM
+This branch is for Vanir's L5 branch, our android-5.0.0 based ROM
 
 
 Getting Started
@@ -23,8 +23,7 @@ Then to sync up:
     
 Our gerrit:
 
-	http://vaniraosp.goo.im/#/q/status:open,n,z
-	(Backup/Temp gerrit)  http://gerrit.vanir.co:8080/#/q/status:open
+	http://gerrit.vanir.co:8080/#/q/status:open
 
 Our Community:
 
@@ -41,10 +40,6 @@ Vanir developer Resources:
 [TUT] initializing the build environment
 
 	http://pastebin.com/1DD9ZfQ4
-	
-*USE THIS LINK FOR CORRECT ORACLE SUN JAVA INSTALL:
-
-	http://www.webupd8.org/2012/11/oracle-sun-java-6-installer-available.html
 
 [TUT] capturing logcats
 	
