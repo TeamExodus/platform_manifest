@@ -79,11 +79,6 @@ case $1 in
         export remoterevision="InSaNiTy"
         export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_m7"
     ;;
-    m8)
-        export remote="github"
-        export remoterevision="lp5.0"
-        export kernelsource="xboxfanj/android_kernel_htc_msm8974"
-    ;;
     p880)
         export remote="cm"
         export remoterevision="cm-12.0"
