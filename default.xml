@@ -122,7 +122,6 @@
   <project path="device/samsung/i605" name="android_device_samsung_i605" groups="device" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="L5" groups="GS3_device" />
   <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="L5" groups="GS3_device" />
-  <!-- <project path="device/samsung/i9500" name="android_device_samsung_i9500" groups="GS4_device /> -->
   <project path="device/samsung/janice" name="device_samsung_janice" remote="vanir" revision="L5" groups="ste" />
   <project path="device/samsung/jflte" name="android_device_samsung_jflte" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" />
