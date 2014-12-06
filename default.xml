@@ -235,7 +235,7 @@
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/clang" name="external_clang" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="vanir" revision="L5" />
+  <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="vanir" revision="L5" />
   <project path="external/connectivity" name="android_external_connectivity" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/curl" name="external_curl" remote="vanir" revision="L5" />
