@@ -111,8 +111,9 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="device/samsung/codinalte" name="Team-Exhibit/android_device_samsung_codinalte" remote="github" revision="cm-12.0" groups="ste" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device"  />
-  <project path="device/samsung/d2lte" name="android_device_samsung_d2lte" groups="GS3_device" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
+  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
   <project path="device/samsung/golden" name="Team-Exhibit/android_device_samsung_golden" remote="github" revision="kk44" />
   <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
