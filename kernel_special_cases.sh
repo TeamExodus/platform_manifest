@@ -25,9 +25,9 @@ case $1 in
         export kernelsource="kernel_htc_dlx"
     ;;
     falcon)
-        export remote="github"
-        export remoterevision="InSaNiTy"
-        export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_msm8226"
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_motorola_msm8226"
     ;;
     find5|n1)
         export remote="vanir"
