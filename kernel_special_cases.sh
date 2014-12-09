@@ -79,6 +79,11 @@ case $1 in
         export remoterevision="InSaNiTy"
         export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_m7"
     ;;
+    moto_msm8960*)
+        export kernelsource="android_kernel_motorola_msm8960dt-common"
+        export remote="cm"
+        export revision="cm-12.0"
+    ;;
     p880)
         export remote="cm"
         export remoterevision="cm-12.0"
@@ -104,5 +109,4 @@ case $1 in
         export remoterevision="kk44"
         export kernelsource="kernel_nvidia_tn8"
     ;;
-
 esac
