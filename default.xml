@@ -5,7 +5,7 @@
           fetch="https://github.com/VanirAOSP/"
           review="gerrit.vanir.co:8080" />
   <remote name="commotio"
-          fetch="https://github.com/DHOMD/commotio/"
+          fetch="https://github.com/DHOMD/"
           review="gerrit.vanir.co:8080" />
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
