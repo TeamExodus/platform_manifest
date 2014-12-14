@@ -4,6 +4,9 @@
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/"
           review="gerrit.vanir.co:8080" />
+  <remote name="commotio"
+          fetch="https://github.com/DHOMD/"
+          review="gerrit.vanir.co:8080" />
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
@@ -97,6 +100,7 @@
   <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" revision="L5" device="msm8960_jbbl" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="L5" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" revision="L5" />
+  <project path="device/motorola/shamu" name="N6-Dev-Team/android_device_motorola_shamu" remote="github" />
   <project path="device/nvidia/shieldtablet" name="device_nvidia_shieldtablet" remote="vanir" revision="L5" />
   <project path="device/nvidia/wx_na_wf" name="device_nvidia_wx_na_wf" remote="vanir" revision="L5" />
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" revision="L5" />
@@ -504,7 +508,6 @@
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" revision="L5" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="vanir" revision="L5" groups="qcom" />
   <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/media-caf/msm8226" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8226" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8960" />
@@ -532,6 +535,7 @@
   <project path="libcore" name="libcore" remote="vanir" revision="L5" />
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="vanir" revision="L5" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="vanir" revision="L5" />
@@ -545,7 +549,6 @@
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vanir" revision="L5" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vanir" revision="L5" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" revision="L5" />
-  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="vanir" revision="L5" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" revision="L5" />
@@ -677,6 +680,7 @@
   <project path="vendor/extra" name="vendor_qcom_opt" remote="vanir" revision="L5" />
   <project path="vendor/samsung" name="vendor_samsung" remote="vanir" revision="L5" groups="vendor" />
   <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="L5" groups="vendor" />
+  <project path="vendor/commotio" name="commotio" remote="commotio" revision="5" groups="vendor" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="L5" groups="vendor" />
 <!--     <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="L5" /> -->
 <!--   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" /> -->
