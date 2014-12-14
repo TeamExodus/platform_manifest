@@ -1,7 +1,7 @@
-Team Vanir's repo
+Team Vanir/Exodus repo
 ===========
 
-This branch is for Vanir's L5 branch, our android-5.0.0 based ROM
+This branch is for Vanir's EXODUS branch, our android-5.0.1 based ROM
 
 
 Getting Started
@@ -9,13 +9,13 @@ Getting Started
 
 Please see the [Android source page](http://source.android.com/source/index.html) for building instructions.
 
-To initialize your local repository using my trees, use the following command:
+To initialize your local Exodus repository using my trees, use the following command:
 
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b L5
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b EXODUS
 
 Mac Users: initialize your local repository using:
 
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b L5 -g darwin
+    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b EXODUS -g darwin
 
 Then to sync up:
 
@@ -23,37 +23,9 @@ Then to sync up:
     
 Our gerrit:
 
-	http://gerrit.vanir.co:8080/#/q/status:open
+	http://gerrit.vanir.co:8080/#/q/status:open (push to refs/for/EXODUS)
 
 Our Community:
 
 	https://plus.google.com/communities/111378032131473754160
-
-Translations:
-
-[TUT] How to translate strings
-
-    http://pastebin.com/tV4rrvFV
-
-Vanir developer Resources:
-
-[TUT] initializing the build environment
-
-	http://pastebin.com/1DD9ZfQ4
-
-[TUT] capturing logcats
-	
-	http://pastebin.com/mqF7Ddz4
-
-[TUT] cherry-picking
-
-	http://pastebin.com/StEbCWEY
-	
-[TUT] basic git commands & examples of use
-
-	http://pastebin.com/rLaGw0zj
-	
-[TUT] submitting to gerrit for review
-
-	http://pastebin.com/7jPnM4mv
 
