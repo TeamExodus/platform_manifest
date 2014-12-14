@@ -9,13 +9,9 @@ Getting Started
 
 Please see the [Android source page](http://source.android.com/source/index.html) for building instructions.
 
-To initialize your mainline Vanir trees, use the following command:
+To initialize your local repository using my trees, use the following command:
 
     repo init -u git://github.com/VanirAOSP/platform_manifest.git -b L5
-
-To initialize Vanir-EXODUS trees, use the following command:
-
-    repo init -u git://github.com/VanirAOSP/platform_manifest.git -b EXODUS
 
 Mac Users: initialize your local repository using:
 
