@@ -37,6 +37,7 @@
   <project path="build" name="build" remote="vanir" revision="EXODUS" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
+    <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
   </project>
 
   <!-- Standard vanir build projects -->
