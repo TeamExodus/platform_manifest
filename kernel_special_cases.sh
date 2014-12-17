@@ -51,8 +51,8 @@ case $1 in
     ;;
     flo|deb|mako)
         export remote="github"
-        export remoterevision="L5"
-        export kernelsource="AlmightyMegadeth00/kernel_google_msm"
+        export remoterevision="vanir"
+        export kernelsource="kernel_google_msm"
     ;;
     jactivelte*)
         export remote="github"
