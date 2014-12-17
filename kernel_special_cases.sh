@@ -90,8 +90,9 @@ case $1 in
         export kernelsource="lge-kernel-p880"
     ;;
     shamu)
-        export remote="github"
-        export kernelsource="N6-Dev-Team/android_kernel_motorola_shamu"
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_moto_shamu"
     ;;
     skomer)
         export remote="github"
