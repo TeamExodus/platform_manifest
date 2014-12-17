@@ -7,9 +7,9 @@ export remoterevision="cm-12.0"
 
 case $1 in
     codinalte)
-        export remote="github"
-        export remoterevision="kk44"
-        export kernelsource="Team-Exhibit/android_kernel_samsung_codinalte"
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_samsung_codinalte"
     ;;
     d80*|ls980|vs980)
         export remote="vanir"
@@ -46,8 +46,8 @@ case $1 in
     ;;
     hammerhead)
         export remote="github"
-        export remoterevision="jim_l5"
-        export kernelsource="jimsth/vanir_hammerhead"
+        export remoterevision="vanir"
+        export kernelsource="kernel_lge_hammerhead"
     ;;
     flo|deb|mako)
         export remote="github"
