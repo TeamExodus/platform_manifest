@@ -46,8 +46,8 @@ case $1 in
     ;;
     hammerhead)
         export remote="github"
-        export remoterevision="jim_l5"
-        export kernelsource="jimsth/vanir_hammerhead"
+        export remoterevision="vanir"
+        export kernelsource="kernel_lge_hammerhead"
     ;;
     flo|deb|mako)
         export remote="github"
