@@ -100,7 +100,7 @@
   <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" revision="L5" device="msm8960_jbbl" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="L5" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" revision="L5" />
-  <project path="device/motorola/shamu" name="N6-Dev-Team/android_device_motorola_shamu" remote="github" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" revision="L5" />
   <project path="device/nvidia/shieldtablet" name="device_nvidia_shieldtablet" remote="vanir" revision="L5" />
   <project path="device/nvidia/wx_na_wf" name="device_nvidia_wx_na_wf" remote="vanir" revision="L5" />
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" revision="L5" />
@@ -674,6 +674,7 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" revision="cm-11.0" />
   <project path="vendor/htc" name="vendor_htc" remote="vanir" revision="L5" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="L5" />
+  <project path="vendor/moto" name="vendor_moto" remote="vanir" revision="L5" groups="vendor" />
   <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="L5" groups="vendor" />
   <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-12.0" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-12.0" />
