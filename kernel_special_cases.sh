@@ -45,8 +45,8 @@ case $1 in
         export kernelsource="xboxfanj/kernel_msm"
     ;;
     hammerhead)
-        export remote="github"
-        export remoterevision="vanir"
+        export remote="vanir"
+        export remoterevision="L5"
         export kernelsource="kernel_lge_hammerhead"
     ;;
     flo|deb|mako)
