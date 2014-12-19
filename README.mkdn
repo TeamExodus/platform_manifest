@@ -16,6 +16,8 @@ Mac Users: initialize your local repository using:
 
     repo init -u git://github.com/VanirAOSP/platform_manifest.git -b EXODUS -g darwin
 
+(The basic vanir branch is L5, and DHO's commotio branch commotio is available to sync also)
+
 Then to sync up:
 
     repo sync -j8
