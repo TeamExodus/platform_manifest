@@ -80,9 +80,9 @@ case $1 in
         export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_m7"
     ;;
     m8)
-        export remote="github"
+        export remote="vanir"
         export remoterevision="L5"
-        export kernelsource="wyldstallyns/B14CKB1RD_kernel_m8"
+        export kernelsource="kernel_htc_msm8974"
     ;;
     moto_msm8960*)
         export kernelsource="android_kernel_motorola_msm8960dt-common"
