@@ -114,9 +114,4 @@ case $1 in
         export remoterevision="stable-newpvr"
         export kernelsource="Ziyann/omap"
     ;;
-    wx_na_wf)
-        export remote="vanir"
-        export remoterevision="kk44"
-        export kernelsource="kernel_nvidia_tn8"
-    ;;
 esac
