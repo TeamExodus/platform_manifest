@@ -483,7 +483,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-<<<<<<< HEAD
   <project path="frameworks/rs" name="frameworks_rs" remote="vanir" revision="L5" />
   <project path="frameworks/support" name="frameworks_support" remote="vanir" revision="L5" />
   <project path="frameworks/testing" name="android_frameworks_testing" />
