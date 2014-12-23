@@ -511,17 +511,20 @@
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/audio-caf/msm8226" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8226" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" />
   <project path="hardware/qcom/display-caf/msm8226" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8226" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" revision="L5" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/media-caf/msm8226" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8226" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -682,7 +685,6 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" revision="cm-11.0" />
   <project path="vendor/htc" name="vendor_htc" remote="vanir" revision="L5" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="L5" />
-  <project path="vendor/moto" name="vendor_moto" remote="vanir" revision="L5" groups="vendor"/>
   <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="L5" groups="vendor"/>
   <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-12.0" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-12.0" />
