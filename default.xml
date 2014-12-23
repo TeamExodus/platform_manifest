@@ -132,7 +132,6 @@
   <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" />
   <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" />
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" />
-  <project path="device/samsung/klimtwifi" name="device_samsung_klimtwifi" remote="vanir" revision="L5" />
   <project path="device/samsung/klte" name="android_device_samsung_klte" />
   <project path="device/samsung/klte-common" name="device_samsung_klte-common" remote="vanir" revision="L5" />
   <project path="device/samsung/kltedv" name="android_device_samsung_kltedv" />
