@@ -95,9 +95,9 @@ case $1 in
         export kernelsource="kernel_moto_shamu"
     ;;
     skomer)
-        export remote="github"
-        export remoterevision="kk44"
-        export kernelsource="Team-Exhibit/android_kernel_samsung_skomer"
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_samsung_skomer"
     ;;
     taoshan)
         export remote="github"
