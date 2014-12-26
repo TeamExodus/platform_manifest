@@ -35,9 +35,9 @@ case $1 in
         export kernelsource="kernel_oppo_n1"
     ;;
     golden)
-        export remote="github"
-        export remoterevision="kk44"
-        export kernelsource="Team-Exhibit/android_kernel_samsung_golden"
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_samsung_golden"
     ;;
     gee*)
         export remote="github"
@@ -63,11 +63,6 @@ case $1 in
         export remote="github"
         export remoterevision="kk44"
         export kernelsource="Team-Exhibit/android_kernel_samsung_u8500"
-    ;;
-    klimtwifi)
-        export remote="vanir"
-        export remoterevision="kk44"
-        export kernelsource="kernel_samsung_exynos5420"
     ;;
     klte*)
         export remote="vanir"
@@ -100,9 +95,9 @@ case $1 in
         export kernelsource="kernel_moto_shamu"
     ;;
     skomer)
-        export remote="github"
-        export remoterevision="kk44"
-        export kernelsource="Team-Exhibit/android_kernel_samsung_skomer"
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_samsung_skomer"
     ;;
     taoshan)
         export remote="github"
