@@ -1,6 +1,6 @@
 Team Vanir/Exodus repo
 
-This branch is for Vanir's EXODUS branch, our android-5.0.1 based ROM
+This branch is for Vanir's EXODUS branch, our android-5.0.2 based ROM
 
 
 Getting Started
