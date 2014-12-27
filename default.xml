@@ -87,7 +87,7 @@
   <project path="device/lge/e980" name="device_lge_e980" remote="vanir" revision="L5" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="L5" />
   <project path="device/lge/g3-common" name="device_lge_g3-common" remote="vanir" revision="L5" />
-  <project path="device/lge/gee-common" name="xboxfanj/android_device_lge_gee-common" remote="github" revision="vanir" />
+  <project path="device/lge/gee-common" name="device_lge_gee-common" remote="vanir" revision="L5" />
   <project path="device/lge/geeb" name="xboxfanj/android_device_lge_geeb" remote="github" revision="android-4.4" />
   <project path="device/lge/gee" name="xboxfanj/android_device_lge_gee" remote="github" revision="android-4.4" />
   <project path="device/lge/d800" name="device_lge_d800" remote="vanir" revision="L5" />
@@ -656,7 +656,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="vanir" revision="L5" />
   <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2014" remote="vanir" revision="L5" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="vanir" revision="L5" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="vanir" revision="L5" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="vanir" revision="L5" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
