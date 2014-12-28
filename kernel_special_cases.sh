@@ -40,9 +40,9 @@ case $1 in
         export kernelsource="kernel_samsung_golden"
     ;;
     gee*)
-        export remote="github"
-        export remoterevision="vanir"
-        export kernelsource="xboxfanj/kernel_msm"
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_lge_gee"
     ;;
     hammerhead)
         export remote="vanir"
