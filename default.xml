@@ -158,15 +158,14 @@
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" revision="L5" groups="tuna" />
   <project path="device/samsung/tuna" name="Ziyann/android_device_samsung_tuna" remote="github" groups="tuna" />
   <project path="device/samsung/u8500-common" name="Team-Exhibit/android_device_samsung_u8500-common" remote="github" revision="kk44" groups="ste" />
+  <project path="device/sony/amami" name="android_device_sony_amami" />
   <project path="device/sony/blue-common" name="android_device_sony_blue-common" device="tsubasa" />
   <project path="device/sony/common" name="android_device_sony_common" />
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="L5" groups="device" />
   <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/huashan" name="android_device_sony_huashan" />
   <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" />
-  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" />
-  <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" revision="L5" />
-  <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="L5" />
+  <project path="device/sony/msm8974-common" name="crdroidandroid/android_device_sony_msm8974-common" remote="github" revision="cm-12.0" />
   <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="vanir" revision="L5" />
@@ -528,6 +527,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" revision="L5" />
+  <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" />
   <project path="libcore" name="libcore" remote="vanir" revision="L5" />
