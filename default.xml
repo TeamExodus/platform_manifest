@@ -84,6 +84,7 @@
   <project path="device/lge/d803" name="device_lge_d803" remote="vanir" revision="L5" />
   <project path="device/lge/d850" name="android_device_lge_d850" />
   <project path="device/lge/d851" name="android_device_lge_d851" />
+  <project path="device/lge/d855" name="invisiblek/android_device_lge_d855" remote="github" revision="cm-12.0" />
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" revision="L5" />
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" revision="L5" />
   <project path="device/lge/ls990" name="android_device_lge_ls990" />
