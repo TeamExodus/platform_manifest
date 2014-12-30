@@ -40,9 +40,9 @@ case $1 in
         export kernelsource="kernel_samsung_golden"
     ;;
     gee*)
-        export remote="vanir"
-        export remoterevision="L5"
-        export kernelsource="kernel_lge_gee"
+        export remote="github"
+        export remoterevision="gee-lollipop"
+        export kernelsource="lollipop-og/kernel_msm"
     ;;
     hammerhead)
         export remote="vanir"
