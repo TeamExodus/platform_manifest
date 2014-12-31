@@ -18,7 +18,8 @@
   <remote name="github"
           fetch="https://github.com/" />
   <remote name="vanir-exodus"
-          fetch="https://github.com/VanirExodus" />
+          fetch="https://github.com/VanirExodus"
+          review="vanir-exodus.from-me.org:8081" />
   <remote name="omni"
           fetch="https://github.com/omnirom/" />
   <remote name="linaro"
