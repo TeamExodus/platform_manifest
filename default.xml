@@ -474,7 +474,7 @@
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" />
   <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="vanir" revision="L5" />
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" revision="L5" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" />
@@ -591,7 +591,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vanir" revision="L5" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="aospL5" remote="vanir" revision="L5" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
