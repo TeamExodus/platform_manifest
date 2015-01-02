@@ -34,6 +34,7 @@
 
   <!-- EXODUS projects -->
   <project path="manifest" name="platform_manifest" remote="vanir" revision="EXODUS" />
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="EXODUS" />
   <project path="frameworks/base" name="frameworks_base" remote="vanir" revision="EXODUS" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir" revision="EXODUS" />
   <project path="system/core" name="system_core" remote="vanir" revision="EXODUS" groups="pdk" />
@@ -85,7 +86,6 @@
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" revision="L5" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="L5" />
   <project path="device/lge/e980" name="device_lge_e980" remote="vanir" revision="L5" />
-  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="L5" />
   <project path="device/lge/g3-common" name="device_lge_g3-common" remote="vanir" revision="L5" />
   <project path="device/lge/gee-common" name="device_lge_gee-common" remote="vanir" revision="L5" />
   <project path="device/lge/geeb" name="xboxfanj/android_device_lge_geeb" remote="github" revision="android-4.4" />
