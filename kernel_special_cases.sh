@@ -104,9 +104,4 @@ case $1 in
         export remoterevision="android-5.0"
         export kernelsource="omnirom/android_kernel_sony_msm8930"
     ;;
-    toro|toroplus|maguro)
-        export remote="github"
-        export remoterevision="stable-newpvr"
-        export kernelsource="Ziyann/omap"
-    ;;
 esac
