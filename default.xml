@@ -65,7 +65,6 @@
   <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" revision="L5" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" revision="L5" groups="device" />
   <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" revision="L5" />
-<!--  <project path="device/asus/tf701t" name="android_device_asus_tf701t" /> -->
   <project path="device/common" name="android_device_common" groups="pdk" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
@@ -109,7 +108,6 @@
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" revision="L5" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" revision="L5" />
   <project path="device/motorola/msm8226-common" name="motorola_msm8226-common" remote="vanir" revision="L5" />
-  <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/moto_msm8960" name="device_motorola_moto_msm8960" remote="vanir" revision="L5" />
   <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" revision="L5" device="msm8960_jbbl" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="L5" />
@@ -333,8 +331,6 @@
   <project path="external/kissfft" name="android_external_kissfft" />
   <project path="external/koush/ion" name="ion" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" />
-  <project path="external/koush/Superuser" name="Superuser" remote="vanir" revision="L5" />
-  <project path="external/koush/Widgets" name="Widgets" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -367,6 +363,7 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="external/libvterm" name="android_external_libvterm" />
   <project path="external/libxml2" name="android_external_libxml2" groups="pdk-cw-fs" />
   <project path="external/libxslt" name="android_external_libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -572,7 +569,6 @@
   <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="L5" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-<!-- <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omni" revision="09cd5c220461b47743d47c47eac381efb9e60006" />    -->
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="vanir" revision="L5" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
@@ -583,6 +579,7 @@
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
+  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" />
 <!-- <project path="packages/apps/Torch" name="android_packages_apps_Torch" />  -->
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" revision="L5" />
@@ -670,6 +667,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools"  groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="system/extras" name="system_extras" remote="vanir" revision="L5" groups="pdk" />
+  <project path="system/extras/su" name="android_system_extras_su" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="system/media" name="system_media" groups="pdk" remote="vanir" revision="L5" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
