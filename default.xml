@@ -7,6 +7,8 @@
   <remote name="commotio"
           fetch="https://github.com/DHOMD/"
           review="gerrit.vanir.co:8080" />
+  <remote name="almighty"
+          fetch="https://github.com/AlmightyMegadeth00/" />
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
@@ -76,6 +78,8 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" revision="L5" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
+  <project path="device/htc/flounder" name="device_htc_flounder" remote="almighty" revision="L5" />
+  <project path="device/htc/flounder-kernel" name="device_htc_flounder-kernel" remote="almighty" revision="L5" />
   <project path="device/htc/m4" name="device_htc_m4" remote="vanir" revision="L5" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" revision="L5" />
   <project path="device/htc/m7spr" name="device_htc_m7spr" remote="vanir" revision="L5" />
@@ -533,6 +537,7 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="hardware_ril" remote="vanir" revision="L5" groups="pdk" />
+  <project path="hardware/ril-aosp" name="hardware_ril" remote="vanir" revision="L5-aosp" groups="pdk" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="cm-12.0-caf" />
   <project path="hardware/samsung" name="hardware_samsung" remote="vanir" revision="L5" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" revision="L5" />
@@ -667,7 +672,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools"  groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="system/extras" name="system_extras" remote="vanir" revision="L5" groups="pdk" />
-  <project path="system/extras/su" name="android_system_extras_su" />
+  <project path="system/extras/su" name="system_extras_su" remote="vanir" revision="L5" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="system/media" name="system_media" groups="pdk" remote="vanir" revision="L5" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
