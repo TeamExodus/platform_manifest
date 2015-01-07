@@ -122,6 +122,7 @@
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" revision="L5" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" device="find5" />
   <project path="device/oppo/find7" name="android_device_oppo_find7" device="find7" />
+  <project path="device/oppo/find7-common" name="android_device_oppo_find7-common" device="find7" />
   <project path="device/oppo/n1" name="android_device_oppo_n1" device="oppo_n1" />
   <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" device="BACON" />
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" revision="L5" />
@@ -448,7 +449,7 @@
   <project path="external/tcpdump" name="external_tcpdump" remote="vanir" revision="L5" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" />
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="vanir" revision="L5" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
