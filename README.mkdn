@@ -16,15 +16,15 @@ Mac Users: initialize your local repository using:
 
     repo init -u git://github.com/VanirExodus/platform_manifest.git -b EXODUS -g darwin
 
-(The basic vanir branch is L5, and DHO's commotio branch commotio is available to sync also)
-
 Then to sync up:
 
     repo sync -j8
     
 Our gerrit:
 
-	http://gerrit.vanir.co:8080/#/q/status:open (push to refs/for/EXODUS)
+	http://vanir-exodus.net:8081
+    
+    For pushing stuff : ssl://YourGitHubName@vanir-exodus.net/repo_you_want_to_contribute_to HEADS:refs/for/EXODUS
 
 Our Community:
 
