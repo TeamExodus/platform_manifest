@@ -104,4 +104,9 @@ case $1 in
         export remoterevision="android-5.0"
         export kernelsource="omnirom/android_kernel_sony_msm8930"
     ;;
+    bacon)
+        export remote="vanir-exodus"
+        export remoterevision="EXODUS"
+        export kernelsource="kernel_oneplus_msm8974"
+    ;;
 esac
