@@ -572,8 +572,8 @@
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aospL5" remote="vanir" revision="L5" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5"/>  
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="vanir" revision="L5" />  
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" revision="L5" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="vanir" revision="L5" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="vanir" revision="L5" />
