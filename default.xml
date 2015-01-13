@@ -122,6 +122,7 @@
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
   <project path="device/samsung/golden" name="device_samsung_golden" remote="vanir" revision="L5" />
+  <project path="device/samsung/hlte" name="android_device_samsung_hlte" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
   <project path="device/samsung/hltetmo" name="android_device_samsung_hltetmo" groups="hlte_device" />
 <!--  <project path="device/samsung/hltevzw" name="android_device_samsung_hltevzw" groups="hlte_device" /> -->
