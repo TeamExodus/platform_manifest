@@ -59,7 +59,7 @@
   <project path="bootable/recovery-philz" name="PhilZ-cwm6/philz_touch_cwm6" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" revision="L5" />
   <project path="ccache" name="ccache.git" remote="samba" revision="master" />
-  <project path="cts" name="platform/cts"  remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="cts" name="android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="dalvik" remote="vanir" revision="L5" />
   <project path="development" name="android_development" />
   <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="L5" />
@@ -135,6 +135,7 @@
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
   <project path="device/samsung/golden" name="device_samsung_golden" remote="vanir" revision="L5" />
+  <project path="device/samsung/hlte" name="android_device_samsung_hlte" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
   <project path="device/samsung/hltetmo" name="android_device_samsung_hltetmo" groups="hlte_device" />
 <!--  <project path="device/samsung/hltevzw" name="android_device_samsung_hltevzw" groups="hlte_device" /> -->
@@ -183,13 +184,13 @@
   <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/huashan" name="android_device_sony_huashan" />
   <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" />
-  <project path="device/sony/msm8974-common" name="crdroidandroid/android_device_sony_msm8974-common" remote="github" revision="cm-12.0" />
+  <project path="device/sony/msm8974-common" name="AndroidNoob69/android_device_sony_msm8974-common" remote="github" revision="cm-12.0" />
   <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" revision="L5" />
   <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" revision="L5" />
   <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" />
   <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
   <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="vanir" revision="L5" />
-  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
+  <project path="device/sony/rhine-common" name="AndroidNoob69/android_device_sony_rhine-common" remote="github" revision="cm-12.0" />
   <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" />
   <project path="device/sony/sirius" name="android_device_sony_sirius" device="shinano" />
   <project path="device/sony/taoshan" name="olivieer/device_sony_taoshan" remote="github" revision="cm-11.0" />
