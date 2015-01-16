@@ -577,6 +577,7 @@
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" />
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="L5" />
 <!-- <project path="packages/apps/Torch" name="android_packages_apps_Torch" />  -->
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="vanir" revision="L5" />
@@ -590,6 +591,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vanir" revision="L5" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -690,8 +692,6 @@
   <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="L5" groups="vendor" />
   <project path="vendor/commotio" name="commotio" remote="commotio" revision="5" groups="vendor" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" revision="L5" groups="vendor" />
-<!--     <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="L5" /> -->
-<!--   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" /> -->
 
 <!-- Additional vendors -->
   <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-12.0" />
