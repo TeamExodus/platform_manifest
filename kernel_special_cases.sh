@@ -110,8 +110,8 @@ case $1 in
         export kernelsource="omnirom/android_kernel_sony_msm8930"
     ;;
     bacon)
-        export remote="vanir-exodus"
+        export remote="github"
         export remoterevision="EXODUS"
-        export kernelsource="kernel_oneplus_msm8974"
+        export kernelsource="VanirExodus/kernel_oneplus_msm8974"
     ;;
 esac
