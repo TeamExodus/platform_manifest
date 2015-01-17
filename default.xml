@@ -346,7 +346,7 @@
   <project path="external/libpng" name="external_libpng" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/libppp" name="android_external_libppp" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" />
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -397,7 +397,7 @@
   <project path="external/openssl" name="external_openssl" remote="vanir" revision="L5" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" revision="L5" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="external/pcre" name="CyanogenMod/android_external_pcre" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/pigz" name="android_external_pigz" />
   <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
