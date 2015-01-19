@@ -110,6 +110,7 @@
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" revision="L5" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" device="find5" />
   <project path="device/oppo/find7" name="android_device_oppo_find7" device="find7" />
+  <project path="device/oppo/find7s" name="android_device_oppo_find7" device="find7s" />
   <project path="device/oppo/find7-common" name="android_device_oppo_find7-common" device="find7" />
   <project path="device/oppo/n1" name="android_device_oppo_n1" device="oppo_n1" />
   <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" device="BACON" />
