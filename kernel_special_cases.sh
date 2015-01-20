@@ -75,7 +75,7 @@ case $1 in
         export kernelsource="kernel_samsung_klte"
     ;;
     m7*)
-        export remote="github"
+        export remote="vanir"
         export remoterevision="L5"
         export kernelsource="kernel_htc_m7"
     ;;
