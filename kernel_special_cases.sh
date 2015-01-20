@@ -76,8 +76,8 @@ case $1 in
     ;;
     m7*)
         export remote="github"
-        export remoterevision="InSaNiTy"
-        export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_m7"
+        export remoterevision="L5"
+        export kernelsource="kernel_htc_m7"
     ;;
     m8)
         export remote="vanir"
