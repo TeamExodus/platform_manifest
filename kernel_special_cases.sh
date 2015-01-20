@@ -75,9 +75,9 @@ case $1 in
         export kernelsource="kernel_samsung_klte"
     ;;
     m7*)
-        export remote="github"
-        export remoterevision="InSaNiTy"
-        export kernelsource="InSaNiTy-Development/InSaNiTy_kernel_m7"
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_htc_m7"
     ;;
     m8)
         export remote="vanir"
@@ -85,9 +85,14 @@ case $1 in
         export kernelsource="kernel_htc_msm8974"
     ;;
     moto_msm8960*)
-        export kernelsource="android_kernel_motorola_msm8960dt-common"
         export remote="cm"
+        export kernelsource="android_kernel_motorola_msm8960dt-common"
         export revision="cm-12.0"
+    ;;
+    n7100)
+        export remote="github"
+        export kernelsource="NamelessRom/android_kernel_samsung_smdk4412"
+        export revision="n-2.0"
     ;;
     p880)
         export remote="cm"
@@ -108,10 +113,5 @@ case $1 in
         export remote="github"
         export remoterevision="android-5.0"
         export kernelsource="omnirom/android_kernel_sony_msm8930"
-    ;;
-    bacon)
-        export remote="github"
-        export remoterevision="EXODUS"
-        export kernelsource="VanirExodus/kernel_oneplus_msm8974"
     ;;
 esac
