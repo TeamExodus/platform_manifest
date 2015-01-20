@@ -85,9 +85,14 @@ case $1 in
         export kernelsource="kernel_htc_msm8974"
     ;;
     moto_msm8960*)
-        export kernelsource="android_kernel_motorola_msm8960dt-common"
         export remote="cm"
+        export kernelsource="android_kernel_motorola_msm8960dt-common"
         export revision="cm-12.0"
+    ;;
+    n7100)
+        export remote="github"
+        export kernelsource="NamelessRom/android_kernel_samsung_smdk4412"
+        export revision="n-2.0"
     ;;
     p880)
         export remote="cm"
