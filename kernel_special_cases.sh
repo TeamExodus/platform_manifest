@@ -91,8 +91,8 @@ case $1 in
     ;;
     n7100)
         export remote="github"
-        export kernelsource="NamelessRom/android_kernel_samsung_smdk4412"
         export revision="n-2.0"
+        export kernelsource="NamelessRom/android_kernel_samsung_smdk4412"
     ;;
     p880)
         export remote="cm"
