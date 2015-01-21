@@ -59,11 +59,6 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="AlmightyMegadeth00/kernel_tegra"
     ;;
-    jactivelte*)
-        export remote="github"
-        export remoteversion="cm-11.0"
-        export kernelsource="spegelius/android_kernel_samsung_jactivelte"
-    ;;
     janice)
         export remote="github"
         export remoterevision="kk44"
