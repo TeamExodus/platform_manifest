@@ -76,7 +76,7 @@ case $1 in
     ;;
     m8)
         export remote="vanir"
-        export remoterevision="L5"
+        export remoterevision="L5-old"
         export kernelsource="kernel_htc_msm8974"
     ;;
     moto_msm8960*)
