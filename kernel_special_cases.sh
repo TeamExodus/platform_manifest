@@ -79,11 +79,6 @@ case $1 in
         export kernelsource="android_kernel_motorola_msm8960dt-common"
         export revision="cm-12.0"
     ;;
-    n7100)
-        export remote="github"
-        export revision="n-2.0"
-        export kernelsource="NamelessRom/android_kernel_samsung_smdk4412"
-    ;;
     p880)
         export remote="cm"
         export remoterevision="cm-12.0"
