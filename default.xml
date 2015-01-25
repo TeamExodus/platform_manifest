@@ -163,7 +163,6 @@
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="L5" groups="device" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="vanir" revision="L5" groups="tuna" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" revision="L5" groups="tuna" />
-  <project path="device/samsung/trlte" name="android_device_samsung_trlte" />
   <project path="device/samsung/trlte-common" name="android_device_samsung_trlte-common" />
   <project path="device/samsung/trltespr" name="android_device_samsung_trltespr" />
   <project path="device/samsung/trltetmo" name="android_device_samsung_trltetmo" />
