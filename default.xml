@@ -78,9 +78,6 @@
   <project path="device/lge/e980" name="device_lge_e980" remote="vanir" revision="L5" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" revision="L5" />
   <project path="device/lge/g3-common" name="device_lge_g3-common" remote="vanir" revision="L5" />
-  <project path="device/lge/gee-common" name="device_lge_gee-common" remote="vanir" revision="L5" />
-  <project path="device/lge/geeb" name="xboxfanj/android_device_lge_geeb" remote="github" revision="android-4.4" />
-  <project path="device/lge/gee" name="xboxfanj/android_device_lge_gee" remote="github" revision="android-4.4" />
   <project path="device/lge/d800" name="device_lge_d800" remote="vanir" revision="L5" />
   <project path="device/lge/d801" name="device_lge_d801" remote="vanir" revision="L5" />
   <project path="device/lge/d802" name="device_lge_d802" remote="vanir" revision="L5" />
@@ -117,12 +114,10 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" revision="L5" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="device/samsung/codinalte" name="device_samsung_codinalte" remote="vanir" revision="L5" groups="ste" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device"  />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
-  <project path="device/samsung/golden" name="device_samsung_golden" remote="vanir" revision="L5" />
   <project path="device/samsung/hlte" name="android_device_samsung_hlte" groups="hlte_device" />
   <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
   <project path="device/samsung/hltetmo" name="android_device_samsung_hltetmo" groups="hlte_device" />
@@ -156,8 +151,6 @@
   <project path="device/samsung/n5100" name="android_device_samsung_n5100" />
   <project path="device/samsung/n5110" name="android_device_samsung_n5110" />
   <project path="device/samsung/n5120" name="ryukiri/android_device_samsung_n5120" remote="github" revision="kk44" />
-  <project path="device/samsung/n7100" name="android_device_samsung_n7100" />
-  <project path="device/samsung/skomer" name="Team-Exhibit/android_device_samsung_skomer" remote="github" revision="kk44" groups="ste" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" revision="L5" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="L5" groups="device" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="L5" groups="device" />
