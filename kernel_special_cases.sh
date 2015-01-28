@@ -74,11 +74,6 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="kernel_htc_msm8974"
     ;;
-    moto_msm8960*)
-        export remote="cm"
-        export kernelsource="android_kernel_motorola_msm8960dt-common"
-        export revision="cm-12.0"
-    ;;
     p880)
         export remote="cm"
         export remoterevision="cm-12.0"
