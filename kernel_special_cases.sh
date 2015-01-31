@@ -59,11 +59,6 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="AlmightyMegadeth00/kernel_tegra"
     ;;
-    jactivelte*)
-        export remote="github"
-        export remoteversion="cm-11.0"
-        export kernelsource="spegelius/android_kernel_samsung_jactivelte"
-    ;;
     janice)
         export remote="github"
         export remoterevision="kk44"
@@ -74,25 +69,10 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="kernel_samsung_klte"
     ;;
-    m7*)
-        export remote="vanir"
-        export remoterevision="L5"
-        export kernelsource="kernel_htc_m7"
-    ;;
     m8)
         export remote="vanir"
         export remoterevision="L5"
         export kernelsource="kernel_htc_msm8974"
-    ;;
-    moto_msm8960*)
-        export remote="cm"
-        export kernelsource="android_kernel_motorola_msm8960dt-common"
-        export revision="cm-12.0"
-    ;;
-    n7100)
-        export remote="github"
-        export kernelsource="NamelessRom/android_kernel_samsung_smdk4412"
-        export revision="n-2.0"
     ;;
     p880)
         export remote="cm"
