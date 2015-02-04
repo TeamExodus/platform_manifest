@@ -6,11 +6,6 @@ export remote="cm"
 export remoterevision="cm-12.0"
 
 case $1 in
-    codinalte)
-        export remote="vanir"
-        export remoterevision="L5"
-        export kernelsource="kernel_samsung_codinalte"
-    ;;
     d80*|ls980|vs980)
         export remote="vanir"
         export remoterevision="L5"
@@ -33,16 +28,6 @@ case $1 in
         export remote="vanir"
         export remoterevision="L5"
         export kernelsource="kernel_oppo_n1"
-    ;;
-    golden)
-        export remote="vanir"
-        export remoterevision="L5"
-        export kernelsource="kernel_samsung_golden"
-    ;;
-    gee*)
-        export remote="github"
-        export remoterevision="gee-lollipop"
-        export kernelsource="lollipop-og/kernel_msm"
     ;;
     hammerhead)
         export remote="vanir"
