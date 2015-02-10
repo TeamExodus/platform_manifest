@@ -12,9 +12,9 @@ case $1 in
         export kernelsource="kernel_lge_msm8974"
     ;;
     d85*|ls990|vs985)
-        export remote="github"
-        export remoterevision="cm-12.0"
-        export kernelsource="savoca/furnace-g3"
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_lge_g3"
     ;;
     e980)
         export kernelsource="lge-kernel-gproj"
