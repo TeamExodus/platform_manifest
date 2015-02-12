@@ -11,6 +11,11 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="kernel_lge_msm8974"
     ;;
+    d85*|ls990|vs985)
+        export remote="vanir"
+        export remoterevision="L5"
+        export kernelsource="kernel_lge_g3"
+    ;;
     e980)
         export kernelsource="lge-kernel-gproj"
     ;;
