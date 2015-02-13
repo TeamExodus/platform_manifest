@@ -44,6 +44,11 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="AlmightyMegadeth00/kernel_tegra"
     ;;
+    bacon)
+        export remote="github"
+        export remoterevision="L5"
+        export kernelsource="AlmightyMegadeth00/kernel_oneplus_msm8974"
+    ;;
     janice)
         export remote="github"
         export remoterevision="kk44"
