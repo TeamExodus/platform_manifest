@@ -6,6 +6,11 @@ export remote="cm"
 export remoterevision="cm-12.0"
 
 case $1 in
+    bacon|find7*)
+        export remote="github"
+        export remoterevision="L5"
+        export kernelsource="AlmightyMegadeth00/kernel_oneplus_msm8974"
+    ;;
     d80*|ls980|vs980)
         export remote="vanir"
         export remoterevision="L5"
@@ -48,11 +53,6 @@ case $1 in
         export remote="github"
         export remoterevision="L5"
         export kernelsource="AlmightyMegadeth00/kernel_tegra"
-    ;;
-    bacon)
-        export remote="github"
-        export remoterevision="L5"
-        export kernelsource="AlmightyMegadeth00/kernel_oneplus_msm8974"
     ;;
     janice)
         export remote="github"
