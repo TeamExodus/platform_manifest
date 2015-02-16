@@ -38,6 +38,7 @@
 
   <!-- EXODUS projects -->
   <project path="manifest" name="platform_manifest" remote="vanir-exodus" revision="EXODUS" />
+  <project path="frameworks/av" name="frameworks_av" remote="vanir-exodus" revision="EXODUS" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="vanir-exodus" revision="EXODUS" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" revision="EXODUS" />
@@ -470,7 +471,6 @@
   <project path="external/zlib" name="android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/av" name="frameworks_av" remote="vanir" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="vanir" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="vanir" />
   <project path="frameworks/compile/slang" name="frameworks_compile_slang" remote="vanir" groups="pdk" />
