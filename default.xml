@@ -502,8 +502,8 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
-  <project path="frameworks/rs" name="frameworks_rs" remote="vanir" />
-  <project path="frameworks/support" name="frameworks_support" remote="vanir" />
+  <project path="frameworks/rs" name="android_frameworks_rs" />
+  <project path="frameworks/support" name="android_frameworks_support" />
   <project path="frameworks/testing" name="android_frameworks_testing" />
   <project path="frameworks/volley" name="android_frameworks_volley" />
   <project path="frameworks/webview" name="frameworks_webview" remote="vanir" />
@@ -574,7 +574,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="vanir" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="aospL5" remote="vanir" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
