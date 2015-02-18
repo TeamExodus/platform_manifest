@@ -211,10 +211,10 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/bash" name="external_bash" remote="vanir" />
+  <project path="external/bash" name="android_external_bash" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="vanir" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/busybox" name="external_busybox" remote="vanir" />
@@ -265,7 +265,7 @@
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs" />
-  <project path="external/dnsmasq" name="external_dnsmasq" remote="vanir" groups="pdk" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aospL5" remote="aosp" />
   <project path="external/dropbear" name="android_external_dropbear" />
@@ -324,7 +324,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/jpeg" name="external_jpeg" remote="vanir" groups="pdk" />
+  <project path="external/jpeg" name="android_external_jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" remote="aosp" />
@@ -430,15 +430,15 @@
   <project path="external/rsync" name="android_external_rsync" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
-  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="vanir" />
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
   <project path="external/skia" name="external_skia" remote="vanir" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/sonivox" name="external_sonivox" remote="vanir" groups="pdk" />
-  <project path="external/speex" name="external_speex" remote="vanir" groups="pdk" />
+  <project path="external/speex" name="android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="external_sqlite" remote="vanir" groups="pdk" />
+  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" />
   <project path="external/square/dagger" name="android_external_square_dagger" />
   <project path="external/square/javawriter" name="android_external_square_javawriter" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" />
@@ -471,8 +471,8 @@
   <project path="external/zlib" name="android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="vanir" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="vanir" />
+  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" groups="pdk" />
+  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker"  />
   <project path="frameworks/compile/slang" name="frameworks_compile_slang" remote="vanir" groups="pdk" />
   <project path="frameworks/ex" name="frameworks_ex" remote="vanir" />
   <project path="frameworks/mff" name="android_frameworks_mff" />
@@ -493,12 +493,12 @@
   <project path="frameworks/opt/inputmethodcommon" name="android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="vanir" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="vanir" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="vanir" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
@@ -511,10 +511,10 @@
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" />
-  <project path="hardware/cm" name="hardware_cm" remote="vanir" />
+  <project path="hardware/cm" name="android_hardware_cm" />
   <project path="hardware/invensense" name="hardware_invensense" remote="vanir" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" groups="pdk" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="android_hardware_nvidia_tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5-caf-8084" />
@@ -562,7 +562,7 @@
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="vanir" />
-  <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="vanir" />
+  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="vanir" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="vanir" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="vanir" />
@@ -571,7 +571,7 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="vanir" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="vanir" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="vanir" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="vanir" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" />
@@ -610,7 +610,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="vanir" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="aospL5" remote="vanir" />
 <!--  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" />
@@ -684,8 +684,8 @@
   <project path="system/media" name="system_media" groups="pdk" remote="vanir" revision="L5" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="vanir" revision="L5" />
-  <project path="system/security" name="system_security" remote="vanir" revision="L5" groups="pdk" />
-  <project path="system/vold" name="system_vold" remote="vanir" revision="L5" groups="pdk" />
+  <project path="system/security" name="android_system_security" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools"  remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
