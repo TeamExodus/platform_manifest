@@ -102,6 +102,7 @@
   <project path="device/motorola/msm8226-common" name="motorola_msm8226-common" remote="vanir" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" />
+  <project path="device/motorola/victara" name="android_device_motorola_victara" />
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" />
