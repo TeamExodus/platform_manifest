@@ -1,61 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="vanir"
-          fetch="https://github.com/VanirAOSP/"
-          review="gerrit.vanir.co:8080"
-          revision="L5" />
-  <remote name="commotio"
-          fetch="https://github.com/DHOMD/"
-          review="gerrit.vanir.co:8080" />
   <remote name="almighty"
           fetch="https://github.com/AlmightyMegadeth00/" />
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/"
           revision="refs/tags/android-5.0.2_r1" />
-  <remote name="bitbucket"
-          fetch="https://bitbucket.org/" />
   <remote name="cm"
           fetch="https://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
+  <remote name="commotio"
+          fetch="https://github.com/DHOMD/"
+          review="gerrit.vanir.co:8080" />
   <remote name="github"
           fetch="https://github.com/" />
-  <remote name="vanir-exodus"
-          fetch="https://github.com/VanirExodus"
-          review="vanir-exodus.net:8000" />
-  <remote name="omni"
-          fetch="https://github.com/omnirom/" />
   <remote name="linaro"
           fetch="http://android.git.linaro.org/git-ro/" />
-  <remote name="horn3t"
-          fetch="https://github.com/horn3t/" />
   <remote name="samba"
           fetch="git://git.samba.org/" />
+  <remote name="vanir"
+          fetch="https://github.com/VanirAOSP/"
+          review="gerrit.vanir.co:8080"
+          revision="L5" />
+  <remote name="vanir-exodus"
+          fetch="https://github.com/VanirExodus"
+          review="vanir-exodus.net:8000" 
+          revision="EXODUS" />
   <default revision="cm-12.0"
           sync-j="12"
           remote="cm" />
 
   <!-- EXODUS projects -->
-  <project path="manifest" name="platform_manifest" remote="vanir-exodus" revision="EXODUS" />
-  <project path="frameworks/av" name="frameworks_av" remote="vanir-exodus" revision="EXODUS" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="vanir-exodus" revision="EXODUS" />
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
-  <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" revision="EXODUS" />
-  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="vanir-exodus" revision="EXODUS" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir-exodus" revision="EXODUS" />
-  <project path="packages/apps/Trebuchet" name="WillsExodus/packages_apps_Trebuchet" remote="github" revision="EXODUS" />
-  <project path="system/core" name="system_core" remote="vanir-exodus" revision="EXODUS" groups="pdk" />
-  <project path="vendor/vanir" name="vendor_vanir" remote="vanir-exodus" revision="EXODUS" groups="vendor" />
   <project path="build" name="build" remote="vanir-exodus" revision="EXODUS" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
   </project>
+  <project path="external/skia" name="external_skia" remote="vanir-exodus" />
+  <project path="frameworks/av" name="frameworks_av" remote="vanir-exodus" groups="pdk" />
+  <project path="frameworks/base" name="frameworks_base" remote="vanir-exodus" />
+  <project path="manifest" name="platform_manifest" remote="vanir-exodus" />
+  <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
+  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="vanir-exodus" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vanir-exodus" />
+  <project path="packages/apps/Trebuchet" name="WillsExodus/packages_apps_Trebuchet" remote="github" revision="EXODUS"/>
+  <project path="system/core" name="system_core" remote="vanir-exodus" groups="pdk" />
+  <project path="vendor/vanir" name="vendor_vanir" remote="vanir-exodus" groups="vendor" />
 
   <!-- Exodus Devices -->
-  <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir-exodus" revision="EXODUS" />  
-  <project path="device/moto/shamu" name="WillsEXODUS/device_moto_shamu" remote="github" revision="EXODUS" />
+  <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir-exodus" />  
+  <project path="device/oppo/msm8974-common" name="device_oppo_msm8974-common" device="BACON" remote="vanir-exodus"/>
+  <project path="device/moto/shamu" name="WillsExodus/device_moto_shamu" remote="github" revision="EXODUS" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="art"  groups="aospL5" remote="vanir" />
@@ -127,7 +124,6 @@
   <project path="device/oppo/find7" name="android_device_oppo_find7" device="find7" />
   <project path="device/oppo/find7-common" name="android_device_oppo_find7-common" device="find7" />
   <project path="device/oppo/find7s" name="android_device_oppo_find7s" device="find7" />
-  <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" device="BACON" />
   <project path="device/oppo/n1" name="android_device_oppo_n1" device="oppo_n1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
@@ -433,7 +429,6 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
-  <project path="external/skia" name="android_external_skia" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/sonivox" name="external_sonivox" remote="vanir" groups="pdk" />
