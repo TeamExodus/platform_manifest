@@ -53,7 +53,7 @@
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
   </project>
 
-  <!-- Eoxus Devices -->
+  <!-- Exodus Devices -->
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir-exodus" revision="EXODUS" />  
   <project path="device/moto/shamu" name="WillsEXODUS/device_moto_shamu" remote="github" revision="EXODUS" />
 
@@ -120,6 +120,7 @@
   <project path="device/motorola/msm8226-common" name="motorola_msm8226-common" remote="vanir" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" />
+  <project path="device/motorola/victara" name="android_device_motorola_victara" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" />
   <project path="device/oppo/find5" name="android_device_oppo_find5" device="find5" />
@@ -552,6 +553,7 @@
   <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
+  <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
@@ -569,8 +571,6 @@
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" />
-  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" groups="aospL5" />
@@ -581,7 +581,6 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="vanir" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
-  <project path="packages/apps/QuickSearchBox" name="packages_apps_quicksearchbox" remote="vanir" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" />
