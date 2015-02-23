@@ -475,7 +475,7 @@
   <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="android_frameworks_ml" />
   <project path="frameworks/multidex" name="android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="frameworks_native" remote="vanir" groups="pdk" />
+  <project path="frameworks/native" name="frameworks_native" remote="vanir-exodus" revision="EXODUS" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
