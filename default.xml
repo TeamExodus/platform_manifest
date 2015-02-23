@@ -56,7 +56,7 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="art"  groups="aospL5" remote="vanir-exodus" />
-  <project path="bionic" name="bionic" remote="vanir" groups="pdk" />
+  <project path="bionic" name="bionic" remote="vanir-exodus" groups="pdk" revision="exp" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="vanir" />
   <project path="bootable/recovery-aosp" name="bootable_recovery-aosp" groups="pdk" remote="vanir" />
   <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" />
