@@ -262,7 +262,7 @@
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs" />
-  <project path="external/dnsmasq" name="android_external_dnsmasq" groups="pdk" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" groups="pdk" remote="vanir" revision="L5" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aospL5" remote="aosp" />
   <project path="external/dropbear" name="android_external_dropbear" />
