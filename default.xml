@@ -181,6 +181,7 @@
   <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" groups="device" />
   <project path="device/sony/honami" name="android_device_sony_honami" />
   <project path="device/sony/huashan" name="android_device_sony_huashan" />
+  <project path="device/sony/mint" name="android_device_sony_mint" />
   <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" />
   <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" />
   <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" />
@@ -192,6 +193,7 @@
   <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" />
   <project path="device/sony/sirius" name="android_device_sony_sirius" device="shinano" />
   <project path="device/sony/taoshan" name="android_device_sony_taoshan" />
+  <project path="device/sony/togari" name="android_device_sony_togari" />
   <project path="device/sony/tsubasa" name="android_device_sony_tsubasa" />
   <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" />
