@@ -163,7 +163,7 @@
   <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="vanir" groups="device" />
   <project path="device/samsung/n5100" name="android_device_samsung_n5100" />
   <project path="device/samsung/n5110" name="android_device_samsung_n5110" />
-  <project path="device/samsung/n5120" name="ryukiri/android_device_samsung_n5120" remote="github" revision="kk44" />
+  <project path="device/samsung/n5120" name="android_device_samsung_n5120" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" groups="device" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" groups="device" />
