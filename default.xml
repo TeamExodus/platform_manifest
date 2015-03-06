@@ -111,6 +111,7 @@
   <project path="device/lge/v500" name="android_device_lge_v500" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" />
   <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
+  <project path="device/motorola/condor" name="percy-g2/android_device_motorola_condor" remote="github" revision="cm-12.0" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/moto_msm8960" name="device_motorola_moto_msm8960" remote="vanir" />
