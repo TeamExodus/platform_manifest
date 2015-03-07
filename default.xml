@@ -27,7 +27,8 @@
           fetch="https://github.com/VanirExodus"
           review="vanir-exodus.net:8000"
           revision="EXODUS" />
-  <default revision="cm-12.0"
+  <default revision="refs/heads/stable/cm-12.0-YNG1T"
+          sync-c="true"
           sync-j="12"
           remote="cm" />
 
@@ -42,7 +43,7 @@
   <project path="external/skia" name="external_skia" remote="vanir-exodus" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="vanir-exodus" revision="EXODUS" />
   <project path="frameworks/av" name="frameworks_av" remote="vanir-exodus" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="vanir-exodus" />
+  <project path="frameworks/base" name="frameworks_base" remote="vanir-exodus" revision="EXODUS_3_3" />
   <project path="frameworks/native" name="frameworks_native" remote="vanir-exodus" revision="EXODUS" groups="pdk" />
   <project path="libcore" name="libcore" remote="vanir-exodus" />
   <project path="manifest" name="platform_manifest" remote="vanir-exodus" />
