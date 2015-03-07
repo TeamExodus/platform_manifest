@@ -27,7 +27,8 @@
           fetch="https://github.com/VanirExodus"
           review="vanir-exodus.net:8000"
           revision="EXODUS" />
-  <default revision="cm-12.0"
+  <default revision="refs/heads/stable/cm-12.0-YNG1T"
+          sync-c="true"
           sync-j="12"
           remote="cm" />
 
