@@ -27,8 +27,7 @@
           fetch="https://github.com/VanirExodus"
           review="vanir-exodus.net:8000"
           revision="EXODUS" />
-  <default revision="refs/heads/stable/cm-12.0-YNG1T"
-          sync-c="true"
+  <default revision="cm-12.0"
           sync-j="12"
           remote="cm" />
 
@@ -593,7 +592,7 @@
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" />
-  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" />
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="8992b766639e5dc7e32c714edff3edc8e77dfda9" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="vanir" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" />
@@ -604,7 +603,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" />
-  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" revision="59c61579c13cb257e603c28b1c51f6eff64fe2dc" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" remote="aosp" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" remote="aosp" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" />
