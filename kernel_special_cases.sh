@@ -44,6 +44,11 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="kernel_lge_hammerhead"
     ;;
+    hammerheadcaf)
+        export remote="cm"
+        export remoterevision="cm-12.0-caf"
+        export kernelsource="android_kernel_lge_hammerhead"
+    ;;
     flo|deb|mako)
         export remote="github"
         export remoterevision="L5"

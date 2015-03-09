@@ -106,6 +106,7 @@
   <project path="device/lge/g3-common" name="device_lge_g3-common" remote="vanir" />
   <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" />
+  <project path="device/lge/hammerheadcaf" name="android_device_lge_hammerheadcaf" remote="cm" />
   <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" />
   <project path="device/lge/ls990" name="android_device_lge_ls990" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" />
