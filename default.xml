@@ -6,7 +6,7 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-5.0.2_r1" />
+          revision="refs/tags/android-5.1.0_r1" />
   <remote name="cm"
           fetch="https://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
@@ -232,6 +232,7 @@
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" />
+  <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" remote="aosp" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" />
@@ -247,7 +248,6 @@
   <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" remote="aosp" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" />
   <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" remote="aosp" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" remote="aosp" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" />
@@ -374,6 +374,7 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" />
+  <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs" />
   <project path="external/libvterm" name="android_external_libvterm" />
   <project path="external/libxml2" name="android_external_libxml2" groups="pdk-cw-fs" />
   <project path="external/libxslt" name="android_external_libxslt" />
@@ -382,6 +383,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/llvm" name="external_llvm" remote="vanir" groups="pdk" />
+  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/lsof" name="external_lsof" remote="vanir" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lzma" name="platform/external/lzma"  groups="aospL5" remote="aosp" />
@@ -411,6 +413,8 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/okhttp" name="android_external_okhttp" groups="pdk-cw-fw" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" />
+  <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
+  <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
   <project path="external/openssh" name="android_external_openssh" />
   <project path="external/openssl" name="external_openssl" remote="vanir" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" />
@@ -505,7 +509,6 @@
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
   <project path="frameworks/rs" name="android_frameworks_rs" />
   <project path="frameworks/support" name="android_frameworks_support" />
-  <project path="frameworks/testing" name="android_frameworks_testing" />
   <project path="frameworks/volley" name="android_frameworks_volley" />
   <project path="frameworks/webview" name="android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" />
@@ -592,7 +595,7 @@
 <!--  <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" /> -->
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
-  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" />
+  <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" revision="8992b766639e5dc7e32c714edff3edc8e77dfda9" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="vanir" />
