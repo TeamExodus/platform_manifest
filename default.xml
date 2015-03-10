@@ -671,7 +671,7 @@
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="vanir" revision="L5" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1"/>
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk"  groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin"  remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux"  remote="aosp" revision="refs/tags/android-5.0.2_r1" />
