@@ -375,7 +375,6 @@
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs" />
-  <project path="external/libvterm" name="android_external_libvterm" />
   <project path="external/libxml2" name="android_external_libxml2" groups="pdk-cw-fs" />
   <project path="external/libxslt" name="android_external_libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" remote="aosp" />
@@ -415,7 +414,6 @@
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
-  <project path="external/openssh" name="android_external_openssh" />
   <project path="external/openssl" name="external_openssl" remote="vanir" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="vanir" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" />
