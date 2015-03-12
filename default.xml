@@ -604,7 +604,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" />
-  <project path="packages/providers/ThemesProvider" name="packages_providers_ThemesProvider" remote="vanir" />
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" remote="aosp" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" remote="aosp" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" />
