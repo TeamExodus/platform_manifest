@@ -23,6 +23,8 @@
           fetch="https://github.com/VanirAOSP/"
           review="gerrit.vanir.co:8080"
           revision="L5" />
+  <remote  name="uu"
+           fetch="https://github.com/UBERTC/" />
   <remote name="vanir-exodus"
           fetch="https://github.com/VanirExodus"
           review="vanir-exodus.net:8000"
@@ -59,6 +61,22 @@
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir-exodus" />
   <project path="device/oppo/msm8974-common" name="device_oppo_msm8974-common" device="BACON" remote="vanir-exodus"/>
   <project path="device/moto/shamu" name="WillsExodus/device_moto_shamu" remote="github" revision="EXODUS" />
+
+  <!-- toolchain stuff -->
+  <project path="toolchains/manifest" name="uber-manifest" remote="uu" revision="master" />
+  <project path="toolchains/binutils/binutils-uber" name="binutils" remote="uu" revision="2.25" />
+  <project path="toolchains/build" name="uber-build" remote="uu" revision="master" />
+  <project path="toolchains/cloog/cloog-uber" name="cloog" remote="uu" revision="0.18.3" />
+  <project path="toolchains/cloog/cloog-uber/isl" name="isl" remote="uu" revision="0.14" />
+  <project path="toolchains/cloog/cloog-uber/osl" name="osl" remote="uu" revision="0.9.0" />
+  <project path="toolchains/isl/isl-uber" name="isl" remote="uu" revision="0.14" />
+  <project path="toolchains/gcc/gcc-UBER" name="GCC-UBER" remote="uu" revision="uber-4.9" />
+  <project path="toolchains/gdb/gdb-uber" name="gdb" remote="uu" revision="7.9" />
+  <project path="toolchains/gmp/gmp-uber" name="gmp" remote="uu" revision="6.0.0" />
+  <project path="toolchains/mpc/mpc-uber" name="mpc" remote="uu" revision="1.0.3" />
+  <project path="toolchains/mpfr/mpfr-uber" name="mpfr" remote="uu" revision="3.1.2" />
+  <project path="toolchains/scripts" name="uber-scripts" remote="uu" revision="master" />
+  <project path="toolchains/sysroot" name="sysroot" remote="uu" revision="gcc-4.8" />
 
   <!-- Vanir repos to be moved back to CM -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="vanir" />
