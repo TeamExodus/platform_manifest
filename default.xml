@@ -27,6 +27,9 @@
           fetch="https://github.com/VanirExodus"
           review="vanir-exodus.net:8000"
           revision="EXODUS" />
+  <remote name="ExInv"
+          fetch="https://github.com/ExodusInverted/"
+          revision="EXODUS" />
   <default revision="cm-12.0"
           sync-c="true"
           sync-j="12"
@@ -59,6 +62,10 @@
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir-exodus" />
   <project path="device/oppo/msm8974-common" name="device_oppo_msm8974-common" device="BACON" remote="vanir-exodus"/>
   <project path="device/moto/shamu" name="WillsExodus/device_moto_shamu" remote="github" revision="EXODUS" />
+  <!-- Import from ExodusInverted -->
+  <project path="device/motorola/xt926" name="device_motorola_xt926" remote="ExInv" />
+  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="ExInv" />
+  <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="ExInv" />
 
   <!-- Vanir repos to be moved back to CM -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="vanir" />
@@ -144,7 +151,6 @@
   <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" device="msm8960_jbbl" />
   <project path="device/motorola/msm8226-common" name="motorola_msm8226-common" remote="vanir" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" />
-  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" />
   <project path="device/motorola/victara" name="android_device_motorola_victara" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
   <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" />

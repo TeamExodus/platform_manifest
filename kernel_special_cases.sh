@@ -39,4 +39,9 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="AlmightyMegadeth00/kernel_tegra"
     ;;
+    xt926|moto_msm8960)
+        export remote="ExInv"
+        export remoterevision="EXODUS"
+        export kernelsource="kernel_motorola_msm8960dt-common"
+    ;;
 esac
