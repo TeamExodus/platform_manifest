@@ -1,23 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="almighty"
+           fetch="https://github.com/AlmightyMegadeth00/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-5.1.0_r3" />
 
+  <remote  name="ExInv"
+           fetch="https://github.com/ExodusInverted/"
+           revision="EXODUS" />           
+
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com/"
            review="review.cyanogenmod.org" />
+
+  <remote  name="linaro"
+           fetch="http://android.git.linaro.org/git-ro/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+
+  <remote  name="samba"
+           fetch="git://git.samba.org/" />
+
+  <remote  name="team-exodus"
+           fetch="https://github.com/TeamExodus"
+           review="vanir-exodus.net:8000"
+           revision="staging/EXODUS-5.1" />
 
   <default revision="refs/heads/staging/cm-12.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
+  <!-- TeamExodus repos -->
+  <project path="frameworks/base" name="frameworks_base" remote="team-exodus" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="team-exodus"/>
+
+  <!-- rest of best -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -333,7 +356,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -468,7 +490,6 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
