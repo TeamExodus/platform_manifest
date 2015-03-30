@@ -7,7 +7,7 @@ export remoterevision="cm-12.0"
 
 case $1 in
     bacon|find7*)
-        export remote="vanir-exodus"
+        export remote="team-exodus"
         export remoterevision="EXODUS"
         export kernelsource="kernel_oneplus_msm8974"
     ;;

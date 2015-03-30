@@ -1,6 +1,6 @@
-Team Vanir/Exodus repo
+Team Exodus repo
 
-This branch is for Vanir's EXODUS branch, our android-5.0.2 based ROM
+This branch is for our EXODUS branch, our android-5.0.2 based ROM
 
 
 Getting Started
@@ -8,13 +8,13 @@ Getting Started
 
 Please see the [Android source page](http://source.android.com/source/index.html) for building instructions.
 
-To initialize Vanir-Exodus trees, use the following command:
+To initialize Team-Exodus trees, use the following command:
 
-    repo init -u git://github.com/VanirExodus/platform_manifest.git -b EXODUS
+    repo init -u git://github.com/TeamExodus/platform_manifest.git -b EXODUS
 
 Mac Users: initialize your local repository using:
 
-    repo init -u git://github.com/VanirExodus/platform_manifest.git -b EXODUS -g darwin
+    repo init -u git://github.com/TeamExodus/platform_manifest.git -b EXODUS -g darwin
 
 Then to sync up:
 
@@ -22,11 +22,11 @@ Then to sync up:
     
 Our gerrit:
 
-	http://vanir-exodus.net:8081
+	http://vanir-exodus.net:8000
     
-    For pushing stuff : ssl://YourGitHubName@vanir-exodus.net/repo_you_want_to_contribute_to HEADS:refs/for/EXODUS
+    For pushing stuff : ssl://YourGitHubName@vanir-exodus.net:29418/repo_you_want_to_contribute_to HEADS:refs/for/EXODUS
 
 Our Community:
 
-	https://plus.google.com/communities/111378032131473754160
+	https://plus.google.com/communities/106801227383087889476
 
