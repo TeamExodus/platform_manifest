@@ -38,8 +38,10 @@
 
   <!-- TeamExodus repos -->
   <project path="frameworks/base" name="frameworks_base" remote="team-exodus" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="team-exodus"/>
-
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="team-exodus" />
+  <project path="device/oneplus/bacon" name="device_oneplus_bacon" remote="team-exodus" />
+  <project path="kernel/oneplus/msm8974" name="kernel_oneplus_msm8974" remote="team-exodus" />
+  
   <!-- rest of best -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
