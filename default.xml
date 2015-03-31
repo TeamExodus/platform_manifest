@@ -116,10 +116,10 @@
   <project path="device/htc/flounder-kernel" name="device_htc_flounder-kernel" remote="almighty" revision="L5" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
   <project path="device/htc/m4" name="device_htc_m4" remote="vanir" />
-  <project path="device/htc/m7" name="device_htc_m7" remote="vanir" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" />
-  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="vanir" />
-  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" />
+  <project path="device/htc/m7" name="android_device_htc_m7" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" />
+  <project path="device/htc/m7spr" name="android_device_htc_m7spr" />
+  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" />
   <project path="device/htc/m8" name="device_htc_m8" remote="vanir" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" />
