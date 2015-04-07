@@ -63,6 +63,7 @@
   <project path="device/oppo/msm8974-common" name="device_oppo_msm8974-common" device="BACON" remote="team-exodus"/>
   <project path="device/moto/shamu" name="android_device_moto_shamu" />
   <!-- Import from ExodusInverted -->
+  <project path="device/motorola/xt907" name="device_motorola_xt907" remote="ExInv" />
   <project path="device/motorola/xt926" name="device_motorola_xt926" remote="ExInv" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="ExInv" />
   <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="ExInv" />
