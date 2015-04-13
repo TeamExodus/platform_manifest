@@ -56,7 +56,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="team-exodus" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" />
   <project path="system/core" name="system_core" remote="team-exodus" groups="pdk" />
-  <project path="vendor/vanir" name="vendor_vanir" remote="team-exodus" groups="vendor" />
+  <project path="vendor/exodus" name="vendor_exodus" remote="team-exodus" groups="vendor" />
 
   <!-- Exodus Devices -->
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="team-exodus" />
