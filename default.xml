@@ -725,5 +725,4 @@
 <!-- Shield tablet -->
   <project path="device/nvidia/shieldtablet" name="wrapped/exodus_device_shieldtablet" remote="github" revision="EXODUS" />
   <project path="device/nvidia/wx_na_wf" name="wrapped/exodus_device_wx_na_wf" remote="github" revision="EXODUS" />
-  <project path="kernel/nvidia/shieldtablet" name="ShieldTabDev/android_kernel_nvidia_shieldtablet" remote="github" revision="cm-12.0" />
 </manifest>

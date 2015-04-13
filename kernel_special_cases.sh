@@ -44,4 +44,9 @@ case $1 in
         export remoterevision="EXODUS"
         export kernelsource="kernel_motorola_msm8960dt-common"
     ;;
+    wx_na_wf)
+        export remote="github"
+        export remoterevision="cm-12.0"
+        export kernelsource="ShieldTabDev/android_kernel_nvidia_shieldtablet" 
+    ;;    
 esac
