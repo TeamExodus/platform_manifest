@@ -725,4 +725,5 @@
 <!-- Shield tablet -->
   <project path="device/nvidia/shieldtablet" name="wrapped/exodus_device_shieldtablet" remote="github" revision="EXODUS" />
   <project path="device/nvidia/wx_na_wf" name="wrapped/exodus_device_wx_na_wf" remote="github" revision="EXODUS" />
+  <project path="device/nvidia/wx_na_do" name="wrapped/device_nvidia_wx_na_do" remote="github" revision="EXODUS" />
 </manifest>
