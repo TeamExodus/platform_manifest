@@ -39,14 +39,19 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="AlmightyMegadeth00/kernel_tegra"
     ;;
-    xt907|xt926|moto_msm8960)
-        export remote="ExInv"
+    shamu)
+        export remote="team-exodus"
         export remoterevision="EXODUS"
-        export kernelsource="kernel_motorola_msm8960dt-common"
+        export kernelsource="kernel_moto_shamu"
     ;;
     wx_na_wf)
         export remote="github"
         export remoterevision="cm-12.0"
         export kernelsource="ShieldTabDev/android_kernel_nvidia_shieldtablet" 
     ;;    
+    xt907|xt926|moto_msm8960)
+        export remote="ExInv"
+        export remoterevision="EXODUS"
+        export kernelsource="kernel_motorola_msm8960dt-common"
+    ;;
 esac
