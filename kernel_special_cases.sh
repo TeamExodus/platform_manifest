@@ -48,5 +48,10 @@ case $1 in
         export remote="github"
         export remoterevision="cm-12.0"
         export kernelsource="ShieldTabDev/android_kernel_nvidia_shieldtablet" 
-    ;;    
+    ;; 
+    wx_na_do)
+        export remote="github"
+        export remoterevision="cm-12.0"
+        export kernelsource="ShieldTabDev/android_kernel_nvidia_shieldtablet" 
+    ;;   
 esac
