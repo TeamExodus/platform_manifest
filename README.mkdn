@@ -25,4 +25,27 @@ Our gerrit:
 Our Community:
 
 	https://plus.google.com/communities/106801227383087889476
+    
+    
+Building Roms:
+--------------
+We changed the build system from vanirs (with bottleservice) to CyanogenMods (with roomservice).
+With this change we want to save some drivespace for you as most contributors only build for one or two devices.
+Therefore there is no point in syncing all device dependend repos all the time.
+
+To build you now do
+source build/envsetup.sh
+then, if you start buildsystem for the first time for a device to only init local manifest
+
+breakfast {devicename} 
+
+after this first init you can simply start the build with
+
+brunch {devicename}
+
+
+We will add a "howto" for adding new devices soon :-)
+
+
+
 
