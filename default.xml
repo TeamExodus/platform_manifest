@@ -62,9 +62,8 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
   <project path="libcore" name="android_libcore" />
   <project path="manifest" name="platform_manifest" remote="team-exodus" />
-  <!-- We have to update that first
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="team-exodus" />
-  -->
+  
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
   <!-- We have to update that first 
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="team-exodus" />
