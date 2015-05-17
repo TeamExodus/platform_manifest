@@ -20,6 +20,7 @@
    <!-- This one is for roomservice -->
   <remote name="locals"
           fetch="https://github.com/" 
+          review="vanir-exodus.net:8000"
           revision="EXODUS-5.1"/>
   <remote name="vendors"
           fetch="https://github.com/TheMuppets"
