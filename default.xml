@@ -48,6 +48,7 @@
           remote="cm" />
 
   <project path="vendor/exodus" name="vendor_exodus" remote="team-exodus" groups="vendor" />
+  <project path="vendor/exodus/devices" name="vendor_exodus_devices" remote="team-exodus" groups="vendor" />
 
   <!-- EXODUS 5.1 done for the moment -->
   <project path="build" name="build" groups="pdk" remote="team-exodus" >
