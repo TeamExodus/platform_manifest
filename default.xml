@@ -37,6 +37,9 @@
           sync-c="true"
           sync-j="8"
           remote="cm" />
+    <!-- tomato -->
+   <remote name="SiddheshK15"
+          fetch="https://github.com/SiddheshK15" />       
 
   <!-- Exodus repos -->
   <project path="build" name="build" groups="pdk" remote="team-exodus" >
@@ -567,5 +570,8 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" />  
   <project path="vendor/extra" name="vendor_qcom_opt" remote="vanir" />
+  <!-- tomato -->
+  <project path="device/yu/tomato" name="device_yu_tomato" remote="SiddheshK15" revision="EXODUS-5.1" />
 
 </manifest>
+
