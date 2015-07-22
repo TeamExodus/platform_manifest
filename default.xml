@@ -38,6 +38,9 @@
           sync-j="8"
           remote="cm" />
 
+  <!-- Anti-piracy support -->
+  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" />
+
   <!-- EXODUS projects list-->
   <project path="bionic" name="bionic" remote="team-exodus" />
   <!-- if BUILD_COMMAND_README is not displaying delete the Makefile and resync -->
