@@ -1,6 +1,6 @@
 Team Exodus repo
 
-This branch is for our EXODUS branch, our android-5.1.1 based ROM
+This branch is for our EXODUS branch, our android-5.1.1_r9 based ROM
 
 
 Getting Started
