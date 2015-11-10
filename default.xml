@@ -53,9 +53,10 @@
           revision="EXODUS-6.0" />
 
   <default revision="cm-13.0"
+           remote="cm"
            sync-c="true"
            sync-j="8" 
-           remote="cm" />
+            />
 
 <!-- BEGIN EXODUS -->
 <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" revision="EXODUS-6.0-new" />
