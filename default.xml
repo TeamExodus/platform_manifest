@@ -53,7 +53,6 @@
           revision="EXODUS-6.0" />
 
   <default revision="cm-13.0"
-           remote="github"
            sync-c="true"
            sync-j="8" 
            remote="cm" />
