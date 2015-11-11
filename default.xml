@@ -60,6 +60,9 @@
 
 <!-- BEGIN EXODUS -->
 <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" revision="EXODUS-6.0-new" />
+<project path="build" name="TeamExodus/private_build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" remote="private" revision="EXODUS-6.0-new" />
+  </project>
   <project path="art" name="TeamExodus/private_art" remote="private" />
   <project path="bionic" name="bionic" remote="team-exodus" />
   <project path="vendor/exodus" name="vendor_exodus" groups="vendor" remote="team-exodus"/>
@@ -67,9 +70,7 @@
   <project path="packages/apps/Settings" name="TeamExodus/private_packages_apps_Settings" remote="private" />
 
 <!-- BEGIN CM -->
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs,pdk-fs" />
