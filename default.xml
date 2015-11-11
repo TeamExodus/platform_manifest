@@ -62,9 +62,9 @@
 <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" revision="EXODUS-6.0-new" />
   <project path="art" name="TeamExodus/private_art" remote="private" />
   <project path="bionic" name="bionic" remote="team-exodus" />
-  <project path="vendor/exodus" name="TeamExodus/vendor_exodus" groups="vendor"/>
+  <project path="vendor/exodus" name="TeamExodus/vendor_exodus" groups="vendor" remote="team-exodus"/>
   <project path="frameworks/base" name="TeamExodus/private_frameworks_base" remote="private" />
-  <project path="packages/apps/Settings" name="private_packages_apps_Settings" remote="private" />
+  <project path="packages/apps/Settings" name="TeamExodus/private_packages_apps_Settings" remote="private" />
 
 <!-- BEGIN CM -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
