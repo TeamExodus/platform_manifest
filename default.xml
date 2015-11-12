@@ -60,8 +60,8 @@
 
 <!-- BEGIN EXODUS -->
 <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" revision="EXODUS-6.0-new" />
-<project path="build" name="TeamExodus/private_build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" remote="private" revision="EXODUS-6.0-new" />
+  <project path="build" name="TeamExodus/private_build" groups="pdk" remote="private" revision="EXODUS-6.0-new" >
+    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="TeamExodus/private_art" remote="private" />
   <project path="bionic" name="bionic" remote="team-exodus" />
