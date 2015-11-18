@@ -34,6 +34,7 @@
   <project path="frameworks/support" name="TeamExodus/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="team-exodus" />
   <project path="libcore" name="TeamExodus/libcore" groups="pdk" remote="team-exodus"/>
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="team-exodus" />
+  <project path="packages/apps/Bluetooth" name="TeamExodus/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="team-exodus" />
   <project path="packages/apps/Settings" name="TeamExodus/private_packages_apps_Settings" groups="pdk-fs" remote="team-exodus" />
   <project path="vendor/exodus" name="TeamExodus/vendor_exodus" remote="team-exodus" />
   <!-- END Team Exodus -->
@@ -222,7 +223,6 @@
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" />
