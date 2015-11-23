@@ -31,6 +31,7 @@
   </project>
   <project path="external/guava" name="TeamExodus/external_guava" groups="pdk-cw-fs,pdk-fs" remote="team-exodus" />
   <project path="frameworks/base" name="TeamExodus/private_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="team-exodus" />
+  <project path="frameworks/opt/hardware" name="TeamExodus/frameworks_opt_hardware" remote="team-exodus" />
   <project path="frameworks/support" name="TeamExodus/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="team-exodus" />
   <project path="libcore" name="TeamExodus/libcore" groups="pdk" remote="team-exodus"/>
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="team-exodus" />
@@ -162,7 +163,6 @@
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
