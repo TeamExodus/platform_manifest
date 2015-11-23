@@ -4,12 +4,12 @@
   <remote name="team-exodus"
           fetch="ssh://git@github.com"
           review="exodus-developers.net:8000"
-          revision="EXODUS-6.0-new" />
+          revision="EXODUS-6.0" />
 
   <remote name="roomservice"
           fetch="ssh://git@github.com"
           review="exodus-developers.net:8000"
-          revision="EXODUS-6.0-new" />
+          revision="EXODUS-6.0" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
