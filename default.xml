@@ -36,6 +36,7 @@
   <project path="libcore" name="TeamExodus/libcore" groups="pdk" remote="team-exodus"/>
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="team-exodus" />
   <project path="packages/apps/Bluetooth" name="TeamExodus/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="team-exodus" />
+  <project path="packages/apps/Dialer" name="TeamExodus/packages_apps_Dialer" groups="pdk-fs" remote="team-exodus" />
   <project path="packages/apps/Settings" name="TeamExodus/private_packages_apps_Settings" groups="pdk-fs" remote="team-exodus" />
   <project path="vendor/exodus" name="TeamExodus/vendor_exodus" remote="team-exodus" />
   <!-- END Team Exodus -->
@@ -232,7 +233,6 @@
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="CyanogenMod/android_packages_apps_ExactCalculator" groups="pdk-fs" />
