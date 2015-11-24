@@ -44,6 +44,7 @@
   <project path="frameworks/opt/net/ims" name="TeamExodus/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="team-exodus" />
   <project path="frameworks/opt/telephony" name="TeamExodus/frameworks_opt_telephony" groups="pdk" remote="team-exodus" />
   <project path="frameworks/support" name="TeamExodus/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="team-exodus" />
+  <project path="hardware/cyanogen" name="TeamExodus/hardware_cyanogen" remote="team-exodus" />
   <project path="libcore" name="TeamExodus/libcore" groups="pdk" remote="team-exodus"/>
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="team-exodus" />
   <project path="packages/apps/Bluetooth" name="TeamExodus/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="team-exodus" />
@@ -187,7 +188,6 @@
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
-  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />
   <!--<project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
   <project path="hardware/intel/img/hwcomposer" name="CyanogenMod/android_hardware_intel_img_hwcomposer" groups="intel" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" /> -->
