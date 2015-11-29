@@ -3,12 +3,12 @@
 
   <remote name="team-exodus"
           fetch="ssh://git@github.com"
-          review="exodus-developers.net:8000"
+          review="review.exodus-developers.net"
           revision="EXODUS-6.0" />
 
   <remote name="roomservice"
           fetch="ssh://git@github.com"
-          review="exodus-developers.net:8000"
+          review="review.exodus-developers.net"
           revision="EXODUS-6.0" />
 
   <remote  name="aosp"
