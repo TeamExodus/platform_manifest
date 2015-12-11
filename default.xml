@@ -188,6 +188,7 @@
   <project path="packages/apps/HTMLViewer" name="TeamExodus/packages_apps_HTMLViewer" groups="pdk-fs"  />
   <project path="packages/apps/InCallUI" name="TeamExodus/packages_apps_InCallUI" groups="pdk-fs"  />
   <project path="packages/apps/KeyChain" name="TeamExodus/packages_apps_KeyChain" groups="pdk-fs"  />
+  <project path="packages/apps/Launcher3" name="TeamExodus/packages_apps_Launcher3" groups="pdk-fs"  />
   <project path="packages/apps/LockClock" name="TeamExodus/packages_apps_LockClock"  />
   <project path="packages/apps/ManagedProvisioning" name="TeamExodus/packages_apps_ManagedProvisioning" groups="pdk-fs"  />
   <project path="packages/apps/Messaging" name="TeamExodus/packages_apps_Messaging" groups="pdk-fs"  />
