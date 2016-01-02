@@ -90,6 +90,7 @@
   <project path="external/p7zip" name="TeamExodus/external_p7zip"  />
   <project path="external/pigz" name="TeamExodus/external_pigz"  />
   <project path="external/powertop" name="TeamExodus/external_powertop"  />
+  <project path="external/proguard" name="TeamExodus/external_proguard" groups="pdk" />
   <project path="external/protobuf-c" name="TeamExodus/external_protobuf-c"  />
   <project path="external/rsync" name="TeamExodus/external_rsync"  />
   <project path="external/sepolicy" name="TeamExodus/external_sepolicy" groups="pdk"  />
@@ -403,7 +404,6 @@
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" remote="aosp" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" remote="aosp" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/proguard" name="platform/external/proguard" groups="pdk" remote="aosp" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
