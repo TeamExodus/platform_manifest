@@ -28,7 +28,6 @@
   <project path="build" name="TeamExodus/private_build" groups="pdk"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="cts" name="TeamExodus/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="development" name="TeamExodus/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/qcom/sepolicy" name="Exodus-Devices/qcom_sepolicy"  />
   <project path="external/android/support-prebuilt" name="TeamExodus/external_android_support-prebuilt" />
@@ -242,6 +241,7 @@
   
 <!-- BEGIN AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" revision="marshmallow-cts-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
