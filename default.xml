@@ -89,7 +89,6 @@
   <project path="external/okhttp" name="TeamExodus/external_okhttp" groups="pdk-cw-fs,pdk-fs"  />
   <project path="external/p7zip" name="TeamExodus/external_p7zip"  />
   <project path="external/pigz" name="TeamExodus/external_pigz"  />
-  <project path="external/powertop" name="TeamExodus/external_powertop"  />
   <project path="external/proguard" name="TeamExodus/external_proguard" groups="pdk" />
   <project path="external/protobuf-c" name="TeamExodus/external_protobuf-c"  />
   <project path="external/rsync" name="TeamExodus/external_rsync"  />
