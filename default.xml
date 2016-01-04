@@ -56,7 +56,7 @@
   <project path="external/fsck_msdos" name="TeamExodus/external_fsck_msdos" groups="pdk-cw-fs,pdk-fs"  />
   <project path="external/fuse" name="TeamExodus/external_fuse"  />
   <project path="external/gmock" name="TeamExodus/external_gmock"  />
-  <project path="external/google" name="TeamExodus/external_google"  />
+  <!-- <project path="external/google" name="TeamExodus/external_google"  /> -->
   <project path="external/gptfdisk" name="TeamExodus/external_gptfdisk" groups="pdk-fs"  />
   <project path="external/gson" name="TeamExodus/external_gson"  />
   <project path="external/guava" name="TeamExodus/external_guava" groups="pdk-cw-fs,pdk-fs"  />
