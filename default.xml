@@ -25,6 +25,7 @@
   <project path="art" name="TeamExodus/private_art" groups="pdk"  />
   <project path="bionic" name="TeamExodus/bionic" groups="pdk"  />
   <project path="bootable/recovery" name="TeamExodus/bootable_recovery" groups="pdk"  />
+  <project path="bootable/recovery-exodus" name="TeamExodus/bootable_recovery-exodus" groups="pdk"  />
   <project path="build" name="TeamExodus/private_build" groups="pdk"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
