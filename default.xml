@@ -64,6 +64,7 @@
   <project path="external/icu" name="TeamExodus/external_icu" groups="pdk" />
   <project path="external/iproute2" name="TeamExodus/external_iproute2" groups="pdk"  />
   <project path="external/iptables" name="TeamExodus/external_iptables" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/jemalloc" name="TeamExodus/platform/external/jemalloc" groups="pdk"/>
   <project path="external/jpeg" name="TeamExodus/external_jpeg" groups="pdk"  />
   <project path="external/koush/AndroidAsync" name="TeamExodus/external_koush_AndroidAsync"  />
   <project path="external/koush/ion" name="TeamExodus/external_koush_ion"  />
@@ -324,7 +325,6 @@
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
   <project path="external/jetty" name="platform/external/jetty" groups="pdk-fs" remote="aosp" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
