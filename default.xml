@@ -64,7 +64,7 @@
   <project path="external/icu" name="TeamExodus/external_icu" groups="pdk" />
   <project path="external/iproute2" name="TeamExodus/external_iproute2" groups="pdk"  />
   <project path="external/iptables" name="TeamExodus/external_iptables" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jemalloc" name="TeamExodus/platform/external/jemalloc" groups="pdk"/>
+  <project path="external/jemalloc" name="TeamExodus/external_jemalloc" groups="pdk"/>
   <project path="external/jpeg" name="TeamExodus/external_jpeg" groups="pdk"  />
   <project path="external/koush/AndroidAsync" name="TeamExodus/external_koush_AndroidAsync"  />
   <project path="external/koush/ion" name="TeamExodus/external_koush_ion"  />
