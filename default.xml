@@ -97,7 +97,7 @@
   <project path="external/sepolicy" name="TeamExodus/external_sepolicy" groups="pdk"  />
   <project path="external/skia" name="TeamExodus/external_skia" groups="pdk,qcom_msm8x26"  />
   <project path="external/sonivox" name="TeamExodus/external_sonivox" groups="pdk"  />
-  <project path="external/speex" name="TeamExodus/external/speex" groups="pdk"  />
+  <project path="external/speex" name="TeamExodus/external_speex" groups="pdk"  />
   <project path="external/spongycastle" name="TeamExodus/external_spongycastle" groups="pdk"  />
   <project path="external/sqlite" name="TeamExodus/external_sqlite" groups="pdk"  />
   <project path="external/stagefright-plugins" name="TeamExodus/external_stagefright-plugins"  />
