@@ -97,6 +97,7 @@
   <project path="external/sepolicy" name="TeamExodus/external_sepolicy" groups="pdk"  />
   <project path="external/skia" name="TeamExodus/external_skia" groups="pdk,qcom_msm8x26"  />
   <project path="external/sonivox" name="TeamExodus/external_sonivox" groups="pdk"  />
+  <project path="external/speex" name="TeamExodus/external/speex" groups="pdk"  />
   <project path="external/spongycastle" name="TeamExodus/external_spongycastle" groups="pdk"  />
   <project path="external/sqlite" name="TeamExodus/external_sqlite" groups="pdk"  />
   <project path="external/stagefright-plugins" name="TeamExodus/external_stagefright-plugins"  />
@@ -415,7 +416,6 @@
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" />
-  <project path="external/speex" name="platform/external/speex" groups="pdk" remote="aosp" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <!-- <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
