@@ -76,6 +76,7 @@
   <project path="external/libnfc-nxp" name="TeamExodus/external_libnfc-nxp" groups="pdk"  />
   <project path="external/libnfnetlink" name="TeamExodus/external_libnfnetlink"  />
   <project path="external/libphonenumbergoogle" name="TeamExodus/external_libphonenumbergoogle"  />
+  <project path="external/libpng" name="TeamExodus/external_libpng" groups="pdk" />
   <project path="external/libtar" name="TeamExodus/external_libtar"  />
   <project path="external/libtruezip" name="TeamExodus/external_libtruezip"  />
   <project path="external/libusbx" name="TeamExodus/external_libusbx"  />
@@ -355,7 +356,6 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" remote="aosp" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
