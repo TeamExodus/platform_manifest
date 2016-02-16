@@ -187,6 +187,7 @@
   <project path="packages/apps/Dialer" name="TeamExodus/packages_apps_Dialer" groups="pdk-fs"  />
   <project path="packages/apps/Email" name="TeamExodus/packages_apps_Email" groups="pdk-fs"  />
   <project path="packages/apps/Exchange" name="TeamExodus/packages_apps_Exchange" groups="pdk-fs"  />
+  <project path="packages/apps/ExodusUpdater" name="TeamExodus/packages_apps_ExodusUpdater" groups="pdk-fs" />
   <project path="packages/apps/ExodusWallpapers" name="TeamExodus/drop_wallpapers" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="TeamExodus/packages_apps_FMRadio" groups="pdk-fs"  />
   <project path="packages/apps/HTMLViewer" name="TeamExodus/packages_apps_HTMLViewer" groups="pdk-fs"  />
@@ -196,6 +197,7 @@
   <!--<project path="packages/apps/LockClock" name="TeamExodus/packages_apps_LockClock"  /> -->
   <project path="packages/apps/ManagedProvisioning" name="TeamExodus/packages_apps_ManagedProvisioning" groups="pdk-fs"  />
   <project path="packages/apps/Nfc" name="TeamExodus/packages_apps_Nfc" groups="apps_nfc,pdk-fs"  />
+  <project path="packages/apps/OpenDelta" name="TeamExodus/packages_apps_OpenDelta" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="TeamExodus/packages_apps_PackageInstaller" groups="pdk-fs"  />
   <project path="packages/apps/PhoneCommon" name="TeamExodus/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs"  />
   <project path="packages/apps/Provision" name="TeamExodus/packages_apps_Provision" groups="pdk-fs"  />
