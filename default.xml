@@ -40,7 +40,8 @@
   <project path="external/ant-wireless/antradio-library" name="TeamExodus/external_ant-wireless_antradio-library"  />
   <project path="external/apache-http" name="TeamExodus/external_apache-http" groups="pdk"  />
   <project path="external/bash" name="TeamExodus/external_bash"  />
-  <project path="external/boringssl" name="TeamExodus/external_boringssl" groups="pdk"  />
+  <project path="external/boringssl" name="TeamExodus/external_boringssl" groups="pdk" />
+  <project path="external/bouncycastle" name="TeamExodus/external_bouncycastle" groups="pdk" />
   <project path="external/brctl" name="TeamExodus/external_brctl"  />
   <project path="external/busybox" name="TeamExodus/external_busybox"  />
   <project path="external/bzip2" name="TeamExodus/external_bzip2" groups="pdk"  />
@@ -91,7 +92,6 @@
   <project path="external/nano" name="TeamExodus/external_nano"  />
   <project path="external/ntfs-3g" name="TeamExodus/external_ntfs-3g"  />
   <project path="external/okhttp" name="TeamExodus/external_okhttp" groups="pdk-cw-fs,pdk-fs"  />
-<!--  <project path="external/p7zip" name="TeamExodus/external_p7zip"  /> -->
   <project path="external/pigz" name="TeamExodus/external_pigz"  />
   <project path="external/proguard" name="TeamExodus/external_proguard" groups="pdk" />
   <project path="external/protobuf-c" name="TeamExodus/external_protobuf-c"  />
@@ -112,6 +112,7 @@
   <project path="external/unzip" name="TeamExodus/external_unzip"  />
   <project path="external/vim" name="TeamExodus/external_vim"  />
   <project path="external/wpa_supplicant_8" name="TeamExodus/external_wpa_supplicant_8" groups="pdk"  />
+  <project path="external/webp" name="TeamExodus/external_webp" groups="pdk,qcom_msm8x26" />
   <project path="external/yaffs2" name="TeamExodus/external_yaffs2" groups="pdk"  />
   <project path="external/zip" name="TeamExodus/external_zip"  />
   <project path="external/zlib" name="TeamExodus/external_zlib" groups="pdk"  />
@@ -279,7 +280,6 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" remote="aosp" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -432,7 +432,6 @@
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" remote="aosp" />
-  <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" revision="020d882c45eef30767609b5e54868e21407a2822" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
