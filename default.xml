@@ -188,7 +188,7 @@
   <project path="packages/apps/Dialer" name="TeamExodus/packages_apps_Dialer" groups="pdk-fs"  />
   <project path="packages/apps/Email" name="TeamExodus/packages_apps_Email" groups="pdk-fs"  />
   <project path="packages/apps/Exchange" name="TeamExodus/packages_apps_Exchange" groups="pdk-fs"  />
-  <project path="packages/apps/ExodusUpdater" name="TeamExodus/ExodusUpdater" groups="pdk-fs" />
+  <project path="packages/apps/ExodusUpdater" name="TeamExodus/private_packages_apps_ExodusUpdater" groups="pdk-fs" />
   <project path="packages/apps/ExodusWallpapers" name="TeamExodus/drop_wallpapers" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="TeamExodus/packages_apps_FMRadio" groups="pdk-fs"  />
   <project path="packages/apps/HTMLViewer" name="TeamExodus/packages_apps_HTMLViewer" groups="pdk-fs"  />
