@@ -232,7 +232,7 @@
   <project path="packages/services/Telecomm" name="TeamExodus/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs"  />
   <project path="packages/services/Telephony" name="TeamExodus/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs"  />
   <project path="packages/wallpapers/Basic" name="TeamExodus/packages_wallpapers_Basic" groups="pdk-fs"  />
-  <project path="packages/wallpapers/LivePicker" name="packages_wallpapers_LivePicker" groups="pdk-fs"  />
+  <project path="packages/wallpapers/LivePicker" name="TeamExodus/packages_wallpapers_LivePicker" groups="pdk-fs"  />
   <project path="system/bt" name="TeamExodus/system_bt" groups="pdk"  />
   <project path="system/core" name="TeamExodus/system_core" groups="pdk"  />
   <project path="system/extras" name="TeamExodus/system_extras" groups="pdk"  />
