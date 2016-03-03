@@ -66,6 +66,7 @@
   <project path="external/htop" name="TeamExodus/external_htop"  />
   <project path="external/icu" name="TeamExodus/external_icu" groups="pdk" />
   <project path="external/iproute2" name="TeamExodus/external_iproute2" groups="pdk"  />
+  <project path="external/ipsec-tools" name="TeamExodus/external_ipsec-tools" groups="pdk" />
   <project path="external/iptables" name="TeamExodus/external_iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jemalloc" name="TeamExodus/external_jemalloc" groups="pdk"/>
   <project path="external/jpeg" name="TeamExodus/external_jpeg" groups="pdk"  />
@@ -95,6 +96,7 @@
   <project path="external/pigz" name="TeamExodus/external_pigz"  />
   <project path="external/proguard" name="TeamExodus/external_proguard" groups="pdk" />
   <project path="external/protobuf-c" name="TeamExodus/external_protobuf-c"  />
+  <project path="external/ppp" name="TeamExodus/external_ppp" groups="pdk" />
   <project path="external/rsync" name="TeamExodus/external_rsync"  />
   <project path="external/sepolicy" name="TeamExodus/external_sepolicy" groups="pdk"  />
   <project path="external/skia" name="TeamExodus/external_skia" groups="pdk,qcom_msm8x26"  />
@@ -247,6 +249,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="Exodus-Vendors/qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="TeamExodus/vendor_qcom_opensource_dpm"  />
   <project path="vendor/qcom/opensource/time-services" name="TeamExodus/vendor_qcom_opensource_time-services"  />
+
   <!-- END Team Exodus -->
   
 <!-- BEGIN AOSP -->
@@ -327,7 +330,7 @@
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" remote="aosp" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <!--project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="aosp" /-->
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" remote="aosp" />
@@ -409,7 +412,7 @@
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" remote="aosp" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" remote="aosp" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" remote="aosp" />
-  <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <!--project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" remote="aosp" /-->
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
