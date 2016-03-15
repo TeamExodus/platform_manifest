@@ -44,7 +44,6 @@
   <project path="external/bouncycastle" name="TeamExodus/external_bouncycastle" groups="pdk" />
   <project path="external/brctl" name="TeamExodus/external_brctl"  />
   <project path="external/busybox" name="TeamExodus/external_busybox"  />
-  <project path="external/bzip2" name="TeamExodus/external_bzip2" groups="pdk"  />
   <project path="external/connectivity" name="TeamExodus/external_connectivity"  />
   <project path="packages/services/ContentGuard" name="ContentGuard/AntiPiracySupport" revision="Android-6.0.1" />
   <project path="external/curl" name="TeamExodus/external_curl"  />
@@ -111,7 +110,6 @@
   <project path="external/tinyxml2" name="TeamExodus/external_tinyxml2" groups="pdk"  />
   <project path="external/toybox" name="TeamExodus/external_toybox" groups="pdk"  />
   <project path="external/unrar" name="TeamExodus/external_unrar"  />
-  <project path="external/unzip" name="TeamExodus/external_unzip"  />
   <project path="external/vim" name="TeamExodus/external_vim"  />
   <project path="external/wpa_supplicant_8" name="TeamExodus/external_wpa_supplicant_8" groups="pdk"  />
   <project path="external/webp" name="TeamExodus/external_webp" groups="pdk,qcom_msm8x26" />
