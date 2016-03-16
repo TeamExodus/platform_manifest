@@ -186,6 +186,7 @@
   <project path="packages/apps/CertInstaller" name="TeamExodus/packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs"  />
   <project path="packages/apps/Contacts" name="TeamExodus/packages_apps_Contacts" groups="pdk-fs"  />
   <project path="packages/apps/ContactsCommon" name="TeamExodus/packages_apps_ContactsCommon" groups="pdk-fs"  />
+  <project path="packages/apps/DeskClock" name="TeamExodus/packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="TeamExodus/packages_apps_Dialer" groups="pdk-fs"  />
   <project path="packages/apps/Email" name="TeamExodus/packages_apps_Email" groups="pdk-fs"  />
   <project path="packages/apps/Exchange" name="TeamExodus/packages_apps_Exchange" groups="pdk-fs"  />
@@ -483,7 +484,6 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
   <project path="platform_testing" name="platform/platform_testing" remote="aosp" />
