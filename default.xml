@@ -187,7 +187,7 @@
   <project path="packages/apps/Contacts" name="TeamExodus/packages_apps_Contacts" groups="pdk-fs"  />
   <project path="packages/apps/ContactsCommon" name="TeamExodus/packages_apps_ContactsCommon" groups="pdk-fs"  />
   <project path="packages/apps/DeskClock" name="TeamExodus/packages_apps_DeskClock" />
-  <project path="packages/apps/Dialer" name="TeamExodus/packages_apps_Dialer" groups="pdk-fs"  />
+  <project path="packages/apps/Dialer" name="TeamExodus/private_packages_apps_Dialer" groups="pdk-fs"  />
   <project path="packages/apps/Email" name="TeamExodus/packages_apps_Email" groups="pdk-fs"  />
   <project path="packages/apps/Exchange" name="TeamExodus/packages_apps_Exchange" groups="pdk-fs"  />
   <project path="packages/apps/ExodusUpdater" name="TeamExodus/private_packages_apps_ExodusUpdater" groups="pdk-fs" />
