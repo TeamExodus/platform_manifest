@@ -9,7 +9,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r3" />
+           revision="refs/tags/android-6.0.1_r22" />
 
   <remote  name="github"
            fetch="https://github.com"
@@ -25,9 +25,11 @@
   <project path="art" name="TeamExodus/art" groups="pdk"  />
   <project path="bionic" name="TeamExodus/bionic" groups="pdk"  />
   <project path="bootable/recovery" name="TeamExodus/bootable_recovery" groups="pdk"  />
+  <project path="bootable/recovery-exodus" name="TeamExodus/bootable_recovery-exodus" groups="pdk"  />
   <project path="build" name="TeamExodus/build" groups="pdk"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="external/lz4" name="TeamExodus/external_lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="cts" name="TeamExodus/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="development" name="TeamExodus/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/qcom/sepolicy" name="Exodus-Devices/qcom_sepolicy"  />
@@ -89,7 +91,6 @@
   <project path="external/okhttp" name="TeamExodus/external_okhttp" groups="pdk-cw-fs,pdk-fs"  />
   <project path="external/p7zip" name="TeamExodus/external_p7zip"  />
   <project path="external/pigz" name="TeamExodus/external_pigz"  />
-  <project path="external/powertop" name="TeamExodus/external_powertop"  />
   <project path="external/protobuf-c" name="TeamExodus/external_protobuf-c"  />
   <project path="external/rsync" name="TeamExodus/external_rsync"  />
   <project path="external/sepolicy" name="TeamExodus/external_sepolicy" groups="pdk"  />
@@ -233,7 +234,7 @@
   <project path="system/security" name="TeamExodus/system_security" groups="pdk"  />
   <project path="system/vold" name="TeamExodus/system_vold" groups="pdk"  />
   <project path="vendor/exodus" name="TeamExodus/vendor_exodus"  />
-  <project path="vendor/qcom/opensource/display-frameworks" name="TeamExodus/vendor_qcom_opensource_display-frameworks"  />
+  <project path="vendor/qcom/opensource/dataservices" name="Exodus-Vendors/qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="TeamExodus/vendor_qcom_opensource_dpm"  />
   <project path="vendor/qcom/opensource/time-services" name="TeamExodus/vendor_qcom_opensource_time-services"  />
   <!-- END Team Exodus -->
@@ -371,7 +372,6 @@
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" />
