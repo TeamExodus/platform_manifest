@@ -198,7 +198,6 @@
   <project path="packages/apps/Provision" name="TeamExodus/packages_apps_Provision" groups="pdk-fs"  />
   <project path="packages/apps/Settings" name="TeamExodus/packages_apps_Settings" groups="pdk-fs"  />
   <project path="packages/apps/SmartCardService" name="TeamExodus/packages_apps_SmartCardService" groups="pdk-fs"  />
-  <project path="packages/apps/SoundRecorder" name="TeamExodus/packages_apps_SoundRecorder" groups="pdk-fs"  />
   <project path="packages/apps/SpeechRecorder" name="TeamExodus/packages_apps_SpeechRecorder" groups="pdk-fs"  />
   <project path="packages/apps/Stk" name="TeamExodus/packages_apps_Stk" groups="apps_stk,pdk-fs"  />
   <project path="packages/apps/Tag" name="TeamExodus/packages_apps_Tag" groups="pdk-fs"  />
