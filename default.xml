@@ -182,6 +182,7 @@
   <project path="packages/apps/Contacts" name="TeamExodus/packages_apps_Contacts" groups="pdk-fs"  />
   <project path="packages/apps/ContactsCommon" name="TeamExodus/packages_apps_ContactsCommon" groups="pdk-fs"  />
   <project path="packages/apps/Dialer" name="TeamExodus/packages_apps_Dialer" groups="pdk-fs"  />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/HTMLViewer" name="TeamExodus/packages_apps_HTMLViewer" groups="pdk-fs"  />
   <project path="packages/apps/InCallUI" name="TeamExodus/packages_apps_InCallUI" groups="pdk-fs"  />
   <project path="packages/apps/KeyChain" name="TeamExodus/packages_apps_KeyChain" groups="pdk-fs"  />
@@ -195,6 +196,7 @@
   <project path="packages/apps/SpeechRecorder" name="TeamExodus/packages_apps_SpeechRecorder" groups="pdk-fs"  />
   <project path="packages/apps/Stk" name="TeamExodus/packages_apps_Stk" groups="apps_stk,pdk-fs"  />
   <project path="packages/apps/Tag" name="TeamExodus/packages_apps_Tag" groups="pdk-fs"  />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" remote="aosp" />
   <project path="packages/experimental" name="TeamExodus/packages_experimental"  />
   <project path="packages/inputmethods/LatinIME" name="TeamExodus/packages_inputmethods_LatinIME" groups="pdk-fs"  />
   <project path="packages/providers/BookmarkProvider" name="TeamExodus/packages_providers_BookmarkProvider" groups="pdk-fs"  />
