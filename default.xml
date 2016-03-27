@@ -181,15 +181,10 @@
   <project path="packages/apps/Contacts" name="TeamExodus/packages_apps_Contacts" groups="pdk-fs"  />
   <project path="packages/apps/ContactsCommon" name="TeamExodus/packages_apps_ContactsCommon" groups="pdk-fs"  />
   <project path="packages/apps/Dialer" name="TeamExodus/packages_apps_Dialer" groups="pdk-fs"  />
-  <project path="packages/apps/Exchange" name="TeamExodus/packages_apps_Exchange" groups="pdk-fs"  />
-  <project path="packages/apps/FMRadio" name="TeamExodus/packages_apps_FMRadio" groups="pdk-fs"  />
-  <project path="packages/apps/Gallery2" name="TeamExodus/packages_apps_Gallery2" groups="pdk-fs"  />
   <project path="packages/apps/HTMLViewer" name="TeamExodus/packages_apps_HTMLViewer" groups="pdk-fs"  />
   <project path="packages/apps/InCallUI" name="TeamExodus/packages_apps_InCallUI" groups="pdk-fs"  />
   <project path="packages/apps/KeyChain" name="TeamExodus/packages_apps_KeyChain" groups="pdk-fs"  />
-  <project path="packages/apps/LockClock" name="TeamExodus/packages_apps_LockClock"  />
   <project path="packages/apps/ManagedProvisioning" name="TeamExodus/packages_apps_ManagedProvisioning" groups="pdk-fs"  />
-  <project path="packages/apps/Messaging" name="TeamExodus/packages_apps_Messaging" groups="pdk-fs"  />
   <project path="packages/apps/Nfc" name="TeamExodus/packages_apps_Nfc" groups="apps_nfc,pdk-fs"  />
   <project path="packages/apps/PackageInstaller" name="TeamExodus/packages_apps_PackageInstaller" groups="pdk-fs"  />
   <project path="packages/apps/PhoneCommon" name="TeamExodus/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs"  />
@@ -199,7 +194,6 @@
   <project path="packages/apps/SpeechRecorder" name="TeamExodus/packages_apps_SpeechRecorder" groups="pdk-fs"  />
   <project path="packages/apps/Stk" name="TeamExodus/packages_apps_Stk" groups="apps_stk,pdk-fs"  />
   <project path="packages/apps/Tag" name="TeamExodus/packages_apps_Tag" groups="pdk-fs"  />
-  <project path="packages/apps/Terminal" name="TeamExodus/packages_apps_Terminal" groups="pdk-fs"  />
   <project path="packages/experimental" name="TeamExodus/packages_experimental"  />
   <project path="packages/inputmethods/LatinIME" name="TeamExodus/packages_inputmethods_LatinIME" groups="pdk-fs"  />
   <project path="packages/providers/BookmarkProvider" name="TeamExodus/packages_providers_BookmarkProvider" groups="pdk-fs"  />
