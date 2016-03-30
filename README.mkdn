@@ -16,16 +16,16 @@ or
 
 To initialize Team-Exodus trees with SSH Authentication, use the following command:
 
-    repo init -u https://github.com/TeamExodus/private_platform_manifest.git -b EXODUS-6.0
+    repo init -u ssh://git@github.com/TeamExodus/private_platform_manifest.git -b EXODUS-6.0
 
 Then to sync up:
 
     repo sync -j8
-    
+
 Our gerrit:
 
-	http://review.exodus-developers.net/
-    
+    http://review.exodus-developers.net/
+
     For pushing stuff : ssl://YourGitHubName@vanir-exodus.net:29418/repo_you_want_to_contribute_to HEADS:refs/for/EXODUS-6.0
 
 Our Community:
