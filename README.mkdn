@@ -15,14 +15,13 @@ To initialize Team-Exodus trees, use the following command:
 Then to sync up:
 
     repo sync -j8
-    
+
 Our gerrit:
 
 	http://review.exodus-developers.net
-    
-    For pushing stuff : ssl://YourGitHubName@review.exodus-developers.net:29418/repo_you_want_to_contribute_to HEADS:refs/for/EXODUS-6.0
+
+    For pushing stuff : git push ssh://YourGitHubName@review.exodus-developers.net:29418/TeamExodus/repo_you_want_to_contribute_to HEAD:refs/for/EXODUS-6.0
 
 Our Community:
 
 	https://plus.google.com/communities/106801227383087889476
-
