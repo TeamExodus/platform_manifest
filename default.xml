@@ -46,7 +46,7 @@
   <project path="external/busybox" name="TeamExodus/external_busybox"  />
   <project path="external/connectivity" name="TeamExodus/external_connectivity"  />
   <project path="packages/services/ContentGuard" name="ContentGuard/AntiPiracySupport" revision="Android-6.0.1" />
-  <project path="packages/apps/Deviceprofiles" name="TeamExodus/private_packages_apps_DeviceProfiles" revision="EXODUS-6.0" />
+  <project path="packages/apps/DeviceProfiles" name="TeamExodus/private_packages_apps_DeviceProfiles" revision="EXODUS-6.0" />
   <project path="external/curl" name="TeamExodus/external_curl"  />
   <project path="external/dhcpcd" name="TeamExodus/external_dhcpcd" groups="pdk-cw-fs,pdk-fs"  />
   <project path="external/e2fsprogs" name="TeamExodus/external_e2fsprogs" groups="pdk"  />
