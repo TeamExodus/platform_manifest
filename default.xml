@@ -22,6 +22,7 @@
            sync-j="4" />
 
   <!-- BEGIN Team Exodus -->
+  <project path="packages/apps/ExodusSettings" name="TeamExodus/packages_apps_ExodusSettings" revision="EXODUS-6.0" />
   <project path="art" name="TeamExodus/art" groups="pdk"  />
   <project path="bionic" name="TeamExodus/bionic" groups="pdk"  />
   <project path="bootable/recovery" name="TeamExodus/bootable_recovery" groups="pdk"  />
