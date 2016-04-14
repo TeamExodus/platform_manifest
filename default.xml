@@ -39,233 +39,235 @@
   <!-- END GOOGLE LIVE -->
 
   <!-- BEGIN Team Exodus -->
-  <project path="art" name="TeamExodus/private_art" groups="pdk"  />
-  <project path="bionic" name="TeamExodus/bionic" groups="pdk"  />
-  <project path="bootable/recovery" name="TeamExodus/bootable_recovery" groups="pdk"  />
-  <project path="bootable/recovery-exodus" name="TeamExodus/bootable_recovery-exodus" groups="pdk"  />
+  <project path="art" name="TeamExodus/private_art" groups="pdk" />
+  <project path="bionic" name="TeamExodus/bionic" groups="pdk" />
+  <project path="bootable/recovery" name="TeamExodus/bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery-exodus" name="TeamExodus/bootable_recovery-exodus" groups="pdk" />
   <project path="build" name="TeamExodus/private_build" groups="pdk"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="development" name="TeamExodus/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/qcom/sepolicy" name="Exodus-Devices/qcom_sepolicy"  />
-  <project path="external/android-clat" name="TeamExodus/external_android-clat" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="external/android-mock" name="TeamExodus/external_android-mock" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="external/android-visualizer" name="TeamExodus/external_android-visualizer"  />
-  <project path="external/ant-wireless/ant_native" name="TeamExodus/external_ant-wireless_ant_native"  />
-  <project path="external/ant-wireless/ant_service" name="TeamExodus/external_ant-wireless_ant_service"  />
-  <project path="external/ant-wireless/antradio-library" name="TeamExodus/external_ant-wireless_antradio-library"  />
-  <project path="external/apache-http" name="TeamExodus/external_apache-http" groups="pdk"  />
-  <project path="external/bash" name="TeamExodus/external_bash"  />
+  <project path="device/qcom/sepolicy" name="Exodus-Devices/qcom_sepolicy" />
+  <project path="external/android-clat" name="TeamExodus/external_android-clat" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/android-mock" name="TeamExodus/external_android-mock" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/android-visualizer" name="TeamExodus/external_android-visualizer" />
+  <project path="external/ant-wireless/ant_native" name="TeamExodus/external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="TeamExodus/external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" name="TeamExodus/external_ant-wireless_antradio-library" />
+  <project path="external/apache-http" name="TeamExodus/external_apache-http" groups="pdk" />
+  <project path="external/bash" name="TeamExodus/external_bash" />
   <project path="external/boringssl" name="TeamExodus/external_boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="TeamExodus/external_bouncycastle" groups="pdk" />
-  <project path="external/brctl" name="TeamExodus/external_brctl"  />
-  <project path="external/busybox" name="TeamExodus/external_busybox"  />
-  <project path="external/connectivity" name="TeamExodus/external_connectivity"  />
-  <project path="packages/services/ContentGuard" name="ContentGuard/AntiPiracySupport" revision="Android-6.0.1" />
-  <project path="packages/apps/DeviceProfiles" name="TeamExodus/private_packages_apps_DeviceProfiles" revision="EXODUS-6.0" />
-  <project path="external/curl" name="TeamExodus/external_curl"  />
-  <project path="external/dhcpcd" name="TeamExodus/external_dhcpcd" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="external/e2fsprogs" name="TeamExodus/external_e2fsprogs" groups="pdk"  />
-  <project path="external/ebtables" name="TeamExodus/external_ebtables"  />
-  <project path="external/elfutils" name="TeamExodus/external_elfutils" groups="pdk"  />
-  <project path="external/exfat" name="TeamExodus/external_exfat"  />
-  <project path="external/f2fs-tools" name="TeamExodus/external_f2fs-tools" groups="pdk"  />
-  <project path="external/ffmpeg" name="TeamExodus/external_ffmpeg"  />
-  <project path="external/flac" name="TeamExodus/external_flac" groups="pdk"  />
-  <project path="external/fsck_msdos" name="TeamExodus/external_fsck_msdos" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="external/fuse" name="TeamExodus/external_fuse"  />
-  <project path="external/gmock" name="TeamExodus/external_gmock"  />
-  <project path="external/gptfdisk" name="TeamExodus/external_gptfdisk" groups="pdk-fs"  />
-  <project path="external/gson" name="TeamExodus/external_gson"  />
-  <project path="external/guava" name="TeamExodus/external_guava" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="external/htop" name="TeamExodus/external_htop"  />
+  <project path="external/brctl" name="TeamExodus/external_brctl" />
+  <project path="external/busybox" name="TeamExodus/external_busybox" />
+  <project path="external/connectivity" name="TeamExodus/external_connectivity" />
+  <project path="external/curl" name="TeamExodus/external_curl" />
+  <project path="external/dhcpcd" name="TeamExodus/external_dhcpcd" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/doclava" name="TeamExodus/external_doclava" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/e2fsprogs" name="TeamExodus/external_e2fsprogs" groups="pdk" />
+  <project path="external/ebtables" name="TeamExodus/external_ebtables" />
+  <project path="external/elfutils" name="TeamExodus/external_elfutils" groups="pdk" />
+  <project path="external/exfat" name="TeamExodus/external_exfat" />
+  <project path="external/f2fs-tools" name="TeamExodus/external_f2fs-tools" groups="pdk" />
+  <project path="external/ffmpeg" name="TeamExodus/external_ffmpeg" />
+  <project path="external/flac" name="TeamExodus/external_flac" groups="pdk" />
+  <project path="external/fsck_msdos" name="TeamExodus/external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/fuse" name="TeamExodus/external_fuse" />
+  <project path="external/gmock" name="TeamExodus/external_gmock" />
+  <project path="external/gptfdisk" name="TeamExodus/external_gptfdisk" groups="pdk-fs" />
+  <project path="external/gson" name="TeamExodus/external_gson" />
+  <project path="external/guava" name="TeamExodus/external_guava" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/htop" name="TeamExodus/external_htop" />
   <project path="external/icu" name="TeamExodus/external_icu" groups="pdk" />
-  <project path="external/iproute2" name="TeamExodus/external_iproute2" groups="pdk"  />
+  <project path="external/iproute2" name="TeamExodus/external_iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="TeamExodus/external_ipsec-tools" groups="pdk" />
   <project path="external/iptables" name="TeamExodus/external_iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jemalloc" name="TeamExodus/external_jemalloc" groups="pdk"/>
-  <project path="external/jpeg" name="TeamExodus/external_jpeg" groups="pdk"  />
-  <project path="external/koush/AndroidAsync" name="TeamExodus/external_koush_AndroidAsync"  />
-  <project path="external/koush/ion" name="TeamExodus/external_koush_ion"  />
-  <project path="external/libavc" name="TeamExodus/external_libavc" groups="pdk"  />
-  <project path="external/libncurses" name="TeamExodus/external_libncurses"  />
-  <project path="external/libnetfilter_conntrack" name="TeamExodus/external_libnetfilter_conntrack"  />
+  <project path="external/jpeg" name="TeamExodus/external_jpeg" groups="pdk" />
+  <project path="external/koush/AndroidAsync" name="TeamExodus/external_koush_AndroidAsync" />
+  <project path="external/koush/ion" name="TeamExodus/external_koush_ion" />
+  <project path="external/libavc" name="TeamExodus/external_libavc" groups="pdk" />
+  <project path="external/libncurses" name="TeamExodus/external_libncurses" />
+  <project path="external/libnetfilter_conntrack" name="TeamExodus/external_libnetfilter_conntrack" />
   <project path="external/libnfc-nci" name="TeamExodus/external_libnfc-nci" groups="pdk" />
-  <project path="external/libnfc-nxp" name="TeamExodus/external_libnfc-nxp" groups="pdk"  />
-  <project path="external/libnfnetlink" name="TeamExodus/external_libnfnetlink"  />
-  <project path="external/libphonenumbergoogle" name="TeamExodus/external_libphonenumbergoogle"  />
+  <project path="external/libnfc-nxp" name="TeamExodus/external_libnfc-nxp" groups="pdk" />
+  <project path="external/libnfnetlink" name="TeamExodus/external_libnfnetlink" />
+  <project path="external/libphonenumbergoogle" name="TeamExodus/external_libphonenumbergoogle" />
   <project path="external/libpng" name="TeamExodus/external_libpng" groups="pdk" />
-  <project path="external/libtar" name="TeamExodus/external_libtar"  />
-  <project path="external/libtruezip" name="TeamExodus/external_libtruezip"  />
-  <project path="external/libusbx" name="TeamExodus/external_libusbx"  />
-  <project path="external/libxml2" name="TeamExodus/external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2"  />
-  <project path="external/libxslt" name="TeamExodus/external_libxslt"  />
+  <project path="external/libtar" name="TeamExodus/external_libtar" />
+  <project path="external/libtruezip" name="TeamExodus/external_libtruezip" />
+  <project path="external/libusbx" name="TeamExodus/external_libusbx" />
+  <project path="external/libxml2" name="TeamExodus/external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
+  <project path="external/libxslt" name="TeamExodus/external_libxslt" />
   <project path="external/lz4" name="TeamExodus/external_lz4" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/lzma" name="TeamExodus/external_lzma" groups="pdk"  />
-  <project path="external/lzo" name="TeamExodus/external_lzo"  />
-  <project path="external/mksh" name="TeamExodus/external_mksh" groups="pdk"  />
-  <project path="external/mm-dash" name="TeamExodus/external_mm-dash"  />
-  <project path="external/nano" name="TeamExodus/external_nano"  />
-  <project path="external/ntfs-3g" name="TeamExodus/external_ntfs-3g"  />
-  <project path="external/okhttp" name="TeamExodus/external_okhttp" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="external/pigz" name="TeamExodus/external_pigz"  />
+  <project path="external/lzma" name="TeamExodus/external_lzma" groups="pdk" />
+  <project path="external/lzo" name="TeamExodus/external_lzo" />
+  <project path="external/mksh" name="TeamExodus/external_mksh" groups="pdk" />
+  <project path="external/mm-dash" name="TeamExodus/external_mm-dash" />
+  <project path="external/nano" name="TeamExodus/external_nano" />
+  <project path="external/ntfs-3g" name="TeamExodus/external_ntfs-3g" />
+  <project path="external/okhttp" name="TeamExodus/external_okhttp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/pigz" name="TeamExodus/external_pigz" />
   <project path="external/proguard" name="TeamExodus/external_proguard" groups="pdk" />
-  <project path="external/protobuf-c" name="TeamExodus/external_protobuf-c"  />
+  <project path="external/protobuf-c" name="TeamExodus/external_protobuf-c" />
   <project path="external/ppp" name="TeamExodus/external_ppp" groups="pdk" />
-  <project path="external/rsync" name="TeamExodus/external_rsync"  />
-  <project path="external/sepolicy" name="TeamExodus/external_sepolicy" groups="pdk"  />
-  <project path="external/skia" name="TeamExodus/external_skia" groups="pdk,qcom_msm8x26"  />
-  <project path="external/sonivox" name="TeamExodus/external_sonivox" groups="pdk"  />
-  <project path="external/speex" name="TeamExodus/external_speex" groups="pdk"  />
-  <project path="external/spongycastle" name="TeamExodus/external_spongycastle" groups="pdk"  />
-  <project path="external/sqlite" name="TeamExodus/external_sqlite" groups="pdk"  />
-  <project path="external/stagefright-plugins" name="TeamExodus/external_stagefright-plugins"  />
-  <project path="external/strace" name="TeamExodus/external_strace" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="external/tinycompress" name="TeamExodus/external_tinycompress" groups="pdk"  />
-  <project path="external/tinyalsa" name="TeamExodus/external_tinyalsa" groups="pdk"  />
-  <project path="external/tinyxml2" name="TeamExodus/external_tinyxml2" groups="pdk"  />
-  <project path="external/toybox" name="TeamExodus/external_toybox" groups="pdk"  />
-  <project path="external/unrar" name="TeamExodus/external_unrar"  />
-  <project path="external/vim" name="TeamExodus/external_vim"  />
-  <project path="external/wpa_supplicant_8" name="TeamExodus/external_wpa_supplicant_8" groups="pdk"  />
+  <project path="external/rsync" name="TeamExodus/external_rsync" />
+  <project path="external/sepolicy" name="TeamExodus/external_sepolicy" groups="pdk" />
+  <project path="external/skia" name="TeamExodus/external_skia" groups="pdk,qcom_msm8x26" />
+  <project path="external/sonivox" name="TeamExodus/external_sonivox" groups="pdk" />
+  <project path="external/speex" name="TeamExodus/external_speex" groups="pdk" />
+  <project path="external/spongycastle" name="TeamExodus/external_spongycastle" groups="pdk" />
+  <project path="external/sqlite" name="TeamExodus/external_sqlite" groups="pdk" />
+  <project path="external/stagefright-plugins" name="TeamExodus/external_stagefright-plugins" />
+  <project path="external/strace" name="TeamExodus/external_strace" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/tinycompress" name="TeamExodus/external_tinycompress" groups="pdk" />
+  <project path="external/tinyalsa" name="TeamExodus/external_tinyalsa" groups="pdk" />
+  <project path="external/tinyxml2" name="TeamExodus/external_tinyxml2" groups="pdk" />
+  <project path="external/toybox" name="TeamExodus/external_toybox" groups="pdk" />
+  <project path="external/unrar" name="TeamExodus/external_unrar" />
+  <project path="external/vim" name="TeamExodus/external_vim" />
+  <project path="external/vogar" name="TeamExodus/external_vogar" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="TeamExodus/external_wpa_supplicant_8" groups="pdk" />
   <project path="external/webp" name="TeamExodus/external_webp" groups="pdk,qcom_msm8x26" />
-  <project path="external/yaffs2" name="TeamExodus/external_yaffs2" groups="pdk"  />
-  <project path="external/zip" name="TeamExodus/external_zip"  />
-  <project path="external/zlib" name="TeamExodus/external_zlib" groups="pdk"  />
-  <project path="frameworks/av" name="TeamExodus/frameworks_av" groups="pdk"  />
-  <project path="frameworks/base" name="TeamExodus/private_frameworks_base" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="frameworks/minikin" name="TeamExodus/frameworks_minikin" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="frameworks/native" name="TeamExodus/frameworks_native" groups="pdk"  />
-  <project path="frameworks/opt/bluetooth" name="TeamExodus/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="frameworks/opt/chips" name="TeamExodus/frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="frameworks/opt/datetimepicker" name="TeamExodus/frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="frameworks/opt/hardware" name="TeamExodus/frameworks_opt_hardware"  />
-  <project path="frameworks/opt/net/ethernet" name="TeamExodus/frameworks_opt_net_ethernet" groups="pdk-fs"  />
-  <project path="frameworks/opt/net/ims" name="TeamExodus/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs"  />
-  <project path="frameworks/opt/net/wifi" name="TeamExodus/frameworks_opt_net_wifi" groups="pdk"  />
-  <project path="frameworks/opt/telephony" name="TeamExodus/frameworks_opt_telephony" groups="pdk"  />
-  <project path="frameworks/opt/photoviewer" name="TeamExodus/frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="frameworks/opt/vcard" name="TeamExodus/frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="frameworks/rs" name="TeamExodus/frameworks_rs" groups="pdk"  />
-  <project path="frameworks/support" name="TeamExodus/frameworks_support" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="frameworks/webview" name="TeamExodus/frameworks_webview" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="frameworks/wilhelm" name="TeamExodus/frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="hardware/broadcom/libbt" name="TeamExodus/hardware_broadcom_libbt" groups="pdk"  />
-  <project path="hardware/broadcom/wlan" name="TeamExodus/hardware_broadcom_wlan" groups="pdk,broadcom_wlan"  />
-  <project path="hardware/cm" name="TeamExodus/hardware_cm"  />
-  <project path="hardware/cyanogen" name="TeamExodus/hardware_cyanogen"  />
-  <project path="hardware/intel/img/hwcomposer" name="TeamExodus/hardware_intel_img_hwcomposer" groups="intel"  />
-  <project path="hardware/invensense" name="TeamExodus/hardware_invensense" groups="invensense"  />
-  <project path="hardware/libhardware" name="TeamExodus/hardware_libhardware" groups="pdk"  />
-  <project path="hardware/libhardware_legacy" name="TeamExodus/hardware_libhardware_legacy" groups="pdk"  />
-  <project path="hardware/qcom/audio/default" name="TeamExodus/hardware_qcom_audio_default" groups="qcom,qcom_audio"  />
-  <project path="hardware/qcom/audio-caf/apq8084" name="TeamExodus/hardware_qcom_audio-caf_apq8084" groups="qcom,qcom_audio"  />
-  <project path="hardware/qcom/audio-caf/msm8916" name="TeamExodus/hardware_qcom_audio-caf_msm8916" groups="qcom,qcom_audio"  />
-  <project path="hardware/qcom/audio-caf/msm8960" name="TeamExodus/hardware_qcom_audio-caf_msm8960" groups="qcom,qcom_audio"  />
-  <project path="hardware/qcom/audio-caf/msm8974" name="TeamExodus/hardware_qcom_audio-caf_msm8974" groups="qcom,qcom_audio"  />
-  <project path="hardware/qcom/audio-caf/msm8994" name="TeamExodus/hardware_qcom_audio-caf_msm8994" groups="qcom,qcom_audio"  />
-  <project path="hardware/qcom/bt" name="TeamExodus/hardware_qcom_bt" groups="qcom"  />
-  <project path="hardware/qcom/bt-caf" name="TeamExodus/hardware_qcom_bt-caf" groups="qcom"  />
-  <project path="hardware/qcom/camera" name="TeamExodus/hardware_qcom_camera" groups="qcom"  />
-  <project path="hardware/qcom/display" name="TeamExodus/hardware_qcom_display" groups="pdk,qcom,qcom_display"  />
-  <project path="hardware/qcom/display-caf/apq8084" name="TeamExodus/hardware_qcom_display-caf_apq8084" groups="pdk,qcom,qcom_display"  />
-  <project path="hardware/qcom/display-caf/msm8916" name="TeamExodus/hardware_qcom_display-caf_msm8916" groups="pdk,qcom,qcom_display"  />
-  <project path="hardware/qcom/display-caf/msm8960" name="TeamExodus/hardware_qcom_display-caf_msm8960" groups="pdk,qcom,qcom_display"  />
-  <project path="hardware/qcom/display-caf/msm8974" name="TeamExodus/hardware_qcom_display-caf_msm8974" groups="pdk,qcom,qcom_display"  />
-  <project path="hardware/qcom/display-caf/msm8994" name="TeamExodus/hardware_qcom_display-caf_msm8994" groups="pdk,qcom,qcom_display"  />
-  <project path="hardware/qcom/fm" name="TeamExodus/hardware_qcom_fm" groups="qcom"  />
-  <project path="hardware/qcom/gps" name="TeamExodus/hardware_qcom_gps" groups="qcom,qcom_gps"  />
-  <project path="hardware/qcom/keymaster" name="TeamExodus/hardware_qcom_keymaster" groups="qcom,qcom_keymaster"  />
-  <project path="hardware/qcom/media/default" name="TeamExodus/hardware_qcom_media_default" groups="qcom"  />
-  <project path="hardware/qcom/media-caf/apq8084" name="TeamExodus/hardware_qcom_media-caf_apq8084" groups="qcom"  />
-  <project path="hardware/qcom/media-caf/msm8916" name="TeamExodus/hardware_qcom_media-caf_msm8916" groups="qcom"  />
-  <project path="hardware/qcom/media-caf/msm8960" name="TeamExodus/hardware_qcom_media-caf_msm8960" groups="qcom"  />
-  <project path="hardware/qcom/media-caf/msm8974" name="TeamExodus/hardware_qcom_media-caf_msm8974" groups="qcom"  />
-  <project path="hardware/qcom/media-caf/msm8994" name="TeamExodus/hardware_qcom_media-caf_msm8994" groups="qcom"  />
-  <project path="hardware/qcom/wlan" name="TeamExodus/hardware_qcom_wlan" groups="qcom_wlan"  />
-  <project path="hardware/qcom/wlan-caf" name="TeamExodus/hardware_qcom_wlan-caf" groups="qcom_wlan"  />
-  <project path="hardware/ril" name="TeamExodus/hardware_ril" groups="pdk"  />
-  <project path="hardware/ril-caf" name="TeamExodus/hardware_ril-caf" groups="pdk"  />
-  <project path="hardware/samsung_slsi/exynos5" name="TeamExodus/hardware_samsung_slsi_exynos5"  />
-  <project path="hardware/ti/omap4" name="TeamExodus/hardware_ti_omap4"  />
-  <project path="hardware/ti/omap4xxx" name="TeamExodus/hardware_ti_omap4xxx" groups="omap4"  />
-  <project path="hardware/ti/wlan" name="TeamExodus/hardware_ti_wlan"  />
-  <project path="hardware/ti/wpan" name="TeamExodus/hardware_ti_wpan"  />
+  <project path="external/yaffs2" name="TeamExodus/external_yaffs2" groups="pdk" />
+  <project path="external/zip" name="TeamExodus/external_zip" />
+  <project path="external/zlib" name="TeamExodus/external_zlib" groups="pdk" />
+  <project path="frameworks/av" name="TeamExodus/frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="TeamExodus/private_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/minikin" name="TeamExodus/frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="TeamExodus/frameworks_native" groups="pdk" />
+  <project path="frameworks/opt/bluetooth" name="TeamExodus/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/chips" name="TeamExodus/frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/datetimepicker" name="TeamExodus/frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/hardware" name="TeamExodus/frameworks_opt_hardware" />
+  <project path="frameworks/opt/net/ethernet" name="TeamExodus/frameworks_opt_net_ethernet" groups="pdk-fs" />
+  <project path="frameworks/opt/net/ims" name="TeamExodus/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/wifi" name="TeamExodus/frameworks_opt_net_wifi" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="TeamExodus/frameworks_opt_telephony" groups="pdk" />
+  <project path="frameworks/opt/photoviewer" name="TeamExodus/frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/vcard" name="TeamExodus/frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/rs" name="TeamExodus/frameworks_rs" groups="pdk" />
+  <project path="frameworks/support" name="TeamExodus/frameworks_support" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/webview" name="TeamExodus/frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/wilhelm" name="TeamExodus/frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="hardware/broadcom/libbt" name="TeamExodus/hardware_broadcom_libbt" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="TeamExodus/hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/cm" name="TeamExodus/hardware_cm" />
+  <project path="hardware/cyanogen" name="TeamExodus/hardware_cyanogen" />
+  <project path="hardware/intel/img/hwcomposer" name="TeamExodus/hardware_intel_img_hwcomposer" groups="intel" />
+  <project path="hardware/invensense" name="TeamExodus/hardware_invensense" groups="invensense" />
+  <project path="hardware/libhardware" name="TeamExodus/hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="TeamExodus/hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/qcom/audio/default" name="TeamExodus/hardware_qcom_audio_default" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="TeamExodus/hardware_qcom_audio-caf_apq8084" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="TeamExodus/hardware_qcom_audio-caf_msm8916" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="TeamExodus/hardware_qcom_audio-caf_msm8960" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="TeamExodus/hardware_qcom_audio-caf_msm8974" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="TeamExodus/hardware_qcom_audio-caf_msm8994" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/bt" name="TeamExodus/hardware_qcom_bt" groups="qcom" />
+  <project path="hardware/qcom/bt-caf" name="TeamExodus/hardware_qcom_bt-caf" groups="qcom" />
+  <project path="hardware/qcom/camera" name="TeamExodus/hardware_qcom_camera" groups="qcom" />
+  <project path="hardware/qcom/display" name="TeamExodus/hardware_qcom_display" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/apq8084" name="TeamExodus/hardware_qcom_display-caf_apq8084" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8916" name="TeamExodus/hardware_qcom_display-caf_msm8916" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8960" name="TeamExodus/hardware_qcom_display-caf_msm8960" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8974" name="TeamExodus/hardware_qcom_display-caf_msm8974" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8994" name="TeamExodus/hardware_qcom_display-caf_msm8994" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/fm" name="TeamExodus/hardware_qcom_fm" groups="qcom" />
+  <project path="hardware/qcom/gps" name="TeamExodus/hardware_qcom_gps" groups="qcom,qcom_gps" />
+  <project path="hardware/qcom/keymaster" name="TeamExodus/hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
+  <project path="hardware/qcom/media/default" name="TeamExodus/hardware_qcom_media_default" groups="qcom" />
+  <project path="hardware/qcom/media-caf/apq8084" name="TeamExodus/hardware_qcom_media-caf_apq8084" groups="qcom" />
+  <project path="hardware/qcom/media-caf/msm8916" name="TeamExodus/hardware_qcom_media-caf_msm8916" groups="qcom" />
+  <project path="hardware/qcom/media-caf/msm8960" name="TeamExodus/hardware_qcom_media-caf_msm8960" groups="qcom" />
+  <project path="hardware/qcom/media-caf/msm8974" name="TeamExodus/hardware_qcom_media-caf_msm8974" groups="qcom" />
+  <project path="hardware/qcom/media-caf/msm8994" name="TeamExodus/hardware_qcom_media-caf_msm8994" groups="qcom" />
+  <project path="hardware/qcom/wlan" name="TeamExodus/hardware_qcom_wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan-caf" name="TeamExodus/hardware_qcom_wlan-caf" groups="qcom_wlan" />
+  <project path="hardware/ril" name="TeamExodus/hardware_ril" groups="pdk" />
+  <project path="hardware/ril-caf" name="TeamExodus/hardware_ril-caf" groups="pdk" />
+  <project path="hardware/samsung_slsi/exynos5" name="TeamExodus/hardware_samsung_slsi_exynos5" />
+  <project path="hardware/ti/omap4" name="TeamExodus/hardware_ti_omap4" />
+  <project path="hardware/ti/omap4xxx" name="TeamExodus/hardware_ti_omap4xxx" groups="omap4" />
+  <project path="hardware/ti/wlan" name="TeamExodus/hardware_ti_wlan" />
+  <project path="hardware/ti/wpan" name="TeamExodus/hardware_ti_wpan" />
   <project path="libcore" name="TeamExodus/libcore" groups="pdk" />
-  <project path="libnativehelper" name="TeamExodus/libnativehelper" groups="pdk"  />
-  <project path="manifest" name="TeamExodus/private_platform_manifest"  />
-  <project path="packages/apps/AudioFX" name="TeamExodus/packages_apps_AudioFX"  />
-  <project path="packages/apps/BasicSmsReceiver" name="TeamExodus/packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/apps/Bluetooth" name="TeamExodus/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/apps/BluetoothExt" name="TeamExodus/packages_apps_BluetoothExt"  />
-  <project path="packages/apps/CarrierConfig" name="TeamExodus/packages_apps_CarrierConfig" groups="pdk-fs"  />
-  <project path="packages/apps/CellBroadcastReceiver" name="TeamExodus/packages_apps_CellBroadcastReceiver" groups="pdk-fs"  />
-  <project path="packages/apps/CertInstaller" name="TeamExodus/packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/apps/Contacts" name="TeamExodus/packages_apps_Contacts" groups="pdk-fs"  />
-  <project path="packages/apps/ContactsCommon" name="TeamExodus/packages_apps_ContactsCommon" groups="pdk-fs"  />
+  <project path="libnativehelper" name="TeamExodus/libnativehelper" groups="pdk" />
+  <project path="manifest" name="TeamExodus/private_platform_manifest" />
+  <project path="packages/apps/AudioFX" name="TeamExodus/packages_apps_AudioFX" />
+  <project path="packages/apps/BasicSmsReceiver" name="TeamExodus/packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Bluetooth" name="TeamExodus/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/BluetoothExt" name="TeamExodus/packages_apps_BluetoothExt" />
+  <project path="packages/apps/CarrierConfig" name="TeamExodus/packages_apps_CarrierConfig" groups="pdk-fs" />
+  <project path="packages/apps/CellBroadcastReceiver" name="TeamExodus/packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
+  <project path="packages/apps/CertInstaller" name="TeamExodus/packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Contacts" name="TeamExodus/packages_apps_Contacts" groups="pdk-fs" />
+  <project path="packages/apps/ContactsCommon" name="TeamExodus/packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="TeamExodus/packages_apps_DeskClock" />
-  <project path="packages/apps/Dialer" name="TeamExodus/private_packages_apps_Dialer" groups="pdk-fs"  />
-  <project path="packages/apps/Email" name="TeamExodus/packages_apps_Email" groups="pdk-fs"  />
-  <project path="packages/apps/Exchange" name="TeamExodus/packages_apps_Exchange" groups="pdk-fs"  />
+  <project path="packages/apps/DeviceProfiles" name="TeamExodus/private_packages_apps_DeviceProfiles" />
+  <project path="packages/apps/Dialer" name="TeamExodus/private_packages_apps_Dialer" groups="pdk-fs" />
+  <project path="packages/apps/Email" name="TeamExodus/packages_apps_Email" groups="pdk-fs" />
+  <project path="packages/apps/Exchange" name="TeamExodus/packages_apps_Exchange" groups="pdk-fs" />
   <project path="packages/apps/ExodusUpdater" name="TeamExodus/private_packages_apps_ExodusUpdater" groups="pdk-fs" />
   <project path="packages/apps/ExodusWallpapers" name="TeamExodus/drop_wallpapers" groups="pdk-fs" />
-  <project path="packages/apps/FMRadio" name="TeamExodus/packages_apps_FMRadio" groups="pdk-fs"  />
-  <project path="packages/apps/Gallery2" name="TeamExodus/packages_apps_Gallery2" groups="pdk-fs"  />
-  <project path="packages/apps/HTMLViewer" name="TeamExodus/packages_apps_HTMLViewer" groups="pdk-fs"  />
-  <project path="packages/apps/InCallUI" name="TeamExodus/packages_apps_InCallUI" groups="pdk-fs"  />
-  <project path="packages/apps/KeyChain" name="TeamExodus/packages_apps_KeyChain" groups="pdk-fs"  />
-  <project path="packages/apps/Launcher3" name="TeamExodus/packages_apps_Launcher3" groups="pdk-fs"  />
-  <project path="packages/apps/ManagedProvisioning" name="TeamExodus/packages_apps_ManagedProvisioning" groups="pdk-fs"  />
-  <project path="packages/apps/Messaging" name="TeamExodus/packages_apps_Messaging" groups="pdk-fs"  />
-  <project path="packages/apps/Nfc" name="TeamExodus/packages_apps_Nfc" groups="apps_nfc,pdk-fs"  />
+  <project path="packages/apps/FMRadio" name="TeamExodus/packages_apps_FMRadio" groups="pdk-fs" />
+  <project path="packages/apps/Gallery2" name="TeamExodus/packages_apps_Gallery2" groups="pdk-fs" />
+  <project path="packages/apps/HTMLViewer" name="TeamExodus/packages_apps_HTMLViewer" groups="pdk-fs" />
+  <project path="packages/apps/InCallUI" name="TeamExodus/packages_apps_InCallUI" groups="pdk-fs" />
+  <project path="packages/apps/KeyChain" name="TeamExodus/packages_apps_KeyChain" groups="pdk-fs" />
+  <project path="packages/apps/Launcher3" name="TeamExodus/packages_apps_Launcher3" groups="pdk-fs" />
+  <project path="packages/apps/ManagedProvisioning" name="TeamExodus/packages_apps_ManagedProvisioning" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" name="TeamExodus/packages_apps_Messaging" groups="pdk-fs" />
+  <project path="packages/apps/Nfc" name="TeamExodus/packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OpenDelta" name="TeamExodus/packages_apps_OpenDelta" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="TeamExodus/packages_apps_PackageInstaller" groups="pdk-fs"  />
-  <project path="packages/apps/PhoneCommon" name="TeamExodus/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/apps/Provision" name="TeamExodus/packages_apps_Provision" groups="pdk-fs"  />
-  <project path="packages/apps/Settings" name="TeamExodus/private_packages_apps_Settings" groups="pdk-fs"  />
-  <project path="packages/apps/SmartCardService" name="TeamExodus/packages_apps_SmartCardService" groups="pdk-fs"  />
-  <project path="packages/apps/Snap" name="TeamExodus/packages_apps_Snap" groups="pdk-fs"  />
-  <project path="packages/apps/SoundRecorder" name="TeamExodus/packages_apps_SoundRecorder" groups="pdk-fs"  />
-  <project path="packages/apps/SpeechRecorder" name="TeamExodus/packages_apps_SpeechRecorder" groups="pdk-fs"  />
-  <project path="packages/apps/Stk" name="TeamExodus/packages_apps_Stk" groups="apps_stk,pdk-fs"  />
-  <project path="packages/apps/Tag" name="TeamExodus/packages_apps_Tag" groups="pdk-fs"  />
-  <project path="packages/apps/Terminal" name="TeamExodus/packages_apps_Terminal" groups="pdk-fs"  />
-  <project path="packages/apps/UnifiedEmail" name="TeamExodus/packages_apps_UnifiedEmail" groups="pdk-fs"  />
-  <project path="packages/experimental" name="TeamExodus/packages_experimental"  />
+  <project path="packages/apps/PackageInstaller" name="TeamExodus/packages_apps_PackageInstaller" groups="pdk-fs" />
+  <project path="packages/apps/PhoneCommon" name="TeamExodus/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Provision" name="TeamExodus/packages_apps_Provision" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="TeamExodus/private_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/SmartCardService" name="TeamExodus/packages_apps_SmartCardService" groups="pdk-fs" />
+  <project path="packages/apps/Snap" name="TeamExodus/packages_apps_Snap" groups="pdk-fs" />
+  <project path="packages/apps/SoundRecorder" name="TeamExodus/packages_apps_SoundRecorder" groups="pdk-fs" />
+  <project path="packages/apps/SpeechRecorder" name="TeamExodus/packages_apps_SpeechRecorder" groups="pdk-fs" />
+  <project path="packages/apps/Stk" name="TeamExodus/packages_apps_Stk" groups="apps_stk,pdk-fs" />
+  <project path="packages/apps/Tag" name="TeamExodus/packages_apps_Tag" groups="pdk-fs" />
+  <project path="packages/apps/Terminal" name="TeamExodus/packages_apps_Terminal" groups="pdk-fs" />
+  <project path="packages/apps/UnifiedEmail" name="TeamExodus/packages_apps_UnifiedEmail" groups="pdk-fs" />
+  <project path="packages/experimental" name="TeamExodus/packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="TeamExodus/private_packages_inputmethods_LatinIME" groups="pdk-fs" revisions="EXODUS-6.0" />
-  <project path="packages/providers/BookmarkProvider" name="TeamExodus/packages_providers_BookmarkProvider" groups="pdk-fs"  />
-  <project path="packages/providers/CalendarProvider" name="TeamExodus/packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/providers/CallLogProvider" name="TeamExodus/packages_providers_CallLogProvider" groups="pdk-fs"  />
-  <project path="packages/providers/ContactsProvider" name="TeamExodus/packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/providers/DownloadProvider" name="TeamExodus/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/providers/MediaProvider" name="TeamExodus/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/providers/PartnerBookmarksProvider" name="TeamExodus/packages_providers_PartnerBookmarksProvider" groups="pdk-fs"  />
-  <project path="packages/providers/TelephonyProvider" name="TeamExodus/packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/providers/TvProvider" name="TeamExodus/packages_providers_TvProvider" groups="pdk-fs"  />
-  <project path="packages/providers/UserDictionaryProvider" name="TeamExodus/packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/screensavers/Basic" name="TeamExodus/packages_screensavers_Basic" groups="pdk-fs"  />
-  <project path="packages/screensavers/PhotoTable" name="TeamExodus/packages_screensavers_PhotoTable" groups="pdk-fs"  />
-  <project path="packages/screensavers/WebView" name="TeamExodus/packages_screensavers_WebView" groups="pdk-fs"  />
-  <project path="packages/services/Mms" name="TeamExodus/packages_services_Mms" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/services/Telecomm" name="TeamExodus/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/services/Telephony" name="TeamExodus/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs"  />
-  <project path="packages/wallpapers/Basic" name="TeamExodus/packages_wallpapers_Basic" groups="pdk-fs"  />
-  <project path="packages/wallpapers/LivePicker" name="TeamExodus/packages_wallpapers_LivePicker" groups="pdk-fs"  />
-  <project path="system/bt" name="TeamExodus/system_bt" groups="pdk"  />
-  <project path="system/core" name="TeamExodus/system_core" groups="pdk"  />
-  <project path="system/extras" name="TeamExodus/system_extras" groups="pdk"  />
-  <project path="system/extras/su" name="TeamExodus/system_extras_su"  />
-  <project path="system/keymaster" name="TeamExodus/system_keymaster" groups="pdk"  />
-  <project path="system/media" name="TeamExodus/system_media" groups="pdk"  />
-  <project path="system/netd" name="TeamExodus/system_netd" groups="pdk"  />
-  <project path="system/qcom" name="TeamExodus/system_qcom" groups="qcom"  />
-  <project path="system/security" name="TeamExodus/system_security" groups="pdk"  />
-  <project path="system/vold" name="TeamExodus/system_vold" groups="pdk"  />
-  <project path="vendor/exodus" name="TeamExodus/vendor_exodus"  />
+  <project path="packages/providers/BookmarkProvider" name="TeamExodus/packages_providers_BookmarkProvider" groups="pdk-fs" />
+  <project path="packages/providers/CalendarProvider" name="TeamExodus/packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/CallLogProvider" name="TeamExodus/packages_providers_CallLogProvider" groups="pdk-fs" />
+  <project path="packages/providers/ContactsProvider" name="TeamExodus/packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/DownloadProvider" name="TeamExodus/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/MediaProvider" name="TeamExodus/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="TeamExodus/packages_providers_PartnerBookmarksProvider" groups="pdk-fs" />
+  <project path="packages/providers/TelephonyProvider" name="TeamExodus/packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/TvProvider" name="TeamExodus/packages_providers_TvProvider" groups="pdk-fs" />
+  <project path="packages/providers/UserDictionaryProvider" name="TeamExodus/packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/screensavers/Basic" name="TeamExodus/packages_screensavers_Basic" groups="pdk-fs" />
+  <project path="packages/screensavers/PhotoTable" name="TeamExodus/packages_screensavers_PhotoTable" groups="pdk-fs" />
+  <project path="packages/screensavers/WebView" name="TeamExodus/packages_screensavers_WebView" groups="pdk-fs" />
+  <project path="packages/services/ContentGuard" name="ContentGuard/AntiPiracySupport" revision="Android-6.0.1" />
+  <project path="packages/services/Mms" name="TeamExodus/packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" name="TeamExodus/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telephony" name="TeamExodus/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/wallpapers/Basic" name="TeamExodus/packages_wallpapers_Basic" groups="pdk-fs" />
+  <project path="packages/wallpapers/LivePicker" name="TeamExodus/packages_wallpapers_LivePicker" groups="pdk-fs" />
+  <project path="system/bt" name="TeamExodus/system_bt" groups="pdk" />
+  <project path="system/core" name="TeamExodus/system_core" groups="pdk" />
+  <project path="system/extras" name="TeamExodus/system_extras" groups="pdk" />
+  <project path="system/extras/su" name="TeamExodus/system_extras_su" />
+  <project path="system/keymaster" name="TeamExodus/system_keymaster" groups="pdk" />
+  <project path="system/media" name="TeamExodus/system_media" groups="pdk" />
+  <project path="system/netd" name="TeamExodus/system_netd" groups="pdk" />
+  <project path="system/qcom" name="TeamExodus/system_qcom" groups="qcom" />
+  <project path="system/security" name="TeamExodus/system_security" groups="pdk" />
+  <project path="system/vold" name="TeamExodus/system_vold" groups="pdk" />
+  <project path="vendor/exodus" name="TeamExodus/vendor_exodus" />
   <project path="vendor/exodus/devices" name="TeamExodus/vendor_exodus_devices" />
   <project path="vendor/qcom/opensource/dataservices" name="TeamExodus/vendor_qcom_opensource_dataservices" />
-  <project path="vendor/qcom/opensource/dpm" name="TeamExodus/vendor_qcom_opensource_dpm"  />
-  <project path="vendor/qcom/opensource/time-services" name="TeamExodus/vendor_qcom_opensource_time-services"  />
+  <project path="vendor/qcom/opensource/dpm" name="TeamExodus/vendor_qcom_opensource_dpm" />
+  <project path="vendor/qcom/opensource/time-services" name="TeamExodus/vendor_qcom_opensource_time-services" />
 
   <!-- END Team Exodus -->
   
@@ -318,7 +320,6 @@
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" remote="aosp" />
-  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" remote="aosp" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="aosp" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="aosp" />
@@ -452,7 +453,6 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
-  <project path="external/vogar" name="platform/external/vogar" groups="pdk" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
