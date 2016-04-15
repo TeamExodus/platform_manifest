@@ -103,7 +103,6 @@
   <project path="external/lzma" name="TeamExodus/external_lzma" groups="pdk" />
   <project path="external/lzo" name="TeamExodus/external_lzo" />
   <project path="external/mksh" name="TeamExodus/external_mksh" groups="pdk" />
-  <project path="external/mm-dash" name="TeamExodus/external_mm-dash" />
   <project path="external/nano" name="TeamExodus/external_nano" />
   <project path="external/ntfs-3g" name="TeamExodus/external_ntfs-3g" />
   <project path="external/okhttp" name="TeamExodus/external_okhttp" groups="pdk-cw-fs,pdk-fs" />
