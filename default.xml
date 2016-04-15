@@ -255,7 +255,6 @@
   <project path="system/bt" name="TeamExodus/system_bt" groups="pdk" />
   <project path="system/core" name="TeamExodus/system_core" groups="pdk" />
   <project path="system/extras" name="TeamExodus/system_extras" groups="pdk" />
-  <project path="system/extras/su" name="TeamExodus/system_extras_su" />
   <project path="system/keymaster" name="TeamExodus/system_keymaster" groups="pdk" />
   <project path="system/media" name="TeamExodus/system_media" groups="pdk" />
   <project path="system/netd" name="TeamExodus/system_netd" groups="pdk" />
