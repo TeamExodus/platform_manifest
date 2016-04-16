@@ -93,7 +93,7 @@
   <project path="external/libnfc-nxp" name="TeamExodus/external_libnfc-nxp" groups="pdk" />
   <project path="external/libnfnetlink" name="TeamExodus/external_libnfnetlink" />
   <project path="external/libphonenumbergoogle" name="TeamExodus/external_libphonenumbergoogle" />
-  <project path="external/libpng" name="TeamExodus/external_libpng" groups="pdk" />
+  <project path="external/libpng" name="TeamExodus/private_external_libpng" groups="pdk" />
   <project path="external/libtar" name="TeamExodus/external_libtar" />
   <project path="external/libtruezip" name="TeamExodus/external_libtruezip" />
   <project path="external/libusbx" name="TeamExodus/external_libusbx" />
