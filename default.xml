@@ -134,7 +134,6 @@
   <project path="frameworks/wilhelm" name="TeamExodus/frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/broadcom/libbt" name="TeamExodus/hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="TeamExodus/hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
-  <project path="hardware/cm" name="TeamExodus/hardware_cm" />
   <project path="hardware/cyanogen" name="TeamExodus/hardware_cyanogen" />
   <project path="hardware/intel/img/hwcomposer" name="TeamExodus/hardware_intel_img_hwcomposer" groups="intel" />
   <project path="hardware/invensense" name="TeamExodus/hardware_invensense" groups="invensense" />
