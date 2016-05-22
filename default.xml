@@ -30,7 +30,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="development" name="TeamExodus/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/qcom/sepolicy" name="Exodus-Devices/qcom_sepolicy" />
+  <project path="device/qcom/sepolicy" name="TeamExodus/device_qcom_sepolicy" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-clat" name="TeamExodus/external_android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="TeamExodus/external_android-mock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-visualizer" name="TeamExodus/external_android-visualizer" />
