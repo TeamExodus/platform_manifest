@@ -80,6 +80,7 @@
   <project path="external/libtar" name="TeamExodus/external_libtar" />
   <project path="external/libtruezip" name="TeamExodus/external_libtruezip" />
   <project path="external/libusbx" name="TeamExodus/external_libusbx" />
+  <project path="external/libvpx" name="TeamExodus/external_libvpx" groups="pdk" />
   <project path="external/libxml2" name="TeamExodus/external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
   <project path="external/libxslt" name="TeamExodus/external_libxslt" />
   <project path="external/lz4" name="TeamExodus/external_lz4" groups="pdk-cw-fs,pdk-fs" />
@@ -376,7 +377,6 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
