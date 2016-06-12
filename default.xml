@@ -33,7 +33,7 @@
   <project path="external/lz4" name="TeamExodus/external_lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="cts" name="TeamExodus/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="development" name="TeamExodus/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/qcom/sepolicy" name="Exodus-Devices/qcom_sepolicy"  />
+  <project path="device/qcom/sepolicy" name="TeamExodus/device_qcom_sepolicy"  />
   <project path="external/android/support-prebuilt" name="TeamExodus/external_android_support-prebuilt" />
   <project path="external/android-clat" name="TeamExodus/external_android-clat" groups="pdk-cw-fs,pdk-fs"  />
   <project path="external/android-mock" name="TeamExodus/external_android-mock" groups="pdk-cw-fs,pdk-fs"  />
@@ -229,7 +229,7 @@
   <project path="system/security" name="TeamExodus/system_security" groups="pdk"  />
   <project path="system/vold" name="TeamExodus/system_vold" groups="pdk"  />
   <project path="vendor/exodus" name="TeamExodus/vendor_exodus"  />
-  <project path="vendor/qcom/opensource/dataservices" name="Exodus-Vendors/qcom_opensource_dataservices" />
+  <project path="vendor/qcom/opensource/dataservices" name="TeamExodus/qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="TeamExodus/vendor_qcom_opensource_dpm"  />
   <project path="vendor/qcom/opensource/time-services" name="TeamExodus/vendor_qcom_opensource_time-services"  />
   <!-- END Team Exodus -->
