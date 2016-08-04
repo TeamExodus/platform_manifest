@@ -249,7 +249,6 @@
   <project path="system/vold" name="TeamExodus/system_vold" groups="pdk" />
   <project path="vendor/exodus" name="TeamExodus/vendor_exodus" />
   <project path="vendor/exodus/devices" name="TeamExodus/vendor_exodus_devices" />
-  <project path="vendor/exodus/proprietary" name="TeamExodus/private_vendor_exodus_proprietary" />
   <project path="vendor/qcom/opensource/dataservices" name="TeamExodus/vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="TeamExodus/vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="TeamExodus/vendor_qcom_opensource_time-services" />
