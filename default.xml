@@ -148,6 +148,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="TeamExodus/hardware_qcom_audio-caf_msm8974" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/audio-caf/msm8994" name="TeamExodus/hardware_qcom_audio-caf_msm8994" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/audio-caf/msm8996" name="TeamExodus/hardware_qcom_audio-caf_msm8996" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="TeamExodus/hardware_qcom_audio-caf_msm8952" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="TeamExodus/hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/bt-caf" name="TeamExodus/hardware_qcom_bt-caf" groups="qcom" />
   <project path="hardware/qcom/camera" name="TeamExodus/hardware_qcom_camera" groups="qcom" />
@@ -158,6 +159,7 @@
   <project path="hardware/qcom/display-caf/msm8974" name="TeamExodus/hardware_qcom_display-caf_msm8974" groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/display-caf/msm8994" name="TeamExodus/hardware_qcom_display-caf_msm8994" groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/display-caf/msm8996" name="TeamExodus/hardware_qcom_display-caf_msm8996" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8952" name="TeamExodus/hardware_qcom_display-caf_msm8952" groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/fm" name="TeamExodus/hardware_qcom_fm" groups="qcom" />
   <project path="hardware/qcom/gps" name="TeamExodus/hardware_qcom_gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="TeamExodus/hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
@@ -168,6 +170,7 @@
   <project path="hardware/qcom/media-caf/msm8974" name="TeamExodus/hardware_qcom_media-caf_msm8974" groups="qcom" />
   <project path="hardware/qcom/media-caf/msm8994" name="TeamExodus/hardware_qcom_media-caf_msm8994" groups="qcom" />
   <project path="hardware/qcom/media-caf/msm8996" name="TeamExodus/hardware_qcom_media-caf_msm8996" groups="qcom" />
+  <project path="hardware/qcom/media-caf/msm8952" name="TeamExodus/hardware_qcom_media-caf_msm8952" groups="qcom" />
   <project path="hardware/qcom/wlan" name="TeamExodus/hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/qcom/wlan-caf" name="TeamExodus/hardware_qcom_wlan-caf" groups="qcom_wlan" />
   <project path="hardware/ril" name="TeamExodus/hardware_ril" groups="pdk" />
