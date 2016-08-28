@@ -51,9 +51,9 @@
   <project path="frameworks/wilhelm" name="TeamExodus/frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="TeamExodus/frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="TeamExodus/frameworks_volley" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/support" name="TeamExodus/fr/meworks_support" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/support" name="TeamExodus/frameworks_support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="TeamExodus/frameworks_rs" groups="pdk" />
-  <project path="packages/apps/PackageInstaller" name="/eamExodus/packages_apps_PackageInstaller" groups="pdk-fs" />
+  <project path="packages/apps/PackageInstaller" name="TeamExodus/packages_apps_PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="TeamExodus/packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="TeamExodus/packages_apps_KeyChain" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="TeamExodus/packages_apps_EmergencyInfo" groups="pdk-fs" />
