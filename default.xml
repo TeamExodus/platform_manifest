@@ -75,7 +75,6 @@
   <project path="packages/apps/Browser2" name="TeamExodus/packages_apps_Browser2" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="TeamExodus/packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="TeamExodus/packages_apps_Launcher3" groups="pdk-fs" />
-  <project path="packages/apps/MusicFX" name="TeamExodus/packages_apps_MusicFX" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="TeamExodus/packages_apps_PhoneCommon" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="TeamExodus/packages_apps_SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="TeamExodus/packages_apps_Terminal" groups="pdk-fs" />
@@ -473,6 +472,7 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" remote="aosp"  />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" remote="aosp"  />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="aosp"  />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" remote="aosp"  />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" remote="aosp"  />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" remote="aosp"  />
