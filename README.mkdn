@@ -10,13 +10,13 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize Team-Exodus trees with https Authentication username/password, use the following command:
 
-    repo init -u https://github.com/TeamExodus/private_platform_manifest.git -b EXODUS-7.0
+    repo init -u https://github.com/TeamExodus/platform_manifest.git -b EXODUS-7.0
 
 or
 
 To initialize Team-Exodus trees with SSH Authentication, use the following command:
 
-    repo init -u ssh://git@github.com/TeamExodus/private_platform_manifest.git -b EXODUS-7.0
+    repo init -u ssh://git@github.com/TeamExodus/platform_manifest.git -b EXODUS-7.0
 
 Then to sync up:
 
