@@ -72,7 +72,7 @@
   <project path="packages/apps/Settings" name="TeamExodus/packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/Tag" name="TeamExodus/packages_apps_Tag" groups="pdk-fs" />
   <project path="packages/apps/UnifiedEmail" name="TeamExodus/packages_apps_UnifiedEmail" groups="pdk-fs" />
-  <project path="packages/apps/Broswer2" name="TeamExodus/packages_apps_Broswer2" groups="pdk-fs" />
+  <project path="packages/apps/Browser2" name="TeamExodus/packages_apps_Browser2" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="TeamExodus/packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="TeamExodus/packages_apps_Launcher3" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="TeamExodus/packages_apps_MusicFX" groups="pdk-fs" />
@@ -89,7 +89,7 @@
   <project path="packages/apps/Email" name="TeamExodus/packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="TeamExodus/packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="TeamExodus/packages_apps_HTMLViewer" groups="pdk-fs" />
-  <project path="packages/apps/OneTimeIntializers" name="TeamExodus/packages_apps_OneTimeIntializers" groups="pdk-fs" />
+  <project path="packages/apps/OneTimeInitializer" name="TeamExodus/packages_apps_OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="TeamExodus/packages_apps_Provision" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="TeamExodus/packages_apps_SpeechRecorder" groups="pdk-fs" />
   <project path="packages/inputmethods/LatinIME" name="TeamExodus/packages_inputmethods_LatinIME" groups="pdk-fs" />
@@ -100,7 +100,6 @@
   <project path="packages/providers/PartnerBookmarksProvider" name="TeamExodus/packages_providers_PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TvProvider" name="TeamExodus/packages_providers_TvProvider" groups="pdk-fs" />
   <project path="packages/providers/BlockedNumberProvider" name="TeamExodus/packages_providers_BlockedNumberProvider" groups="pdk-fs" />
-  <project path="packages/providers/Calendar" name="TeamExodus/packages_providers_Calendar" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="TeamExodus/packages_providers_ContactsProvider" groups="pdk-fs" />
   <project path="packages/providers/MediaProvider" name="TeamExodus/packages_providers_MediaProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="TeamExodus/packages_providers_TelephonyProvider" groups="pdk-fs" />
@@ -470,7 +469,6 @@
   <project path="libcore" name="platform/libcore" groups="pdk" remote="aosp"  />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp"  />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp"  />
-  <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" remote="aosp"  />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" remote="aosp"  />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" remote="aosp"  />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" remote="aosp"  />
