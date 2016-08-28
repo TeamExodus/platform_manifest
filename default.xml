@@ -525,7 +525,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp"  />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp"  />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp"  />
-  <project path="system/core" name="platform/system/core" groups="pdk" remote="aosp"  />
   <project path="system/firewalld" name="platform/system/firewalld" remote="aosp"  />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp"  />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp"  />
