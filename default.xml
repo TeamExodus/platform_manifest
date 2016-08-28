@@ -6,29 +6,22 @@
           review="review.exodus-developers.net"
           revision="EXODUS-7.0" />
 
-  <remote  name="github"
-           fetch="ssh://git@github.com"
-           review="review.exodus-developers.net"
-           revision="EXODUS-7.0" />
+  <remote name="github"
+          fetch="ssh://git@github.com"
+          review="review.exodus-developers.net"
+          revision="EXODUS-7.0" />
 
-  <default revision="EXODUS-7.0"
-           remote="github"
-           sync-c="true"
-           sync-j="4" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com"
+          revision="refs/tags/android-7.0.0_r1" />
 
   <default revision="EXODUS-7.0"
            remote="roomservice"
            sync-c="true"
            sync-j="4" />
 
-  <remote  name="aosp"
-           fetch=".." />
-
-  <default revision="refs/tags/android-7.0.0_r1"
-           remote="aosp"
-           sync-j="4" />
-
-<!-- BEGIN Team EXODUS-7.0 -->
+  <!-- Begin ExodusAndroid EXODUS-7.0 -->
   <project path="build" name="TeamExodus/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -128,7 +121,7 @@
   <project path="system/netd" name="TeamExodus/system_netd" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/security" name="TeamExodus/system_security" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/vold" name="TeamExodus/system_vold" groups="pdk-cw-fs,pdk-fs" />
-<!-- END Team Exodus -->
+  <!-- End ExodusAndroid -->
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
