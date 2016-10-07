@@ -30,7 +30,7 @@
            sync-j="4"
            sync-c="true" />
 
-  <project path="manifest" name="manifest" remote="exodus" />
+  <project path="manifest" name="platform_manifest" remote="exodus" />
   <project path="vendor/exodus" name="vendor_exodus" remote="exodus" />
   <project groups="pdk" name="build" path="build" remote="exodus">
   <project name="device_qcom_common" path="device/qcom/common" remote="exodus" />
