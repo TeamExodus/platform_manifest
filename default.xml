@@ -41,9 +41,7 @@
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="pdk" name="platform/art" path="art"/>
   <project groups="pdk" name="platform/bionic" path="bionic"/>
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery">
-    <copyfile dest="Makefile" src="core/root.mk"/>
-  </project>
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint"/>
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati"/>
   <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong">
