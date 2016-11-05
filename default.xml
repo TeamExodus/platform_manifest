@@ -35,7 +35,7 @@
   <project groups="pdk" name="build" path="build" remote="exodus"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="device_qcom_common" path="device/qcom/common" remote="exodus" />
+  <project groups="qcom" name="device_qcom_common" path="device/qcom/common" remote="exodus" />
   <project groups="pdk-cw-fs,pdk-fs" name="frameworks_base" path="frameworks/base" remote="exodus"/>
   <project groups="pdk-fs" name="packages_apps_Settings" path="packages/apps/Settings" remote="exodus" />
   <project groups="pdk" name="system_vold" path="system/vold" remote="exodus" />
@@ -45,9 +45,10 @@
   <project groups="pdk" name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="exodus" />
   <project groups="pdk" name="frameworks_av" path="frameworks/av" remote="exodus" />
   <project groups="pdk" name="frameworks_native" path="frameworks/native" remote="exodus" />
-  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="exodus" />
+  <project groups="qcom" name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="exodus" />
   <project groups="pdk" name="hardware_ril" path="hardware/ril" remote="exodus" />
   <project groups="pdk" name="art" path="art" remote="exodus" />
+  <project groups="qcom" name="hardware_qcom_bt" path="hardware/qcom/bt" remote="exodus"/>
 
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="pdk" name="platform/bionic" path="bionic"/>
@@ -349,7 +350,6 @@
   <project groups="pdk" name="platform/hardware/google/apf" path="hardware/google/apf"/>
   <project groups="nvensense,pdk" name="platform/hardware/invensense" path="hardware/invensense"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
   <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
