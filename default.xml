@@ -47,6 +47,7 @@
   <project groups="pdk" name="frameworks_native" path="frameworks/native" remote="exodus" />
   <project groups="qcom" name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="exodus" />
   <project groups="pdk" name="hardware_ril" path="hardware/ril" remote="exodus" />
+  <project groups="pdk" name="hardware_libhardware" path="hardware/libhardware" remote="exodus" />
   <project groups="pdk" name="art" path="art" remote="exodus" />
   <project groups="qcom" name="hardware_qcom_bt" path="hardware/qcom/bt" remote="exodus"/>
 
