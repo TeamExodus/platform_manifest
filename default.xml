@@ -37,11 +37,19 @@
   </project>
   <project name="device_qcom_common" path="device/qcom/common" remote="exodus" />
   <project groups="pdk-cw-fs,pdk-fs" name="frameworks_base" path="frameworks/base" remote="exodus"/>
-  <project groups="pdk-fs" name="packages_apps_Settings" path="packages/apps/Settings" remote="exodus"/>
+  <project groups="pdk-fs" name="packages_apps_Settings" path="packages/apps/Settings" remote="exodus" />
+  <project groups="pdk" name="system_vold" path="system/vold" remote="exodus" />
+  <project groups="pdk" name="system_sepolicy" path="system/sepolicy" remote="exodus" />
+  <project groups="pdk" name="system_core" path="system/core" remote="exodus" />
+  <project groups="pdk-fs" name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="exodus" />
+  <project groups="pdk" name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="exodus" />
+  <project groups="pdk" name="frameworks_av" path="frameworks/av" remote="exodus" />
+  <project groups="pdk" name="frameworks_native" path="frameworks/native" remote="exodus" />
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="exodus" />
+  <project groups="pdk" name="hardware_ril" path="hardware/ril" remote="exodus" />
+  <project groups="pdk" name="art" path="art" remote="exodus" />
 
-  <project name="device/qcom/sepolicy"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
-  <project groups="pdk" name="platform/art" path="art"/>
   <project groups="pdk" name="platform/bionic" path="bionic"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint"/>
@@ -305,7 +313,6 @@
   <project groups="pdk" name="platform/external/zlib" path="external/zlib"/>
   <project groups="pdk" name="platform/external/zopfli" path="external/zopfli"/>
   <project groups="pdk" name="platform/external/zxing" path="external/zxing"/>
-  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
@@ -314,7 +321,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/ml" path="frameworks/ml"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/multidex" path="frameworks/multidex"/>
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar"/>
@@ -330,7 +336,6 @@
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard"/>
-  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard"/>
   <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs"/>
@@ -343,11 +348,9 @@
   <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
   <project groups="pdk" name="platform/hardware/google/apf" path="hardware/google/apf"/>
   <project groups="nvensense,pdk" name="platform/hardware/invensense" path="hardware/invensense"/>
-  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
   <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
-  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
   <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="generic_fs" name="platform/ndk" path="ndk"/>
@@ -363,7 +366,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
   <project groups="pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
   <project groups="pdk-fs" name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon"/>
-  <project groups="pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
   <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera"/>
   <project groups="pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer"/>
   <project groups="pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email"/>
@@ -462,7 +464,6 @@
   <project name="platform/system/connectivity/apmanager" path="system/connectivity/apmanager"/>
   <project name="platform/system/connectivity/dhcp_client" path="system/connectivity/dhcp_client"/>
   <project name="platform/system/connectivity/shill" path="system/connectivity/shill"/>
-  <project groups="pdk" name="platform/system/core" path="system/core"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras"/>
   <project name="platform/system/firewalld" path="system/firewalld"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
@@ -473,11 +474,9 @@
   <project name="platform/system/nvram" path="system/nvram"/>
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
-  <project groups="pdk" name="platform/system/sepolicy" path="system/sepolicy"/>
   <project groups="pdk" name="platform/system/tools/aidl" path="system/tools/aidl"/>
   <project name="platform/system/tpm" path="system/tpm"/>
   <project groups="pdk" name="platform/system/update_engine" path="system/update_engine"/>
-  <project groups="pdk" name="platform/system/vold" path="system/vold"/>
   <project name="platform/system/weaved" path="system/weaved"/>
   <project name="platform/system/webservd" path="system/webservd"/>
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
@@ -497,6 +496,7 @@
   <project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools"/>
+
   <project name="toolchain/binutils"/>
 
 </manifest>
