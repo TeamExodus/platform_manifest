@@ -35,6 +35,7 @@
   <project groups="pdk" name="build" path="build" remote="exodus"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project groups="pdk" name="bionic" path="bionic" remote="exodus" />
   <project groups="qcom" name="device_qcom_common" path="device/qcom/common" remote="exodus" />
   <project groups="pdk-cw-fs,pdk-fs" name="frameworks_base" path="frameworks/base" remote="exodus"/>
   <project groups="pdk-fs" name="packages_apps_Settings" path="packages/apps/Settings" remote="exodus" />
@@ -53,7 +54,6 @@
   <project groups="qcom" name="hardware_qcom_bt" path="hardware/qcom/bt" remote="exodus"/>
 
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
-  <project groups="pdk" name="platform/bionic" path="bionic"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint"/>
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati"/>
