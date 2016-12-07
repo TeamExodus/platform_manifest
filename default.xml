@@ -43,6 +43,7 @@
   <project groups="pdk" name="system_sepolicy" path="system/sepolicy" remote="exodus" />
   <project groups="pdk" name="system_core" path="system/core" remote="exodus" />
   <project groups="pdk-fs" name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="exodus" />
+  <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="exodus" />
   <project groups="pdk-cw-fs,pdk-fs" name="packages_services_Telephony" path="packages/services/Telephony"  remote="exodus"/>
   <project groups="pdk" name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="exodus" />
   <project groups="pdk" name="frameworks_av" path="frameworks/av" remote="exodus" />
@@ -52,6 +53,7 @@
   <project groups="pdk" name="hardware_libhardware" path="hardware/libhardware" remote="exodus" />
   <project groups="pdk" name="art" path="art" remote="exodus" />
   <project groups="qcom" name="hardware_qcom_bt" path="hardware/qcom/bt" remote="exodus"/>
+
 
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
@@ -396,7 +398,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
   <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"/>
-  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera"/>
   <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery"/>
   <project name="platform/packages/apps/SnapdragonLauncher" path="packages/apps/SnapdragonLauncher"/>
   <project name="platform/packages/apps/SnapdragonMusic" path="packages/apps/SnapdragonMusic"/>
