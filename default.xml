@@ -44,6 +44,7 @@
   <project groups="pdk" name="system_core" path="system/core" remote="exodus" />
   <project groups="pdk-fs" name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="exodus" />
   <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="exodus" />
+  <project groups="pdk-fs" name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="exodus" />
   <project groups="pdk-cw-fs,pdk-fs" name="packages_services_Telephony" path="packages/services/Telephony"  remote="exodus"/>
   <project groups="pdk" name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="exodus" />
   <project groups="pdk" name="frameworks_av" path="frameworks/av" remote="exodus" />
@@ -412,7 +413,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings"/>
   <project groups="pdk-fs" name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
-  <project groups="pdk-fs" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project groups="pdk-fs" name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
   <project groups="pdk-fs" name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider"/>
   <project groups="pdk-fs" name="platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider"/>
