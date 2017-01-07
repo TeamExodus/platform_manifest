@@ -1,6 +1,6 @@
 Team Exodus repo
 
-This branch is for our EXODUS branch, our android-7.0 based ROM
+This branch is for our EXODUS branch, our CAF, android-7.1.1 based ROM
 
 
 Getting Started
@@ -10,13 +10,13 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize Team-Exodus trees with https Authentication username/password, use the following command:
 
-    repo init -u https://github.com/TeamExodus/platform_manifest.git -b EXODUS-7.0
+    repo init -u https://github.com/TeamExodus/platform_manifest.git -b EXODUS-7.1
 
 or
 
 To initialize Team-Exodus trees with SSH Authentication, use the following command:
 
-    repo init -u ssh://git@github.com/TeamExodus/platform_manifest.git -b EXODUS-7.0
+    repo init -u ssh://git@github.com/TeamExodus/platform_manifest.git -b EXODUS-7.1
 
 Then to sync up:
 
@@ -26,7 +26,7 @@ Our gerrit:
 
     http://review.exodus-developers.net/
 
-    For pushing stuff : git push ssh://username@review.exodus-developers.net:29418/TeamExodus/repo_name HEAD:refs/for/EXODUS-7.0
+    For pushing stuff : git push ssh://username@review.exodus-developers.net:29418/TeamExodus/repo_name HEAD:refs/for/EXODUS-7.1
 
 Our Community:
 
