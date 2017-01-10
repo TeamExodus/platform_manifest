@@ -10,17 +10,12 @@
 
   <remote  name="exodus"
            fetch="https://github.com/TeamExodus"
-           revision="EXODUS-7.0" />
+           revision="EXODUS-7.1" />
 
   <remote  name="aospa"
            fetch="https://github.com/AOSPA"
            review="gerrit.aospa.co"
            revision="nougat-caf" />
-
-  <remote  name="cm"
-           fetch="https://github.com/CyanogenMod"
-           review="gerrit.aospa.co"
-           revision="staging/cm-14.0" />
 
   <remote  name="github"
            fetch="https://github.com" />
