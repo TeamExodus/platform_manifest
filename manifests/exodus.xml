@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Manifest -->
+  <project path="manifest" name="TeamExodus/platform_manifest" remote="exodus"/>
+
+<!--Start of EXODUS-7.1 Specific repos -->
+  <project path="manifest" name="platform_manifest" remote="exodus"/>
+
+  <!-- Build repositories -->
+  <remove-project name="platform/build" />
+  <project groups="pdk" name="build" path="build" remote="exodus">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="vendor/qcom/sdclang-3.8/linux-x86" name="proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="blobs"/>
+
+  <!-- Native -->
+  <remove-project name="platform/art" />
+  <project groups="pdk" name="art" path="art" remote="exodus"/>
+  <remove-project name="platform/bionic" />
+  <project groups="pdk" name="bionic" path="bionic" remote="exodus"/>
+
+  <!-- Hardware -->
+  <remove-project name="device/qcom/common" />
+  <project groups="qcom" name="device_qcom_common" path="device/qcom/common" remote="exodus"/>
+  <remove-project name="device/qcom/sepolicy" />
+  <project groups="qcom" name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="exodus"/>
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <project path="hardware/broadcom/libbt" name="TeamExodus/hardware_broadcom_libbt" remote="exodus"/>
+  <remove-project name="platform/hardware/qcom/bt"/>
+  <project groups="qcom" name="hardware_qcom_bt" path="hardware/qcom/bt" remote="exodus"/>
+  <remove-project name="platform/hardware/libhardware" />
+  <project groups="pdk" name="hardware_libhardware" path="hardware/libhardware" remote="exodus"/>
+  <remove-project name="platform/hardware/ril" />
+  <project groups="pdk" name="hardware_ril" path="hardware/ril" remote="exodus"/>
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <project groups="pdk" name="frameworks_av" path="frameworks/av" remote="exodus"/>
+  <remove-project name="platform/frameworks/base" />
+  <project groups="pdk-cw-fs,pdk-fs" name="frameworks_base" path="frameworks/base" remote="exodus"/>
+  <remove-project name="platform/frameworks/native" />
+  <project groups="pdk" name="frameworks_native" path="frameworks/native" remote="exodus"/>
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project groups="pdk" name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="exodus"/>
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <project groups="pdk-fs" name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="exodus"/>
+  <remove-project name="platform/packages/apps/Settings" />
+  <project groups="pdk-fs" name="packages_apps_Settings" path="packages/apps/Settings" remote="exodus"/>
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <project groups="pdk-fs" name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="exodus"/>
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <project groups="pdk-fs" name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="exodus"/>
+
+  <!-- Telephony -->
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project groups="pdk-fs" name="packages_apps_Dialer" path="packages/apps/Dialer" remote="exodus"/>
+  <remove-project name="platform/packages/services/Telephony" />
+  <project groups="pdk-cw-fs,pdk-fs" name="packages_services_Telephony" path="packages/services/Telephony" remote="exodus"/>
+  <remove-project name="platform/packages/services/Telecomm" />
+  <project groups="pdk-cw-fs,pdk-fs" name="packages_services_Telecomm" path="packages/services/Telecomm"  remote="exodus"/>
+  
+  <!-- System -->
+  <remove-project name="platform/system/bt" />
+  <project groups="pdk" name="system_bt" path="system/bt" remote="exodus"/>
+  <remove-project name="platform/system/core" />
+  <project groups="pdk" name="system_core" path="system/core" remote="exodus"/>
+  <remove-project name="platform/system/extras" />
+  <project groups="pdk" name="system_extras" path="system/extras" remote="exodus"/>
+  <remove-project name="platform/system/media" />
+  <project groups="pdk" name="system_media" path="system/media" remote="exodus"/>
+  <remove-project name="platform/system/sepolicy" />
+  <project groups="pdk" name="system_sepolicy" path="system/sepolicy" remote="exodus"/>
+  <remove-project name="platform/system/vold" />
+  <project groups="pdk" name="system_vold" path="system/vold" remote="exodus"/>
+
+  <!-- Vendor -->
+  <project groups="pdk-fs" name="vendor_exodus" path="vendor/exodus" remote="exodus"/>
+
+
+  <!-- ffmpeg -->
+  <project groups="pdk" name="external_ffmpeg" path="external/ffmpeg" remote="exodus"/>
+  <project groups="pdk" name="external_stagefright-plugins" path="external/stagefright-plugins" remote="exodus"/>
+
+  <!-- Substratum -->
+  <project groups="pdk-fs" name="packages_apps_Masquerade" path="packages/apps/Masquerade" remote="exodus"/>
+
+<!--End of EXODUS-7.1 Specific repos -->  
+
+
