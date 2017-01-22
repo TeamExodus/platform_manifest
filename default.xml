@@ -2,6 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
+           revision="refs/tags/android-7.1.1_r1"
            fetch="https://android.googlesource.com" />
 
   <remote  name="caf"
@@ -19,6 +20,9 @@
 
   <remote  name="github"
            fetch="https://github.com" />
+
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com"/>
 
   <default revision="refs/tags/LA.UM.5.6.r1-02300-89xx.0"
            remote="caf"
@@ -155,6 +159,7 @@
   <project groups="pdk,qcom_msm8x26" name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng"/>
   <project groups="pdk" name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns"/>
   <project groups="pdk" name="platform/external/icu" path="external/icu"/>
+  <project groups="pdk" name="platform/external/ims" path="external/ims"/>
   <project groups="pdk" name="platform/external/iproute2" path="external/iproute2"/>
   <project groups="pdk" name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
   <project groups="pdk" name="platform/external/iptables" path="external/iptables"/>
@@ -192,6 +197,7 @@
   <project groups="pdk" name="platform/external/libedit" path="external/libedit"/>
   <project groups="pdk" name="platform/external/libevent" path="external/libevent"/>
   <project groups="pdk" name="platform/external/libexif" path="external/libexif"/>
+  <project groups="pdk" name="platform/external/libgdx" path="external/libgdx"/>
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm"/>
   <project groups="pdk" name="platform/external/libhevc" path="external/libhevc"/>
   <project groups="pdk" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo"/>
@@ -303,6 +309,7 @@
   <project groups="pdk" name="platform/external/tpm2" path="external/tpm2"/>
   <project groups="pdk" name="platform/external/tremolo" path="external/tremolo"/>
   <project groups="pdk" name="platform/external/unicode" path="external/unicode"/>
+  <project groups="pdk" name="platform/external/universal-tween-engine" path="external/universal-tween-engine"/>
   <project groups="pdk" name="platform/external/v8" path="external/v8"/>
   <project groups="pdk" name="platform/external/valgrind" path="external/valgrind"/>
   <project groups="vboot,pdk-fs" name="platform/external/vboot_reference" path="external/vboot_reference"/>
@@ -354,6 +361,7 @@
   <project groups="pdk" name="platform/hardware/google/apf" path="hardware/google/apf"/>
   <project groups="nvensense,pdk" name="platform/hardware/invensense" path="hardware/invensense"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
+  <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl"/>
   <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
@@ -396,6 +404,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
   <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
+  <project name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"/>
   <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery"/>
   <project name="platform/packages/apps/SnapdragonLauncher" path="packages/apps/SnapdragonLauncher"/>
@@ -404,6 +413,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project groups="pdk-fs" name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>
   <project groups="apps_stk,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
+  <project name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager"/>
   <project name="platform/packages/apps/TV" path="packages/apps/TV"/>
   <project groups="pdk-fs" name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project groups="pdk-fs" name="platform/packages/apps/Terminal" path="packages/apps/Terminal"/>
