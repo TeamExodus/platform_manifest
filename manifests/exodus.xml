@@ -88,5 +88,4 @@
   <project groups="pdk-fs" name="packages_apps_Masquerade" path="packages/apps/Masquerade" remote="exodus"/>
 
 <!--End of EXODUS-7.1 Specific repos -->  
-
-
+</manifest>
