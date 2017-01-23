@@ -13,6 +13,10 @@
            fetch="https://github.com/TeamExodus"
            revision="EXODUS-7.1" />
 
+  <remote  name="blobs"
+           fetch="https://github.com/ThankYouMario"
+           revision="nougat-mr1"/>
+
   <remote  name="aospa"
            fetch=".."
            review="gerrit.aospa.co"
