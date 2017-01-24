@@ -24,7 +24,7 @@
   <remove-project name="device/qcom/sepolicy" />
   <project groups="qcom" name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="exodus"/>
   <remove-project name="platform/hardware/broadcom/libbt" />
-  <project path="hardware/broadcom/libbt" name="TeamExodus/hardware_broadcom_libbt" remote="exodus"/>
+  <project name="hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="exodus"/>
   <remove-project name="platform/hardware/qcom/bt"/>
   <project groups="qcom" name="hardware_qcom_bt" path="hardware/qcom/bt" remote="exodus"/>
   <remove-project name="platform/hardware/libhardware" />
