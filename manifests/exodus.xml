@@ -82,6 +82,10 @@
   <project groups="pdk" name="external_ffmpeg" path="external/ffmpeg" remote="exodus"/>
   <project groups="pdk" name="external_stagefright-plugins" path="external/stagefright-plugins" remote="exodus"/>
 
+  <!-- f2fs -->
+  <remove-project name="platform/external/f2fs-tools" />
+  <project groups="pdk" name="external_f2fs-tools" path="external/f2fs-tools" remote="exodus"/>
+
   <!-- Substratum -->
   <project groups="pdk-fs" name="packages_apps_Masquerade" path="packages/apps/Masquerade" remote="exodus"/>
 
