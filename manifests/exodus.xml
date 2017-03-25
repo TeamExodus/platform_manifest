@@ -18,6 +18,11 @@
   <remove-project name="platform/bionic" />
   <project groups="pdk" name="bionic" path="bionic" remote="exodus"/>
 
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="aospa"/>
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_gcc_linux-x86_arm-linux-android-4.9" remote="aospa"/>
+
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
   <project groups="qcom" name="device_qcom_common" path="device/qcom/common" remote="exodus"/>
@@ -86,4 +91,40 @@
   <project groups="pdk-fs" name="packages_apps_Masquerade" path="packages/apps/Masquerade" remote="exodus"/>
 
 <!--End of EXODUS-7.1 Specific repos -->  
+
+  <!-- Obsolete Packages -->
+  <remove-project name="device/generic/arm64"/>
+  <remove-project name="device/generic/armv7-a-neon"/>
+  <remove-project name="device/generic/common"/>
+  <remove-project name="device/generic/goldfish"/>
+  <remove-project name="device/generic/mini-emulator-arm64"/>
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
+  <remove-project name="device/generic/mini-emulator-x86"/>
+  <remove-project name="device/generic/mini-emulator-x86_64"/>
+  <remove-project name="device/generic/qemu"/>
+  <remove-project name="device/generic/x86"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
+  <remove-project name="platform/vendor/qcom/cobalt" path="device/qcom/msmcobalt"/>
+  <remove-project name="platform/vendor/qcom/thorium_32"/>
+  <remove-project name="platform/vendor/qcom/thorium_64"/>
+  <remove-project name="platform/vendor/qcom/thulium"/>
+  <remove-project name="platform/vendor/qcom/titanium_32"/>
+  <remove-project name="platform/vendor/qcom/titanium_64"/>
+  <remove-project name="platform/hardware/qcom/audio"/>
+  <remove-project name="platform/hardware/qcom/camera"/>
+  <remove-project name="platform/hardware/qcom/display"/>
+  <remove-project name="platform/hardware/qcom/gps"/>
+  <remove-project name="platform/hardware/qcom/media"/>
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr"/>
+  <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
+  <remove-project name="device/sample"/>
+  <remove-project name="kernel/msm-3.18"/>
+  <remove-project name="kernel/lk"/>
+  <remove-project name="device/generic/x86_64"/>
+  <remove-project name="platform/vendor/qcom-opensource/location"/>
+  <remove-project name="platform/packages/apps/CMFileManager"/>
+  <remove-project name="device/generic/goldfish-opengl"/>
+<remove-project name="platform/packages/apps/Launcher2"/>
 </manifest>
