@@ -92,7 +92,7 @@
   <project groups="pdk" name="external_f2fs-tools" path="external/f2fs-tools" remote="exodus"/>
 
   <!-- Substratum -->
-  <project groups="pdk-fs" name="packages_apps_Masquerade" path="packages/apps/Masquerade" remote="exodus"/>
+  <project groups="pdk-fs" path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
 <!--End of EXODUS-7.1 Specific repos -->  
 
