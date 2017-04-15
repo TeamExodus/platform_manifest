@@ -57,6 +57,9 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project groups="pdk-fs" name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="exodus"/>
 
+  <!-- Exodus android mods -->
+  <project groups="pdk-fs" name="packages_apps_Exodus" path="packages/apps/Exodus" remote="exodus" />
+
   <!-- Telephony -->
   <remove-project name="platform/packages/apps/Dialer" />
   <project groups="pdk-fs" name="packages_apps_Dialer" path="packages/apps/Dialer" remote="exodus"/>
@@ -130,5 +133,5 @@
   <remove-project name="platform/vendor/qcom-opensource/location"/>
   <remove-project name="platform/packages/apps/CMFileManager"/>
   <remove-project name="device/generic/goldfish-opengl"/>
-<remove-project name="platform/packages/apps/Launcher2"/>
+  <remove-project name="platform/packages/apps/Launcher2"/>
 </manifest>
