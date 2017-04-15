@@ -52,6 +52,8 @@
   <project groups="pdk-fs" name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="exodus"/>
   <remove-project name="platform/packages/apps/Settings" />
   <project groups="pdk-fs" name="packages_apps_Settings" path="packages/apps/Settings" remote="exodus"/>
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <project groups="pdk-fs" name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="exodus"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <project groups="pdk-fs" name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="exodus"/>
   <remove-project name="platform/packages/inputmethods/LatinIME" />
