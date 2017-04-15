@@ -94,6 +94,10 @@
   <remove-project name="platform/external/f2fs-tools" />
   <project groups="pdk" name="external_f2fs-tools" path="external/f2fs-tools" remote="exodus"/>
 
+  <!-- Skia -->
+  <remove-project name="platform/external/skia" />
+  <project groups="pdk" name="external_skia" path="external/skia" remote="exodus"/>
+
   <!-- Substratum -->
   <project groups="pdk-fs" path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
