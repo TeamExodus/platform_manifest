@@ -44,6 +44,8 @@
   <project groups="pdk-cw-fs,pdk-fs" name="frameworks_base" path="frameworks/base" remote="exodus"/>
   <remove-project name="platform/frameworks/native" />
   <project groups="pdk" name="frameworks_native" path="frameworks/native" remote="exodus"/>
+  <remove-project name="platform/frameworks/support" />
+  <project groups="pdk" name="frameworks_support" path="frameworks/support" remote="exodus"/>
   <remove-project name="platform/frameworks/opt/telephony" />
   <project groups="pdk" name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="exodus"/>
 
