@@ -97,6 +97,9 @@
   <!-- Vendor -->
   <project groups="pdk-fs" name="vendor_exodus" path="vendor/exodus" remote="exodus"/>
 
+  <!-- Qcom opensource fm -->
+  <project name="platform/vendor/qcom-opensource/fm" />
+  <project name="vendor_qcom_opensource_fm" path="vendor/qcom/opensource/fm" remote="exodus"/>
 
   <!-- ffmpeg -->
   <project groups="pdk" name="external_ffmpeg" path="external/ffmpeg" remote="exodus"/>
