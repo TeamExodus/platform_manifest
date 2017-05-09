@@ -54,6 +54,8 @@
   <project groups="pdk" name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="exodus"/>
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Contacts" />
+  <project groups="pdk-fs" name="packages_apps_Contacts" path="packages/apps/Contacts" remote="exodus"/>
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <project groups="pdk-fs" name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="exodus"/>
   <remove-project name="platform/packages/apps/DeskClock" />
