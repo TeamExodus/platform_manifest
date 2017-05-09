@@ -117,6 +117,10 @@
   <remove-project name="platform/external/skia" />
   <project groups="pdk" name="external_skia" path="external/skia" remote="exodus"/>
 
+  <!-- codeaurora telephony -->
+  <remove-project name="platform/vendor/codeaurora/telephony" />
+  <project groups="qcom" name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="exodus"/>
+
   <!-- Substratum -->
   <project groups="pdk-fs" path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
