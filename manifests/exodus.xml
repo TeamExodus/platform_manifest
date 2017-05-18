@@ -74,6 +74,9 @@
   <project groups="pdk-fs" name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="exodus"/>
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project groups="pdk-fs" name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="exodus"/>
+  <!-- WallpaperPicker to support launcher3-->
+  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-04600-89xx.0" groups="exodus"/>
+
 
   <!-- Exodus android mods -->
   <project groups="pdk-fs" name="packages_apps_Exodus" path="packages/apps/Exodus" remote="exodus" />
@@ -127,7 +130,7 @@
   <project groups="pdk-fs" path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
   <!-- Compatibility Substratum support -->
-  <project name="platform/external/mm-dash" path="external/mm-dash" revision="refs/tags/LA.UM.5.6.r1-04300-89xx.0" groups="aospa" />
+  <project name="platform/external/mm-dash" path="external/mm-dash" revision="refs/tags/LA.UM.5.6.r1-04300-89xx.0" groups="exodus" />
 
 <!--End of EXODUS-7.1 Specific repos -->  
 
