@@ -62,6 +62,8 @@
   <project groups="pdk-fs" name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="exodus"/>
   <remove-project name="platform/packages/apps/FMRadio" />
   <project groups="pdk-fs" name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="exodus"/>
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project groups="pdk-fs" name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="exodus"/>
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <project groups="pdk-fs" name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="exodus"/>
   <remove-project name="platform/packages/apps/Settings" />
