@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-7.1.2_r6"
+           revision="refs/tags/android-7.1.2_r4"
            fetch="https://android.googlesource.com" />
 
   <remote  name="caf"
@@ -28,9 +28,9 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.5.8.r1-01500-8x98.0"
+  <default revision="refs/tags/LA.UM.5.8.r1-01600-8x98.0"
            remote="caf"
-           sync-j="4"
+           sync-j="8"
            sync-c="true" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>

@@ -53,6 +53,10 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <project groups="pdk" name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="exodus"/>
 
+  <!-- libcore -->
+  <remove-project name="platform/libcore" />
+  <project groups="pdk" name="libcore" path="libcore" remote="exodus"/>
+
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Contacts" />
   <project groups="pdk-fs" name="packages_apps_Contacts" path="packages/apps/Contacts" remote="exodus"/>
