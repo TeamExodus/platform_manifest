@@ -134,7 +134,7 @@
   <project groups="pdk-fs" path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
   <!-- Compatibility Substratum support -->
-  <project name="platform/external/mm-dash" path="external/mm-dash" revision="refs/tags/LA.UM.5.6.r1-04300-89xx.0" groups="exodus" />
+  <project groups="pdk" name="external_mm-dash" path="external/mm-dash" remote="exodus"/>
 
 <!--End of EXODUS-7.1 Specific repos -->  
 
